@@ -145,6 +145,7 @@ const helpLinks = [
 const kindLabel = { spot: "가볼 곳", food: "먹을 곳", cafe: "카페", stay: "숙소" };
 const kindIcon = { spot: "✦", food: "●", cafe: "♥", stay: "⌂" };
 const mapUrl = (name: string) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + " 제주")}`;
+const assetUrl = (name: string) => `${import.meta.env.BASE_URL}${name}`;
 const schedulePlaceNames = [
   ["제주공항", "제주공항", "닭머르해안길", "김녕해수욕장"],
   ["우도 도착항", "우도 도착항", "하고수동해수욕장", "우도 도착항"],
@@ -160,7 +161,7 @@ function JejuMap({ day, selected, onSelect }: { day: Day; selected: Place; onSel
   return <div className="map-card" aria-label={`${day.title} 약도`}>
     <div className="map-head"><div><span className="map-kicker">TODAY&apos;S MAP</span><strong>{day.date} 약도</strong></div><div className="map-legend"><span>● 장소</span><span>● 맛</span></div></div>
     <div className={`map-stage ${isUdo?"udo-map":""}`}>
-      <img className="map-background" src={isUdo?"/udo-map-detail-v1.png":"/jeju-map-detail-v1.png"} alt="" aria-hidden="true"/>
+      <img className="map-background" src={assetUrl(isUdo?"udo-map-detail-v1.png":"jeju-map-detail-v1.png")} alt="" aria-hidden="true"/>
       {day.places.map((place,index) => <button key={place.name} className={`map-pin pin-${place.kind} ${selected.name===place.name?"active":""}`} style={{left:`${place.x}%`,top:`${place.y}%`,animationDelay:`${index*60}ms`}} onClick={()=>onSelect(place)} aria-label={`${place.name} 정보 보기`}><span>{kindIcon[place.kind]}</span></button>)}
       {selected && <div className="map-popover" role="status"><span className={`place-kind kind-${selected.kind}`}>{kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a href={mapUrl(selected.name)} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div>}
     </div><p className="map-caption">마커를 누르면 장소 정보가 보여요</p>
@@ -195,8 +196,8 @@ function AllPlacesMap(){
   const pin=(place:OverviewPlace,compact=false)=><button key={`${isReserve(place)?"reserve":place.dayIndex}-${place.name}`} className={`map-pin all-map-pin pin-${place.kind} ${isReserve(place)?"reserve":""} ${selected.name===place.name?"active":""} ${compact?"compact":""}`} style={{left:`${place.x}%`,top:`${place.y}%`}} onMouseEnter={()=>setSelected(place)} onFocus={()=>setSelected(place)} onClick={()=>setSelected(place)} aria-label={`${place.name} 정보 보기`}><span>{isReserve(place)?"+":kindIcon[place.kind]}</span><em>{place.name}</em></button>;
   return <section className="all-map-wrap">
     <div className="all-map-head"><div><span>JEJU AT A GLANCE</span><h2>{visiblePlaces.length}개의 장소를 한 장에</h2></div><div className="all-map-actions"><div className="all-map-legend"><span><i className="legend-spot"/>가볼 곳</span><span><i className="legend-food"/>먹을 곳</span><span><i className="legend-cafe"/>카페</span>{showReserve&&<span><i className="legend-reserve"/>예비</span>}</div><button className={`reserve-toggle ${showReserve?"on":""}`} type="button" role="switch" aria-checked={showReserve} onClick={toggleReserve}><span><i/></span>예비 장소 {showReserve?"숨기기":"보기"}<b>{reservePlaces.length}</b></button></div></div>
-    <div className="map-stage all-map-stage"><img className="map-background" src="/jeju-map-detail-v1.png" alt="" aria-hidden="true"/>{mainland.map(place=>pin(place))}
-      <div className="udo-inset"><div className="udo-inset-title"><strong>우도</strong><span>확대 약도</span></div><img src="/udo-map-detail-v1.png" alt="" aria-hidden="true"/>{udo.map(place=>pin(place,true))}</div>
+    <div className="map-stage all-map-stage"><img className="map-background" src={assetUrl("jeju-map-detail-v1.png")} alt="" aria-hidden="true"/>{mainland.map(place=>pin(place))}
+      <div className="udo-inset"><div className="udo-inset-title"><strong>우도</strong><span>확대 약도</span></div><img src={assetUrl("udo-map-detail-v1.png")} alt="" aria-hidden="true"/>{udo.map(place=>pin(place,true))}</div>
       <div className="map-popover all-map-popover"><span className={`place-kind kind-${selected.kind}`}>{isReserve(selected)?"예비 장소":`DAY ${selected.dayIndex+1}`} · {kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a href={mapUrl(selected.name)} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div>
     </div>
     <p className="map-caption">마커에 마우스를 올리거나 누르면 장소 정보가 보여요 · 우도 장소는 오른쪽 확대 약도에서 확인해요</p>
@@ -221,7 +222,7 @@ export default function Home(){
       <nav className="day-nav" aria-label="날짜별 일정">{days.map((item,index)=><button key={item.date} className={view==="day"&&activeDay===index?"active":""} onClick={()=>moveToDay(index)}><small>DAY {index+1}</small><span>{item.date}</span></button>)}</nav>
     </header>
     {view==="home"&&<><section className="hero"><div className="hero-copy"><div className="date-pill">2026. 10. 30 — 11. 05 <span>6박 7일</span></div><p className="hero-script">우리의 가을 제주</p><h1>바다와 숲 사이,<br/><em>둘이 걷는 일주일</em></h1><p className="hero-sub">조금 느리게 달리고, 맛있는 건 꼭 챙겨 먹고.<br/>성호와 세인이 기다려온 가을 끝의 제주 여행.</p><div className="hero-actions"><button onClick={()=>moveToDay(0)}>첫날 일정 보기 <span>→</span></button><button className="text-button" onClick={()=>navigate("summary")}>7일 한눈에</button></div><div className="countdown"><span className="spark">✦</span><Countdown/><small>김포 → 제주</small></div></div>
-      <div className="hero-art" aria-label="억새와 돌담, 감귤, 한라산이 있는 가을 제주 일러스트"><img src="/jeju-hero-v1.png" alt="따뜻한 가을빛 아래 한라산과 제주 바다, 억새, 돌담, 감귤이 펼쳐진 일러스트"/><p>천천히, 제주답게</p></div>
+      <div className="hero-art" aria-label="억새와 돌담, 감귤, 한라산이 있는 가을 제주 일러스트"><img src={assetUrl("jeju-hero-v1.png")} alt="따뜻한 가을빛 아래 한라산과 제주 바다, 억새, 돌담, 감귤이 펼쳐진 일러스트"/><p>천천히, 제주답게</p></div>
     </section>
     <section className="quick-strip" aria-label="여행 핵심 정보"><div><span>✈</span><p><small>FLIGHT</small>김포 14:20 → 제주 15:35</p></div><div><span>⌂</span><p><small>STAY</small>김녕·구좌 2박 → 중문 4박</p></div><div><span>☘</span><p><small>PACE</small>하루 핵심 경험 1~2개</p></div><div><span>♡</span><p><small>MOOD</small>바다 · 숲 · 산책 · 향토음식</p></div></section></>}
     {view==="summary"&&<><section className="summary-intro"><span>TRIP AT A GLANCE</span><h1>우리의 일주일,<br/>한눈에 보기</h1><p>일정의 대표 장면을 먼저 보고, 마음이 가는 날을 골라보세요.</p></section><section className="overview section-shell" id="overview"><div className="section-heading"><div><span className="section-number">01</span><p>OUR SEVEN DAYS</p></div><h2>일곱 장면으로<br/>미리 보는 제주</h2><p>매일 하나의 좋은 장면만 기억해도 충분한 여행.<br/>카드를 눌러 그날의 자세한 선택지를 확인해요.</p></div>
