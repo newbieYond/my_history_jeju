@@ -25,4 +25,8 @@ pnpm dev
 pnpm build
 ```
 
-`main` 브랜치에 변경사항이 올라오면 GitHub Actions가 자동으로 빌드를 검증합니다.
+## 배포
+
+[GitHub Pages에서 보기](https://newbieyond.github.io/my_history_jeju/)
+
+`main` 브랜치에 변경사항이 올라오면 GitHub Actions가 정적 사이트를 빌드하고 GitHub Pages에 자동으로 배포합니다.
