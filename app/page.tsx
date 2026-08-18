@@ -188,6 +188,7 @@ type OverviewPlace = IndexedPlace | ReservePlace;
 function AllPlacesMap(){
   const [selected,setSelected]=useState<OverviewPlace>(allPlaces[0]);
   const [showReserve,setShowReserve]=useState(false);
+  const [showIndex,setShowIndex]=useState(false);
   const mainland: OverviewPlace[] = [...allPlaces.filter(place=>place.dayIndex!==1),...(showReserve?reservePlaces:[])];
   const udo=allPlaces.filter(place=>place.dayIndex===1);
   const visiblePlaces: OverviewPlace[] = showReserve?[...allPlaces,...reservePlaces]:allPlaces;
@@ -201,7 +202,8 @@ function AllPlacesMap(){
       <div className="map-popover all-map-popover" role="status"><span className={`place-kind kind-${selected.kind}`}>{isReserve(selected)?"예비 장소":`DAY ${selected.dayIndex+1}`} · {kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a href={mapUrl(selected.name)} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div>
     </div>
     <p className="map-caption">마커에 마우스를 올리거나 누르면 장소 정보가 보여요 · 우도 장소는 오른쪽 확대 약도에서 확인해요</p>
-    <div className="all-place-index">{visiblePlaces.map(place=><article key={`${isReserve(place)?"reserve":place.dayIndex}-${place.name}`} className={`all-place-card ${isReserve(place)?"reserve":""} ${selected===place?"selected":""}`} role="button" tabIndex={0} onMouseEnter={()=>setSelected(place)} onFocus={()=>setSelected(place)} onClick={()=>setSelected(place)} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();setSelected(place);}}}><span className={`choice-icon kind-${place.kind}`}>{isReserve(place)?"+":kindIcon[place.kind]}</span><div><small>{isReserve(place)?"예비":`DAY ${place.dayIndex+1}`} · {kindLabel[place.kind]} {place.rainy&&<span className="rain-label" title="비 오는 날에도 좋아요">☂</span>}</small><strong>{place.name}</strong><p>{place.note}</p></div><a className="external" href={mapUrl(place.name)} target="_blank" rel="noreferrer" onClick={event=>event.stopPropagation()} aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div>
+    <button className="index-toggle" type="button" aria-expanded={showIndex} aria-controls="all-place-index" onClick={()=>setShowIndex(current=>!current)}><span>장소 목록 {visiblePlaces.length}개</span><b>{showIndex?"접기 ↑":"펼쳐보기 ↓"}</b></button>
+    <div id="all-place-index" className={`all-place-index ${showIndex?"open":""}`}>{visiblePlaces.map(place=><article key={`${isReserve(place)?"reserve":place.dayIndex}-${place.name}`} className={`all-place-card ${isReserve(place)?"reserve":""} ${selected===place?"selected":""}`} role="button" tabIndex={0} onMouseEnter={()=>setSelected(place)} onFocus={()=>setSelected(place)} onClick={()=>setSelected(place)} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();setSelected(place);}}}><span className={`choice-icon kind-${place.kind}`}>{isReserve(place)?"+":kindIcon[place.kind]}</span><div><small>{isReserve(place)?"예비":`DAY ${place.dayIndex+1}`} · {kindLabel[place.kind]} {place.rainy&&<span className="rain-label" title="비 오는 날에도 좋아요">☂</span>}</small><strong>{place.name}</strong><p>{place.note}</p></div><a className="external" href={mapUrl(place.name)} target="_blank" rel="noreferrer" onClick={event=>event.stopPropagation()} aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div>
   </section>;
 }
 
