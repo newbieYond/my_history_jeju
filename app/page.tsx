@@ -157,6 +157,7 @@ const schedulePlaceNames = [
 ];
 
 const revealMap=(target:HTMLElement|null)=>requestAnimationFrame(()=>target?.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"center"}));
+const focusMarker=(viewport:HTMLDivElement|null,marker:HTMLElement|null)=>requestAnimationFrame(()=>{if(!viewport||!marker)return;const viewportRect=viewport.getBoundingClientRect();const markerRect=marker.getBoundingClientRect();viewport.scrollTo({left:viewport.scrollLeft+markerRect.left-viewportRect.left+markerRect.width/2-viewport.clientWidth/2,top:viewport.scrollTop+markerRect.top-viewportRect.top+markerRect.height/2-viewport.clientHeight/2,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});});
 
 function useMapZoom(){
   const [zoom,setZoom]=useState(1);
@@ -183,6 +184,7 @@ function MapZoomControls({zoom,onChange}:{zoom:number;onChange:(zoom:number)=>vo
 function JejuMap({ day, selected, onSelect, mapRef }: { day: Day; selected: Place; onSelect: (place: Place) => void; mapRef: RefObject<HTMLDivElement|null> }) {
   const isUdo = day.date === "10.31";
   const mapZoom=useMapZoom();
+  useEffect(()=>{focusMarker(mapZoom.viewportRef.current,mapZoom.viewportRef.current?.querySelector<HTMLElement>(".map-pin.active")??null);},[selected,mapZoom.zoom]);
   return <div className="map-card" aria-label={`${day.title} 약도`} ref={mapRef}>
     <div className="map-head"><div><span className="map-kicker">TODAY&apos;S MAP</span><strong>{day.date} 약도</strong></div><div className="map-legend"><span>● 장소</span><span>● 맛</span></div></div>
     <div className="map-stage-shell"><div className={`map-stage ${isUdo?"udo-map":""} ${mapZoom.zoom>1?"zoomed":""}`} ref={mapZoom.viewportRef} onPointerDown={mapZoom.onPointerDown} onPointerMove={mapZoom.onPointerMove} onPointerUp={mapZoom.onPointerUp} onPointerCancel={mapZoom.onPointerCancel}>
@@ -220,6 +222,7 @@ function AllPlacesMap(){
   const udo=allPlaces.filter(place=>place.dayIndex===1);
   const visiblePlaces: OverviewPlace[] = showReserve?[...allPlaces,...reservePlaces]:allPlaces;
   const isReserve=(place:OverviewPlace):place is ReservePlace=>"reserve" in place;
+  useEffect(()=>{focusMarker(mapZoom.viewportRef.current,mapZoom.viewportRef.current?.querySelector<HTMLElement>(".all-map-pin.active")??null);},[selected,mapZoom.zoom]);
   const toggleReserve=()=>setShowReserve(current=>{if(current&&isReserve(selected))setSelected(allPlaces[0]);return !current;});
   const selectAndReveal=(place:OverviewPlace)=>{setSelected(place);revealMap(mapZoom.viewportRef.current);};
   const pin=(place:OverviewPlace,compact=false)=><button key={`${isReserve(place)?"reserve":place.dayIndex}-${place.name}`} className={`map-pin all-map-pin pin-${place.kind} ${isReserve(place)?"reserve":""} ${selected===place?"active":""} ${compact?"compact":""}`} style={{left:`${place.x}%`,top:`${place.y}%`}} onMouseMove={()=>setSelected(place)} onFocus={()=>setSelected(place)} onClick={()=>setSelected(place)} aria-label={`${place.name} 정보 보기`} aria-pressed={selected===place}><span>{isReserve(place)?"+":kindIcon[place.kind]}</span><em>{place.name}</em></button>;
