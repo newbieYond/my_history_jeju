@@ -85,5 +85,6 @@ footer{min-height:190px}footer p{margin:7px 0 10px}footer .footer-tangerine{font
 
 /* Keep the place card on the opposite side of the selected marker. */
 .map-popover.popover-left{left:20px;right:auto}.map-popover.popover-right{right:20px;left:auto}.map-popover.popover-top{top:20px;bottom:auto}.map-popover.popover-bottom{bottom:20px;top:auto}
-@media(max-width:720px){.map-popover.popover-left{left:12px}.map-popover.popover-right{right:12px}.map-popover.popover-top{top:12px}.map-popover.popover-bottom{bottom:12px}}
+.map-popover-mobile{display:none}
+@media(max-width:720px){.map-popover-overlay{display:none}.map-popover-mobile{display:block;position:static;width:auto;margin-top:10px;border:1px solid color-mix(in srgb,var(--active-accent) 25%,#ddd);box-shadow:0 8px 20px #38463f18}.all-map-wrap>.map-popover-mobile{margin-top:10px}.map-popover.popover-left{left:12px}.map-popover.popover-right{right:12px}.map-popover.popover-top{top:12px}.map-popover.popover-bottom{bottom:12px}}
 @media(max-width:480px){.map-popover.popover-left{left:8px}.map-popover.popover-right{right:8px}.map-popover.popover-top{top:8px}.map-popover.popover-bottom{bottom:8px}}
