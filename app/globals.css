@@ -88,3 +88,8 @@ footer{min-height:190px}footer p{margin:7px 0 10px}footer .footer-tangerine{font
 .map-popover-mobile{display:none}
 @media(max-width:720px){.map-popover-overlay{display:none}.map-popover-mobile{display:block;position:static;width:auto;margin-top:10px;border:1px solid color-mix(in srgb,var(--active-accent) 25%,#ddd);box-shadow:0 8px 20px #38463f18}.all-map-wrap>.map-popover-mobile{margin-top:10px}.map-popover.popover-left{left:12px}.map-popover.popover-right{right:12px}.map-popover.popover-top{top:12px}.map-popover.popover-bottom{bottom:12px}}
 @media(max-width:480px){.map-popover.popover-left{left:8px}.map-popover.popover-right{right:8px}.map-popover.popover-top{top:8px}.map-popover.popover-bottom{bottom:8px}}
+
+/* A soft pulse and a tiny glint make the selected marker easy to spot. */
+.map-pin.active{animation:pin-in .35s both,marker-glow 1.35s .35s ease-in-out infinite}.map-pin.active:after{content:"✦";position:absolute;right:-10px;top:-11px;color:white;font-size:11px;line-height:1;text-shadow:0 1px 5px #28362f99;transform:rotate(45deg);animation:marker-twinkle 1.35s .35s ease-in-out infinite;pointer-events:none}
+@keyframes marker-glow{0%,100%{box-shadow:0 5px 13px #2d3b3550,0 0 0 0 rgba(255,255,255,.75)}50%{box-shadow:0 5px 16px #2d3b3565,0 0 0 9px rgba(255,255,255,0)}}
+@keyframes marker-twinkle{0%,100%{opacity:.25;scale:.72}45%{opacity:1;scale:1.2}}
