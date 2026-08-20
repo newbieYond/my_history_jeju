@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
+import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent, type RefObject } from "react";
 
 type Place = { name: string; kind: "spot" | "food" | "cafe" | "stay"; note: string; x: number; y: number; rainy?: boolean };
 type Day = {
@@ -158,14 +158,39 @@ const schedulePlaceNames = [
 
 const revealMap=(target:HTMLElement|null)=>requestAnimationFrame(()=>target?.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"center"}));
 
+function useMapZoom(){
+  const [zoom,setZoom]=useState(1);
+  const viewportRef=useRef<HTMLDivElement>(null);
+  const dragRef=useRef({active:false,x:0,y:0,left:0,top:0});
+  const changeZoom=(next:number)=>{
+    const target=Math.max(1,Math.min(3,next));
+    const viewport=viewportRef.current;
+    const centerX=viewport?(viewport.scrollLeft+viewport.clientWidth/2)/viewport.scrollWidth:.5;
+    const centerY=viewport?(viewport.scrollTop+viewport.clientHeight/2)/viewport.scrollHeight:.5;
+    setZoom(target);
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{const current=viewportRef.current;if(!current)return;current.scrollLeft=centerX*current.scrollWidth-current.clientWidth/2;current.scrollTop=centerY*current.scrollHeight-current.clientHeight/2;}));
+  };
+  const onPointerDown=(event:ReactPointerEvent<HTMLDivElement>)=>{if(zoom===1||(event.target as Element).closest("button"))return;const viewport=viewportRef.current;if(!viewport)return;dragRef.current={active:true,x:event.clientX,y:event.clientY,left:viewport.scrollLeft,top:viewport.scrollTop};viewport.setPointerCapture(event.pointerId);};
+  const onPointerMove=(event:ReactPointerEvent<HTMLDivElement>)=>{const viewport=viewportRef.current;const drag=dragRef.current;if(!viewport||!drag.active)return;viewport.scrollLeft=drag.left-(event.clientX-drag.x);viewport.scrollTop=drag.top-(event.clientY-drag.y);};
+  const stopDrag=(event:ReactPointerEvent<HTMLDivElement>)=>{dragRef.current.active=false;if(event.currentTarget.hasPointerCapture(event.pointerId))event.currentTarget.releasePointerCapture(event.pointerId);};
+  return {zoom,viewportRef,changeZoom,onPointerDown,onPointerMove,onPointerUp:stopDrag,onPointerCancel:stopDrag};
+}
+
+function MapZoomControls({zoom,onChange}:{zoom:number;onChange:(zoom:number)=>void}){
+  return <div className="map-zoom-controls" aria-label="지도 확대 및 축소"><button type="button" onClick={()=>onChange(zoom-.5)} disabled={zoom<=1} aria-label="지도 축소">−</button><button type="button" className="zoom-value" onClick={()=>onChange(1)} disabled={zoom===1} aria-label={`현재 ${Math.round(zoom*100)}%, 원래 크기로`}>{Math.round(zoom*100)}%</button><button type="button" onClick={()=>onChange(zoom+.5)} disabled={zoom>=3} aria-label="지도 확대">+</button></div>;
+}
+
 function JejuMap({ day, selected, onSelect, mapRef }: { day: Day; selected: Place; onSelect: (place: Place) => void; mapRef: RefObject<HTMLDivElement|null> }) {
   const isUdo = day.date === "10.31";
+  const mapZoom=useMapZoom();
   return <div className="map-card" aria-label={`${day.title} 약도`} ref={mapRef}>
     <div className="map-head"><div><span className="map-kicker">TODAY&apos;S MAP</span><strong>{day.date} 약도</strong></div><div className="map-legend"><span>● 장소</span><span>● 맛</span></div></div>
-    <div className={`map-stage ${isUdo?"udo-map":""}`}>
-      <img className="map-background" src={assetUrl(isUdo?"udo-map-detail-v1.webp":"jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>
-      {day.places.map((place,index) => <button key={place.name} className={`map-pin pin-${place.kind} ${selected===place?"active":""}`} style={{left:`${place.x}%`,top:`${place.y}%`,animationDelay:`${index*60}ms`}} onClick={()=>onSelect(place)} aria-label={`${place.name} 정보 보기`} aria-pressed={selected===place}><span>{kindIcon[place.kind]}</span></button>)}
-    </div>{selected&&<div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a href={mapUrl(selected.name)} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div>}<p className="map-caption">마커를 누르면 장소 정보가 보여요</p>
+    <div className="map-stage-shell"><div className={`map-stage ${isUdo?"udo-map":""} ${mapZoom.zoom>1?"zoomed":""}`} ref={mapZoom.viewportRef} onPointerDown={mapZoom.onPointerDown} onPointerMove={mapZoom.onPointerMove} onPointerUp={mapZoom.onPointerUp} onPointerCancel={mapZoom.onPointerCancel}>
+      <div className="map-scroll-space" style={{width:`${mapZoom.zoom*100}%`,height:`${mapZoom.zoom*100}%`}}><div className="map-zoom-canvas" style={{width:`${100/mapZoom.zoom}%`,height:`${100/mapZoom.zoom}%`,transform:`scale(${mapZoom.zoom})`}}>
+        <img className="map-background" src={assetUrl(isUdo?"udo-map-detail-v1.webp":"jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>
+        {day.places.map((place,index) => <button key={place.name} className={`map-pin pin-${place.kind} ${selected===place?"active":""}`} style={{left:`${place.x}%`,top:`${place.y}%`,animationDelay:`${index*60}ms`}} onClick={()=>onSelect(place)} aria-label={`${place.name} 정보 보기`} aria-pressed={selected===place}><span>{kindIcon[place.kind]}</span></button>)}
+      </div></div>
+    </div><MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div>{selected&&<div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a href={mapUrl(selected.name)} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div>}<p className="map-caption">마커를 누르면 장소 정보가 보여요 · 확대 후 지도를 끌어 이동할 수 있어요</p>
   </div>;
 }
 
@@ -190,21 +215,21 @@ function AllPlacesMap(){
   const [selected,setSelected]=useState<OverviewPlace>(allPlaces[0]);
   const [showReserve,setShowReserve]=useState(false);
   const [showIndex,setShowIndex]=useState(false);
-  const mapRef=useRef<HTMLDivElement>(null);
+  const mapZoom=useMapZoom();
   const mainland: OverviewPlace[] = [...allPlaces.filter(place=>place.dayIndex!==1),...(showReserve?reservePlaces:[])];
   const udo=allPlaces.filter(place=>place.dayIndex===1);
   const visiblePlaces: OverviewPlace[] = showReserve?[...allPlaces,...reservePlaces]:allPlaces;
   const isReserve=(place:OverviewPlace):place is ReservePlace=>"reserve" in place;
   const toggleReserve=()=>setShowReserve(current=>{if(current&&isReserve(selected))setSelected(allPlaces[0]);return !current;});
-  const selectAndReveal=(place:OverviewPlace)=>{setSelected(place);revealMap(mapRef.current);};
+  const selectAndReveal=(place:OverviewPlace)=>{setSelected(place);revealMap(mapZoom.viewportRef.current);};
   const pin=(place:OverviewPlace,compact=false)=><button key={`${isReserve(place)?"reserve":place.dayIndex}-${place.name}`} className={`map-pin all-map-pin pin-${place.kind} ${isReserve(place)?"reserve":""} ${selected===place?"active":""} ${compact?"compact":""}`} style={{left:`${place.x}%`,top:`${place.y}%`}} onMouseMove={()=>setSelected(place)} onFocus={()=>setSelected(place)} onClick={()=>setSelected(place)} aria-label={`${place.name} 정보 보기`} aria-pressed={selected===place}><span>{isReserve(place)?"+":kindIcon[place.kind]}</span><em>{place.name}</em></button>;
   return <section className="all-map-wrap">
     <div className="all-map-head"><div><span>JEJU AT A GLANCE</span><h2>{visiblePlaces.length}개의 장소를 한 장에</h2></div><div className="all-map-actions"><div className="all-map-legend"><span><i className="legend-spot"/>가볼 곳</span><span><i className="legend-food"/>먹을 곳</span><span><i className="legend-cafe"/>카페</span>{showReserve&&<span><i className="legend-reserve"/>예비</span>}</div><button className={`reserve-toggle ${showReserve?"on":""}`} type="button" role="switch" aria-checked={showReserve} onClick={toggleReserve}><span><i/></span>예비 장소 {showReserve?"숨기기":"보기"}<b>{reservePlaces.length}</b></button></div></div>
-    <div className="map-stage all-map-stage" ref={mapRef}><img className="map-background" src={assetUrl("jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>{mainland.map(place=>pin(place))}
-      <div className="udo-inset"><div className="udo-inset-title"><strong>우도</strong><span>확대 약도</span></div><img src={assetUrl("udo-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>{udo.map(place=>pin(place,true))}</div>
-    </div>
+    <div className="map-stage-shell all-map-stage-shell"><div className={`map-stage all-map-stage ${mapZoom.zoom>1?"zoomed":""}`} ref={mapZoom.viewportRef} onPointerDown={mapZoom.onPointerDown} onPointerMove={mapZoom.onPointerMove} onPointerUp={mapZoom.onPointerUp} onPointerCancel={mapZoom.onPointerCancel}><div className="map-scroll-space" style={{width:`${mapZoom.zoom*100}%`,height:`${mapZoom.zoom*100}%`}}><div className="map-zoom-canvas" style={{width:`${100/mapZoom.zoom}%`,height:`${100/mapZoom.zoom}%`,transform:`scale(${mapZoom.zoom})`}}><img className="map-background" src={assetUrl("jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>{mainland.map(place=>pin(place))}
+        <div className="udo-inset"><div className="udo-inset-title"><strong>우도</strong><span>확대 약도</span></div><img src={assetUrl("udo-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>{udo.map(place=>pin(place,true))}</div>
+      </div></div></div><MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div>
     <div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{isReserve(selected)?"예비 장소":`DAY ${selected.dayIndex+1}`} · {kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a href={mapUrl(selected.name)} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div>
-    <p className="map-caption">마커에 마우스를 올리거나 누르면 장소 정보가 보여요 · 우도 장소는 오른쪽 확대 약도에서 확인해요</p>
+    <p className="map-caption">마커에 마우스를 올리거나 누르면 장소 정보가 보여요 · 확대 후 지도를 끌어 이동할 수 있어요</p>
     <button className="index-toggle" type="button" aria-expanded={showIndex} aria-controls="all-place-index" onClick={()=>setShowIndex(current=>!current)}><span>장소 목록 {visiblePlaces.length}개</span><b>{showIndex?"접기 ↑":"펼쳐보기 ↓"}</b></button>
     <div id="all-place-index" className={`all-place-index ${showIndex?"open":""}`}>{visiblePlaces.map(place=><article key={`${isReserve(place)?"reserve":place.dayIndex}-${place.name}`} className={`all-place-card ${isReserve(place)?"reserve":""} ${selected===place?"selected":""}`} role="button" tabIndex={0} onMouseMove={()=>setSelected(place)} onFocus={()=>setSelected(place)} onClick={()=>selectAndReveal(place)} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();selectAndReveal(place);}}}><span className={`choice-icon kind-${place.kind}`}>{isReserve(place)?"+":kindIcon[place.kind]}</span><div><small>{isReserve(place)?"예비":`DAY ${place.dayIndex+1}`} · {kindLabel[place.kind]} {place.rainy&&<span className="rain-label" title="비 오는 날에도 좋아요">☂</span>}</small><strong>{place.name}</strong><p>{place.note}</p></div><a className="external" href={mapUrl(place.name)} target="_blank" rel="noreferrer" onClick={event=>event.stopPropagation()} aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div>
   </section>;
