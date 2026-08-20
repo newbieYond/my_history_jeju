@@ -82,3 +82,8 @@ footer{min-height:190px}footer p{margin:7px 0 10px}footer .footer-tangerine{font
 
 /* Give maps back the horizontal space lost to nested mobile gutters. */
 @media(max-width:480px){.detail-grid>.map-card{margin-inline:-20px;padding:10px;border-radius:17px}.detail-grid>.map-card .map-stage{border-radius:12px}.detail-grid>.map-card .map-head{padding-inline:3px}.all-places.section-shell{padding-inline:8px}.all-map-wrap{padding:10px;border-radius:17px}.all-map-stage{border-radius:12px}.all-map-popover{left:8px;bottom:8px}.udo-inset{right:6px;top:6px}.all-map-wrap>.map-caption{padding-inline:5px}}
+
+/* Keep the place card on the opposite side of the selected marker. */
+.map-popover.popover-left{left:20px;right:auto}.map-popover.popover-right{right:20px;left:auto}.map-popover.popover-top{top:20px;bottom:auto}.map-popover.popover-bottom{bottom:20px;top:auto}
+@media(max-width:720px){.map-popover.popover-left{left:12px}.map-popover.popover-right{right:12px}.map-popover.popover-top{top:12px}.map-popover.popover-bottom{bottom:12px}}
+@media(max-width:480px){.map-popover.popover-left{left:8px}.map-popover.popover-right{right:8px}.map-popover.popover-top{top:8px}.map-popover.popover-bottom{bottom:8px}}
