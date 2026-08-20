@@ -91,3 +91,13 @@ footer{min-height:190px}footer p{margin:7px 0 10px}footer .footer-tangerine{font
 .map-pin.active{animation:pin-in .35s both,marker-glow 1.35s .35s ease-in-out infinite}.map-pin.active:after{content:"✦";position:absolute;right:-10px;top:-11px;color:white;font-size:11px;line-height:1;text-shadow:0 1px 5px #28362f99;transform:rotate(45deg);animation:marker-twinkle 1.35s .35s ease-in-out infinite;pointer-events:none}
 @keyframes marker-glow{0%,100%{box-shadow:0 5px 13px #2d3b3550,0 0 0 0 rgba(255,255,255,.75)}50%{box-shadow:0 5px 16px #2d3b3565,0 0 0 9px rgba(255,255,255,0)}}
 @keyframes marker-twinkle{0%,100%{opacity:.25;scale:.72}45%{opacity:1;scale:1.2}}
+
+/* Keep navigation visible and reserve its exact space in the document. */
+main{padding-top:82px}
+.site-header{position:fixed;inset:0 0 auto;width:100%;z-index:100;background:rgba(255,253,248,.96);box-shadow:0 6px 20px rgba(40,54,47,.08)}
+
+/* Category text always sits on a high-contrast neutral badge. */
+.place-kind{display:inline-flex;align-items:center;width:max-content;min-height:24px;padding:4px 9px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:var(--ink)!important;color:#fffdf8!important;font-size:10px;line-height:1.2;letter-spacing:.04em;box-shadow:0 2px 7px rgba(40,54,47,.16)}
+.map-popover strong{margin-top:7px}
+
+@media(max-width:720px){main{padding-top:116px}.site-header{padding-top:9px}}
