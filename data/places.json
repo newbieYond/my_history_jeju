@@ -1087,7 +1087,8 @@
     "name": "성산일출봉 맛집 커큐민흑돼지",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day2"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C%EB%B4%89+%EB%A7%9B%EC%A7%91+%EC%BB%A4%ED%81%90%EB%AF%BC%ED%9D%91%EB%8F%BC%EC%A7%80/data=!4m2!3m1!1s0x350d137d45c66459:0x8384795dd2caabd1",
@@ -1129,7 +1130,8 @@
     "name": "조천수산",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day1"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%A1%B0%EC%B2%9C%EC%88%98%EC%82%B0/data=!4m2!3m1!1s0x350d1da421271f75:0xb5814c493a4d0259",
@@ -1171,7 +1173,8 @@
     "name": "토평골",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day6"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%86%A0%ED%8F%89%EA%B3%A8/data=!4m2!3m1!1s0x350c54be9f32e88d:0x7bbafedd055eb758",
@@ -1192,7 +1195,8 @@
     "name": "중문보말칼국수",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day4"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%A4%91%EB%AC%B8%EB%B3%B4%EB%A7%90%EC%B9%BC%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350c5a97fd2f4d01:0x641b63bb3d5f64f",
@@ -1255,7 +1259,8 @@
     "name": "함덕 문개항아리 조천본점",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day1"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%A8%EB%8D%95+%EB%AC%B8%EA%B0%9C%ED%95%AD%EC%95%84%EB%A6%AC+%EC%A1%B0%EC%B2%9C%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350d1e8481ed09fb:0xaa32c94fcca4257b",
@@ -1381,7 +1386,8 @@
     "name": "제주미담",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day7"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%AF%B8%EB%8B%B4/data=!4m2!3m1!1s0x350cfcafae09f481:0xb2f2d6586aee2759",
@@ -1444,7 +1450,8 @@
     "name": "돈내코손두부",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day3"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%88%EB%82%B4%EC%BD%94%EC%86%90%EB%91%90%EB%B6%80/data=!4m2!3m1!1s0x350c54df65fc162f:0x5d03f2029876e288",
@@ -1465,7 +1472,8 @@
     "name": "제주도민이네라오면",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day1"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%AF%BC%EC%9D%B4%EB%84%A4%EB%9D%BC%EC%98%A4%EB%A9%B4/data=!4m2!3m1!1s0x350d1e9f1a474585:0xef2c86df6cf9efdb",
@@ -1696,7 +1704,8 @@
     "name": "태광식당",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day7"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%83%9C%EA%B4%91%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350ce4ab6b263a73:0x4971547aec5bc188",
@@ -1738,7 +1747,8 @@
     "name": "도두봉",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day7"
     ],
     "category": "spot",
     "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%84%EB%91%90%EB%B4%89/data=!4m2!3m1!1s0x350cfae809487205:0x456177f00c909a19",
@@ -1801,7 +1811,8 @@
     "name": "아르떼뮤지엄 제주",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day4"
     ],
     "category": "spot",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%95%84%EB%A5%B4%EB%96%BC%EB%AE%A4%EC%A7%80%EC%97%84+%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350c5f6816650b53:0xa96f526f32c1bd52",
@@ -1822,7 +1833,8 @@
     "name": "로빙화",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day3"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EB%A1%9C%EB%B9%99%ED%99%94/data=!4m2!3m1!1s0x350da95f8a99537d:0xebe208bf826e9c9c",
@@ -1885,7 +1897,8 @@
     "name": "두툼한고기 돈돼지",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day1"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EB%91%90%ED%88%BC%ED%95%9C%EA%B3%A0%EA%B8%B0+%EB%8F%88%EB%8F%BC%EC%A7%80/data=!4m2!3m1!1s0x350d1e9ebeef4223:0xaa435330770462ab",
@@ -1948,7 +1961,8 @@
     "name": "한라전복 (모슬포)",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day5"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%9C%EB%9D%BC%EC%A0%84%EB%B3%B5+(%EB%AA%A8%EC%8A%AC%ED%8F%AC)/data=!4m2!3m1!1s0x350c69975e2db4e5:0x4513c7bd6a05cb40",
@@ -2032,7 +2046,8 @@
     "name": "호텔 더본 제주",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day4"
     ],
     "category": "stay",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%98%B8%ED%85%94+%EB%8D%94%EB%B3%B8+%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350c5a1a4200b63b:0x697d970fd2a40716",
@@ -2221,7 +2236,8 @@
     "name": "형제섬보말칼국수",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day5"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%98%95%EC%A0%9C%EC%84%AC%EB%B3%B4%EB%A7%90%EC%B9%BC%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350c423bba5f6739:0x59e837b9cca35040",
@@ -2305,7 +2321,8 @@
     "name": "용이식당",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day6"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%A9%EC%9D%B4%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350c539b85b09f89:0xfab7527d2329a16a",
@@ -2326,7 +2343,8 @@
     "name": "맛나식당",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day2"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EB%A7%9B%EB%82%98%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350d137ea49e6e49:0xbf472ab35adbec44",
@@ -2368,7 +2386,8 @@
     "name": "오는정김밥",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day6"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%A4%EB%8A%94%EC%A0%95%EA%B9%80%EB%B0%A5/data=!4m2!3m1!1s0x350c53762ea728d9:0x9f96530691230f98",
@@ -2494,7 +2513,8 @@
     "name": "금오름",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day5"
     ],
     "category": "spot",
     "googleMapsUrl": "https://www.google.com/maps/place/%EA%B8%88%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350c5e7de56a2c13:0x490f203247148e3c",
@@ -2515,7 +2535,8 @@
     "name": "파리바게뜨 제주공항렌터카하우스점",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day7"
     ],
     "category": "spot",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%8C%8C%EB%A6%AC%EB%B0%94%EA%B2%8C%EB%9C%A8+%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD%EB%A0%8C%ED%84%B0%EC%B9%B4%ED%95%98%EC%9A%B0%EC%8A%A4%EC%A0%90/data=!4m2!3m1!1s0x350cfb8117198e2d:0x17ff93191649b77a",
@@ -2599,7 +2620,8 @@
     "name": "파크선샤인제주",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day6"
     ],
     "category": "spot",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%8C%8C%ED%81%AC%EC%84%A0%EC%83%A4%EC%9D%B8%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350c53bd1f38ad97:0xeb763bf8ee9b8b0c",
