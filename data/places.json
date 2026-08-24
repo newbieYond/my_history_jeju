@@ -2783,5 +2783,26 @@
       "x": 21.18,
       "y": 58.75
     }
+  },
+  {
+    "id": 132,
+    "name": "용머리해안",
+    "tags": [
+      "day5",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%A9%EB%A8%B8%EB%A6%AC%ED%95%B4%EC%95%88%20%EC%A0%9C%EC%A3%BC",
+    "latitude": 33.2317,
+    "longitude": 126.3144,
+    "address": "제주특별자치도 서귀포시 안덕면 사계남로216번길 77",
+    "description": "물때가 맞을 때만 걷는 필수 해안 코스",
+    "note": "방문 당일 물때·기상에 따른 입장 가능 시간을 확인",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 27,
+      "y": 73
+    }
   }
 ]
