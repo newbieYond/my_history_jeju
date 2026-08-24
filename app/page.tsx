@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties, type PointerE
 import placesJson from "../data/places.json";
 
 type Place = { name: string; kind: "spot" | "food" | "cafe" | "stay"; note: string; x: number; y: number; rainy?: boolean };
-type StoredPlace = { id: number; name: string; tags: string[]; category: Place["kind"]; googleMapsUrl: string; latitude: number | null; longitude: number | null; address: string | null; description: string; note: string; isRainyDayFriendly: boolean; isReserve: boolean; mapPosition: { x: number; y: number } };
+type StoredPlace = { id: number; name: string; tags: string[]; category: Place["kind"]; googleMapsUrl: string; latitude: number | null; longitude: number | null; address: string | null; description: string; isRainyDayFriendly: boolean; isReserve: boolean; mapPosition: { x: number; y: number } };
 type Coordinates = { latitude: number; longitude: number };
 type Day = {
   date: string; weekday: string; eyebrow: string; title: string; summary: string; accent: string;

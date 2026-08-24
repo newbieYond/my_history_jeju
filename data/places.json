@@ -13,7 +13,6 @@
     "longitude": 126.4916441,
     "address": "제주국제공항, 2, 공항로, 용담이동, 용담2동, 제주시, 제주특별자치도, 63115, 대한민국",
     "description": "여행의 시작",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -34,7 +33,6 @@
     "longitude": null,
     "address": null,
     "description": "억새와 해안 정자",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -55,7 +53,6 @@
     "longitude": 126.760293,
     "address": "김녕해수욕장, 김녕로, 김녕리, 구좌읍, 제주시, 제주특별자치도, 63357, 대한민국",
     "description": "첫 저녁의 바다",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -76,7 +73,6 @@
     "longitude": null,
     "address": null,
     "description": "마농바게트 포장",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -97,7 +93,6 @@
     "longitude": 126.6689523,
     "address": "델문도, 조함해안로, 함덕리, 조천읍, 제주시, 제주특별자치도, 63333, 대한민국",
     "description": "함덕 바다 앞 카페",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -118,7 +113,6 @@
     "longitude": null,
     "address": null,
     "description": "전기자전거를 빌리고 섬 한 바퀴 시작",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -139,7 +133,6 @@
     "longitude": null,
     "address": null,
     "description": "밝은 모래와 얕은 바다",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -160,7 +153,6 @@
     "longitude": 126.957968,
     "address": "블랑로쉐, 783, 우도해안길, 연평리, 우도면, 제주시, 제주특별자치도, 63365, 대한민국",
     "description": "땅콩 아이스크림 고정 휴식",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -181,7 +173,6 @@
     "longitude": null,
     "address": null,
     "description": "검은 모래와 우도봉 절벽",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -202,7 +193,6 @@
     "longitude": null,
     "address": null,
     "description": "귀항 전 쉬기 좋은 흰 해변",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -223,7 +213,6 @@
     "longitude": null,
     "address": null,
     "description": "섬 안에서 가볍게 고르는 점심",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -244,7 +233,6 @@
     "longitude": 126.8061897,
     "address": "비자림, 세송로, 평대리, 구좌읍, 제주시, 제주특별자치도, 63351, 대한민국",
     "description": "평탄한 A코스 중심",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -265,7 +253,6 @@
     "longitude": 126.771521,
     "address": "가시식당, 064-787-1035, 중산간동로, 가시리, 표선면, 서귀포시, 제주특별자치도, 63623, 대한민국",
     "description": "두루치기 · 몸국",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -286,7 +273,6 @@
     "longitude": 126.771831,
     "address": "나목도식당, 중산간동로, 가시리, 표선면, 서귀포시, 제주특별자치도, 63623, 대한민국",
     "description": "흑돼지 생고기 · 두루치기",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -307,7 +293,6 @@
     "longitude": 126.6234661,
     "address": "쇠소깍, 하례로, 하례리, 남원읍, 서귀포시, 제주특별자치도, 63601, 대한민국",
     "description": "배 체험 60~90분",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -328,7 +313,6 @@
     "longitude": 126.565959,
     "address": "매일올레시장 7번입구, 동문로, 중앙동, 서귀포시, 제주특별자치도, 63595, 대한민국",
     "description": "저녁과 포장",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -349,7 +333,6 @@
     "longitude": null,
     "address": null,
     "description": "시야·도로 상태 좋을 때만",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -370,7 +353,6 @@
     "longitude": 126.459797,
     "address": "서귀포자연휴양림, 중문동, 서귀포시, 제주특별자치도, 대한민국",
     "description": "숲 산책 한 곳만",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -391,7 +373,6 @@
     "longitude": 126.4947543,
     "address": "천왕사, 비법정탐방로, 노형동, 제주시, 제주특별자치도, 63077, 대한민국",
     "description": "조용한 선택 경유지",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -412,7 +393,6 @@
     "longitude": null,
     "address": null,
     "description": "중산간 브런치 회복 지점",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -433,7 +413,6 @@
     "longitude": 126.3925006,
     "address": "본태박물관, 산록남로, 상천리, 안덕면, 서귀포시, 제주특별자치도, 63549, 대한민국",
     "description": "비·안개 시 실내 대안",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -454,7 +433,6 @@
     "longitude": 126.4249269,
     "address": "중문수두리보말칼국수, 190, 천제연로, 푸른중문주공아파트, 중문동, 서귀포시, 제주특별자치도, 63546, 대한민국",
     "description": "아침 식사 후보",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -475,7 +453,6 @@
     "longitude": null,
     "address": null,
     "description": "이번 여행의 고정 코어",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -496,7 +473,6 @@
     "longitude": 126.2897901,
     "address": "송악산, 서귀포시, 제주특별자치도, 63512, 대한민국",
     "description": "전망 좋은 짧은 구간",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -517,7 +493,6 @@
     "longitude": 126.2542266,
     "address": "산방식당, 하모이삼로, 하모리, 대정읍, 서귀포시, 제주특별자치도, 63507, 대한민국",
     "description": "밀냉면 · 수육",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -538,7 +513,6 @@
     "longitude": null,
     "address": null,
     "description": "고등어회 메인 식사",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -559,7 +533,6 @@
     "longitude": null,
     "address": null,
     "description": "해안도로 드라이브",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -580,7 +553,6 @@
     "longitude": null,
     "address": null,
     "description": "카페 또는 선택 일몰",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -601,7 +573,6 @@
     "longitude": null,
     "address": null,
     "description": "돌집과 핸드드립",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -622,7 +593,6 @@
     "longitude": null,
     "address": null,
     "description": "농장은 예약 후 업데이트",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -643,7 +613,6 @@
     "longitude": null,
     "address": null,
     "description": "느린 도심 산책",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -664,7 +633,6 @@
     "longitude": 126.5636773,
     "address": "유동커피, 406-2, 태평로, 송산동, 서귀포시, 제주특별자치도, 63596, 대한민국",
     "description": "테이크아웃도 좋은 커피",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -685,7 +653,6 @@
     "longitude": null,
     "address": null,
     "description": "조용한 카페와 서점",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -706,7 +673,6 @@
     "longitude": 126.5592526,
     "address": "네거리식당, 20, 서문로29번길, 천지동, 서귀포시, 제주특별자치도, 63592, 대한민국",
     "description": "갈치국 · 갈치구이",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -727,7 +693,6 @@
     "longitude": 126.5594848,
     "address": "새연교, Saeseom Bridge, 천지동, 서귀포시, 제주특별자치도, 63596, 대한민국",
     "description": "바람 약할 때 해질녘 산책",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -748,7 +713,6 @@
     "longitude": 126.4165384,
     "address": "천제연폭포, 중문관광로, 예래동, 서귀포시, 제주특별자치도, 63535, 대한민국",
     "description": "제1·제2폭포까지만",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
@@ -769,7 +733,6 @@
     "longitude": 126.5324842,
     "address": "자매국수, 삼성로, 이도일동, 제주시, 제주특별자치도, 63269, 대한민국",
     "description": "공항권 고기국수",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -790,7 +753,6 @@
     "longitude": 126.5200439,
     "address": "우진해장국, 11, 서사로, 용담일동, 제주시, 제주특별자치도, 63154, 대한민국",
     "description": "대기 20분 이내일 때만",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -811,7 +773,6 @@
     "longitude": null,
     "address": null,
     "description": "마지막 크림빵 포장",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -833,7 +794,6 @@
     "longitude": 126.9408178,
     "address": "성산일출봉, 284-12, 일출로, 성산리, 성산읍, 서귀포시, 제주특별자치도, 63643, 대한민국",
     "description": "우도 귀도 후 시간이 남을 때",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -856,7 +816,6 @@
     "longitude": 126.8604234,
     "address": "세화해변, 세화리, 구좌읍, 제주시, 제주특별자치도, 대한민국",
     "description": "동쪽 해안의 가벼운 산책 후보",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -878,7 +837,6 @@
     "longitude": null,
     "address": null,
     "description": "우도 결항·비 오는 날 실내 대안",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -900,7 +858,6 @@
     "longitude": 126.8370802,
     "address": "표선해수욕장, 올레길3, 당포마을, 표선리, 표선면, 서귀포시, 제주특별자치도, 63629, 대한민국",
     "description": "남쪽 이동 중 한 번 쉬어가기",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -922,7 +879,6 @@
     "longitude": 126.7037523,
     "address": "남원큰엉해안경승지, 올레길5 (Ollegil 5), 비안동, 남원리, 남원읍, 서귀포시, 제주특별자치도, 63620, 대한민국",
     "description": "남원 해안 산책 대안",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -944,7 +900,6 @@
     "longitude": 126.2992195,
     "address": "사계해안, 사계리, 안덕면, 서귀포시, 제주특별자치도, 대한민국",
     "description": "송악산 전후 짧은 해안 정차",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -966,7 +921,6 @@
     "longitude": 126.1632411,
     "address": "수월봉(노꼬물오름), 제주시, 제주특별자치도, 63008, 대한민국",
     "description": "서쪽 일정에 여유가 있을 때",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -988,7 +942,6 @@
     "longitude": 126.5545282,
     "address": "천지연폭포, 천지동, 서귀포시, 제주특별자치도, 63594, 대한민국",
     "description": "완충일 해 질 무렵 선택지",
-    "note": "",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1010,7 +963,6 @@
     "longitude": 126.3698892,
     "address": "카멜리아힐-동백수목원, 상창리, 안덕면, 서귀포시, 제주특별자치도, 대한민국",
     "description": "비가 약할 때 정원 산책 후보",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1032,7 +984,6 @@
     "longitude": 126.4894048,
     "address": "제주도립미술관, 2894-78, 1100로, 연동, 신제주, 노형동, 제주시, 제주특별자치도, 63079, 대한민국",
     "description": "공항권의 차분한 실내 대안",
-    "note": "",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1052,8 +1003,7 @@
     "latitude": 33.4931534,
     "longitude": 126.8996404,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "종달리 해안 인근 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1073,8 +1023,7 @@
     "latitude": 33.5052823,
     "longitude": 126.6243914,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 동쪽에서 들르기 좋은 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1095,8 +1044,7 @@
     "latitude": 33.4498997,
     "longitude": 126.9210691,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "성산일출봉 인근 흑돼지 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1116,8 +1064,7 @@
     "latitude": 33.5602598,
     "longitude": 126.730123,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "조천·함덕권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1138,8 +1085,7 @@
     "latitude": 33.5143585,
     "longitude": 126.6380099,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "조천 해안에서 즐기는 수산물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1159,8 +1105,7 @@
     "latitude": 33.5564083,
     "longitude": 126.7287248,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "함덕 해안 인근 리조트 숙소",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1181,8 +1126,7 @@
     "latitude": 33.2680972,
     "longitude": 126.5917259,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "서귀포 토평동 한식 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1203,8 +1147,7 @@
     "latitude": 33.2515448,
     "longitude": 126.4249759,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "중문권 보말칼국수 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1224,8 +1167,7 @@
     "latitude": 33.4660699,
     "longitude": 126.3216354,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "애월항 인근 해산물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1245,8 +1187,7 @@
     "latitude": 33.5364324,
     "longitude": 126.6117787,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "조천 바다 절벽을 따라 걷는 산책지",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1267,8 +1208,7 @@
     "latitude": 33.5451876,
     "longitude": 126.6609508,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "조천에서 들르기 좋은 해물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1288,8 +1228,7 @@
     "latitude": 33.4537614,
     "longitude": 126.7090555,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "성산권에서 들르기 좋은 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1309,8 +1248,7 @@
     "latitude": 33.5628287,
     "longitude": 126.4788064,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 서부권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1330,8 +1268,7 @@
     "latitude": 33.5305204,
     "longitude": 126.3703262,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "애월 해안 인근 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1351,8 +1288,7 @@
     "latitude": 33.476713,
     "longitude": 126.2711087,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "애월 해안권 회 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1372,8 +1308,7 @@
     "latitude": 33.4826576,
     "longitude": 126.3843707,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "애월해안도로의 흑돼지 식사",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1394,8 +1329,7 @@
     "latitude": 33.4992774,
     "longitude": 126.5316845,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 도심 한식 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1415,8 +1349,7 @@
     "latitude": 33.5104636,
     "longitude": 126.5175467,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 서문시장 인근 숙소",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1436,8 +1369,7 @@
     "latitude": 33.5035561,
     "longitude": 126.9127463,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "성산 해안권 해산물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1458,8 +1390,7 @@
     "latitude": 33.2916014,
     "longitude": 126.5914914,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "돈내코 인근 손두부 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1480,8 +1411,7 @@
     "latitude": 33.5397335,
     "longitude": 126.6720178,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "조천권에서 들르기 좋은 라면 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1501,8 +1431,7 @@
     "latitude": 33.3331186,
     "longitude": 126.2309384,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "모슬포권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1522,8 +1451,7 @@
     "latitude": 33.3659388,
     "longitude": 126.3564411,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "억새 풍경이 좋은 서부 오름",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1543,8 +1471,7 @@
     "latitude": 33.3775508,
     "longitude": 126.2152774,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "월령 해안을 따라 걷는 선인장 군락",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1564,8 +1491,7 @@
     "latitude": 33.4531536,
     "longitude": 126.490817,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 공항권 카페",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1585,8 +1511,7 @@
     "latitude": 33.4804452,
     "longitude": 126.5066701,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "한라수목원 인근 야시장",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1606,8 +1531,7 @@
     "latitude": 33.4771161,
     "longitude": 126.3702605,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "애월권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1627,8 +1551,7 @@
     "latitude": 33.5400908,
     "longitude": 126.3673105,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "애월 해안권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1648,8 +1571,7 @@
     "latitude": 33.2643434,
     "longitude": 126.3243413,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "사계 해안에서 즐기는 해산물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1669,8 +1591,7 @@
     "latitude": 33.4464148,
     "longitude": 126.346381,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "귀덕 해안 골목의 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1690,8 +1611,7 @@
     "latitude": 33.4919307,
     "longitude": 126.4986184,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 도심 한식 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1712,8 +1632,7 @@
     "latitude": 33.5126134,
     "longitude": 126.5188645,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 도심 한식 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1733,8 +1652,7 @@
     "latitude": 33.5057217,
     "longitude": 126.4650558,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "도두항 인근 해산물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1755,8 +1673,7 @@
     "latitude": 33.5080939,
     "longitude": 126.4685975,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "공항 옆에서 일몰을 보는 오름",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1776,8 +1693,7 @@
     "latitude": 33.4868513,
     "longitude": 126.7066547,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주 동부의 짚라인 체험",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1797,8 +1713,7 @@
     "latitude": 33.3985838,
     "longitude": 126.7065057,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "삼나무 숲길을 걷는 산책 코스",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1819,8 +1734,7 @@
     "latitude": 33.4099578,
     "longitude": 126.3271734,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "몰입형 미디어아트 전시 공간",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1841,8 +1755,7 @@
     "latitude": 33.2358717,
     "longitude": 126.6957432,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "서귀포 남원권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1862,8 +1775,7 @@
     "latitude": 33.4818042,
     "longitude": 126.9017207,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "성산권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1883,8 +1795,7 @@
     "latitude": 33.4599676,
     "longitude": 126.831477,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "동부 초원 풍경을 보는 오름",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -1905,8 +1816,7 @@
     "latitude": 33.5410492,
     "longitude": 126.6698885,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "조천권 흑돼지 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1926,8 +1836,7 @@
     "latitude": 33.4788707,
     "longitude": 126.4640837,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "제주시 도심 흑돼지 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1947,8 +1856,7 @@
     "latitude": 33.4344256,
     "longitude": 126.3797914,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "애월권 돈가스 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1969,8 +1877,7 @@
     "latitude": 33.2352331,
     "longitude": 126.2307221,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "모슬포에서 즐기는 전복 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -1990,8 +1897,7 @@
     "latitude": 33.6130141,
     "longitude": 126.6255116,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "조천 해안권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2011,8 +1917,7 @@
     "latitude": 33.5534976,
     "longitude": 126.7068875,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "동복 해안의 해산물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2032,8 +1937,7 @@
     "latitude": 33.23227,
     "longitude": 126.3089904,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "산방산을 바라보는 카페",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2054,8 +1958,7 @@
     "latitude": 33.3023572,
     "longitude": 126.421912,
     "address": null,
-    "description": "Google 지도 저장 · 가고 싶은 장소",
-    "note": "",
+    "description": "중문권 리조트 호텔",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2075,8 +1978,7 @@
     "latitude": 33.512766,
     "longitude": 126.5080717,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주시 도심 한식 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2096,8 +1998,7 @@
     "latitude": 33.4853535,
     "longitude": 126.4930908,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주시 도심 한식 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2117,8 +2018,7 @@
     "latitude": 33.535344,
     "longitude": 126.5516481,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주시 북부권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2138,8 +2038,7 @@
     "latitude": 33.5564333,
     "longitude": 126.4537489,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주공항 인근 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2159,8 +2058,7 @@
     "latitude": 33.4495991,
     "longitude": 126.5793995,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "아라동에서 들르기 좋은 김밥 포장",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2180,8 +2078,7 @@
     "latitude": 33.4684353,
     "longitude": 126.4446634,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "애월에서 들르기 좋은 김밥 포장",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2201,8 +2098,7 @@
     "latitude": 33.4939053,
     "longitude": 126.4833494,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주시 도심 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2222,8 +2118,7 @@
     "latitude": 33.5535936,
     "longitude": 126.7099584,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "동복 해안의 해산물 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2244,8 +2139,7 @@
     "latitude": 33.2117213,
     "longitude": 126.2921296,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "사계·송악산권 보말칼국수",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2265,8 +2159,7 @@
     "latitude": 33.4999102,
     "longitude": 126.5270264,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주시 도심 꽈배기 간식",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2286,8 +2179,7 @@
     "latitude": 33.4872141,
     "longitude": 126.5000191,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주시 도심 숙성 흑돼지",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2307,8 +2199,7 @@
     "latitude": 33.4888877,
     "longitude": 126.4296093,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "애월권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2329,8 +2220,7 @@
     "latitude": 33.2512376,
     "longitude": 126.5603403,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "서귀포 도심 한식 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2351,8 +2241,7 @@
     "latitude": 33.4485901,
     "longitude": 126.9159122,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "성산권 갈치조림 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2372,8 +2261,7 @@
     "latitude": 33.2456367,
     "longitude": 126.3387296,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "산방산 인근 한식 식사",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2394,8 +2282,7 @@
     "latitude": 33.2492934,
     "longitude": 126.5665897,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "서귀포 도심 김밥 포장",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2415,8 +2302,7 @@
     "latitude": 33.3633802,
     "longitude": 126.258278,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "한림 해안권 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2436,8 +2322,7 @@
     "latitude": 33.4883202,
     "longitude": 126.489555,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주공항권 고기국수",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2457,8 +2342,7 @@
     "latitude": 33.5060469,
     "longitude": 126.5420356,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "제주시 도심 식사 후보",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2478,8 +2362,7 @@
     "latitude": 33.4275087,
     "longitude": 126.3294237,
     "address": null,
-    "description": "Google 지도 저장 · 국내 식당",
-    "note": "",
+    "description": "애월권 전복 요리",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2499,8 +2382,7 @@
     "latitude": 33.4842878,
     "longitude": 126.3936592,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "애월 해안권 숙소",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2521,8 +2403,7 @@
     "latitude": 33.355577,
     "longitude": 126.3056877,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "서부 초원과 일몰을 보는 오름",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2543,8 +2424,7 @@
     "latitude": 33.4687666,
     "longitude": 126.5194521,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "제주공항 렌터카하우스 인근 간식",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2564,8 +2444,7 @@
     "latitude": 33.5449799,
     "longitude": 126.8125794,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "제주 동부 해안권 들르기 좋은 장소",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2585,8 +2464,7 @@
     "latitude": 33.449942,
     "longitude": 126.918378,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "성산일출봉 인근 카페",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2606,8 +2484,7 @@
     "latitude": 33.4605926,
     "longitude": 126.3338579,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "애월 해안에서 일몰을 보는 장소",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2628,8 +2505,7 @@
     "latitude": 33.244423,
     "longitude": 126.553949,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "서귀포 도심 호텔 숙소",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2649,8 +2525,7 @@
     "latitude": 33.456646,
     "longitude": 126.5026686,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "제주시 연동권 호텔 숙소",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2670,8 +2545,7 @@
     "latitude": 33.2383203,
     "longitude": 126.4259086,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "중문 해안의 주상절리 산책",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2691,8 +2565,7 @@
     "latitude": 33.4178646,
     "longitude": 126.2153469,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "에메랄드 바다를 즐기는 해수욕장",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2712,8 +2585,7 @@
     "latitude": 33.3899141,
     "longitude": 126.2353718,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "협재 인근의 얕은 바다 해변",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2733,8 +2605,7 @@
     "latitude": 33.4235416,
     "longitude": 126.9293266,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "성산 해안 절벽을 따라 걷는 산책지",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2754,8 +2625,7 @@
     "latitude": 33.5125399,
     "longitude": 126.5284762,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "제주시 대표 전통시장",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2775,8 +2645,7 @@
     "latitude": 33.3255984,
     "longitude": 126.2554889,
     "address": null,
-    "description": "Google 지도 저장 · 국내 여행지",
-    "note": "",
+    "description": "한림권에서 즐기는 정원 산책",
     "isRainyDayFriendly": false,
     "isReserve": true,
     "mapPosition": {
@@ -2797,7 +2666,6 @@
     "longitude": 126.3144,
     "address": "제주특별자치도 서귀포시 안덕면 사계남로216번길 77",
     "description": "물때가 맞을 때만 걷는 필수 해안 코스",
-    "note": "방문 당일 물때·기상에 따른 입장 가능 시간을 확인",
     "isRainyDayFriendly": false,
     "isReserve": false,
     "mapPosition": {
