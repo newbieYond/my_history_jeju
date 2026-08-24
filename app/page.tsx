@@ -5,6 +5,7 @@ import placesJson from "../data/places.json";
 
 type Place = { name: string; kind: "spot" | "food" | "cafe" | "stay"; note: string; x: number; y: number; rainy?: boolean };
 type StoredPlace = { id: number; name: string; tags: string[]; category: Place["kind"]; googleMapsUrl: string; latitude: number | null; longitude: number | null; address: string | null; description: string; note: string; isRainyDayFriendly: boolean; isReserve: boolean; mapPosition: { x: number; y: number } };
+type Coordinates = { latitude: number; longitude: number };
 type Day = {
   date: string; weekday: string; eyebrow: string; title: string; summary: string; accent: string;
   schedule: { time: string; title: string; note: string; rainy?: boolean }[]; places: Place[]; tip: string;
@@ -163,6 +164,7 @@ const focusMarker=(viewport:HTMLDivElement|null,marker:HTMLElement|null)=>reques
 
 function useMapZoom(){
   const [zoom,setZoom]=useState(1);
+  const [viewportVersion,setViewportVersion]=useState(0);
   const viewportRef=useRef<HTMLDivElement>(null);
   const dragRef=useRef({active:false,moved:false,x:0,y:0,left:0,top:0});
   const changeZoom=(next:number)=>{
@@ -178,7 +180,8 @@ function useMapZoom(){
   const stopDrag=(event:ReactPointerEvent<HTMLDivElement>)=>{const moved=dragRef.current.moved;dragRef.current.active=false;if(event.currentTarget.hasPointerCapture(event.pointerId))event.currentTarget.releasePointerCapture(event.pointerId);if(moved)window.setTimeout(()=>{dragRef.current.moved=false;},0);};
   const consumeDrag=()=>{const moved=dragRef.current.moved;dragRef.current.moved=false;return moved;};
   useEffect(()=>{const viewport=viewportRef.current;if(!viewport||zoom===1)return;const onWheel=(event:WheelEvent)=>{if(event.ctrlKey)return;event.preventDefault();event.stopPropagation();viewport.scrollBy({left:event.deltaX+(event.shiftKey?event.deltaY:0),top:event.shiftKey?0:event.deltaY});};viewport.addEventListener("wheel",onWheel,{passive:false});return()=>viewport.removeEventListener("wheel",onWheel);},[zoom]);
-  return {zoom,viewportRef,changeZoom,onPointerDown,onPointerMove,onPointerUp:stopDrag,onPointerCancel:stopDrag,consumeDrag};
+  useEffect(()=>{const viewport=viewportRef.current;if(!viewport)return;const updateViewport=()=>setViewportVersion(version=>version+1);viewport.addEventListener("scroll",updateViewport,{passive:true});return()=>viewport.removeEventListener("scroll",updateViewport);},[]);
+  return {zoom,viewportRef,viewportVersion,changeZoom,onPointerDown,onPointerMove,onPointerUp:stopDrag,onPointerCancel:stopDrag,consumeDrag};
 }
 
 function MapZoomControls({zoom,onChange}:{zoom:number;onChange:(zoom:number)=>void}){
@@ -233,14 +236,38 @@ function AllPlacesMap(){
   </section>;
 }
 
-const distanceInKm=(from:{latitude:number;longitude:number},to:StoredPlace)=>{if(to.latitude===null||to.longitude===null)return null;const radians=(value:number)=>value*Math.PI/180;const dLat=radians(to.latitude-from.latitude);const dLng=radians(to.longitude-from.longitude);const a=Math.sin(dLat/2)**2+Math.cos(radians(from.latitude))*Math.cos(radians(to.latitude))*Math.sin(dLng/2)**2;return 6371*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));};
+const defaultLocation: Coordinates = { latitude: 33.5070711, longitude: 126.4916441 };
+const radians=(value:number)=>value*Math.PI/180;
+const distanceInKm=(from:Coordinates,to:Pick<StoredPlace,"latitude"|"longitude">)=>{if(to.latitude===null||to.longitude===null)return null;const dLat=radians(to.latitude-from.latitude);const dLng=radians(to.longitude-from.longitude);const a=Math.sin(dLat/2)**2+Math.cos(radians(from.latitude))*Math.cos(radians(to.latitude))*Math.sin(dLng/2)**2;return 6371*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));};
+const isInJeju=(location:Coordinates)=>location.latitude>=33.05&&location.latitude<=33.65&&location.longitude>=126.05&&location.longitude<=127.05;
+const isInUdo=(location:Coordinates)=>location.latitude>=33.48&&location.latitude<=33.54&&location.longitude>=126.86&&location.longitude<=126.98;
+const projectLocation=(location:Coordinates,places:StoredPlace[])=>{
+  const known=places.filter((place):place is StoredPlace & {latitude:number;longitude:number}=>place.latitude!==null&&place.longitude!==null);
+  if(!known.length)return {x:50,y:50};
+  const weighted=known.map(place=>({place,distance:Math.max(distanceInKm(location,place)??1,0.1)}));
+  const total=weighted.reduce((sum,item)=>sum+1/item.distance**2,0);
+  return {x:weighted.reduce((sum,item)=>sum+item.place.mapPosition.x/item.distance**2,0)/total,y:weighted.reduce((sum,item)=>sum+item.place.mapPosition.y/item.distance**2,0)/total};
+};
 
 function NearbyPlaces(){
-  const [location,setLocation]=useState<{latitude:number;longitude:number}|null>(null);
-  const [message,setMessage]=useState("현재 위치를 읽어 가까운 장소를 찾아보세요.");
-  const nearby=useMemo(()=>location?storedPlaces.map(place=>({place,distance:distanceInKm(location,place)})).filter((item):item is {place:StoredPlace;distance:number}=>item.distance!==null).sort((a,b)=>a.distance-b.distance).slice(0,12):[],[location]);
-  const findNearby=()=>{if(!navigator.geolocation){setMessage("이 브라우저에서는 위치 정보를 사용할 수 없어요.");return;}setMessage("현재 위치를 확인하고 있어요.");navigator.geolocation.getCurrentPosition(position=>{setLocation({latitude:position.coords.latitude,longitude:position.coords.longitude});setMessage("가까운 순서로 정리했어요.");},()=>setMessage("위치 권한이 필요해요. 브라우저에서 허용한 뒤 다시 시도해 주세요."),{enableHighAccuracy:true,timeout:10000,maximumAge:300000});};
-  return <section className="nearby-section section-shell"><div className="nearby-intro"><span>NEARBY JEJU</span><h1>지금, 가까운 곳</h1><p>{message}</p><button type="button" onClick={findNearby}>⌖ 현재 위치로 찾기</button></div>{location&&<p className="nearby-count">좌표가 확인된 {nearby.length}개 장소를 가까운 순서로 보여드려요.</p>}<div className="nearby-grid">{nearby.map(({place,distance})=><article key={place.id} className="nearby-card"><span className={`choice-icon kind-${place.category}`}>{kindIcon[place.category]}</span><div><small>{place.tags.filter(tag=>tag.startsWith("day")).map(tag=>tag.toUpperCase()).join(" · ")} · {place.category}</small><strong>{place.name}</strong><p>{place.description}</p><em>{distance < 1 ? `${Math.round(distance*1000)}m` : `${distance.toFixed(1)}km`}</em></div><a className="external" href={place.googleMapsUrl} target="_blank" rel="noreferrer" aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div></section>;
+  const [requestedLocation,setRequestedLocation]=useState<Coordinates|null>(null);
+  const [message,setMessage]=useState("현재 위치를 확인해 제주 안의 가까운 장소를 보여드릴게요.");
+  const [selected,setSelected]=useState<StoredPlace>(allPlaces[0]);
+  const mapZoom=useMapZoom();
+  const isUdoLocation=requestedLocation!==null&&isInUdo(requestedLocation);
+  const useDefaultLocation=requestedLocation===null||!isInJeju(requestedLocation);
+  const location=useDefaultLocation?defaultLocation:requestedLocation;
+  const mappedPlaces=useMemo(()=>allPlaces.filter(place=>isUdoLocation?place.tags.includes("day2"):!place.tags.includes("day2")),[isUdoLocation]);
+  const userMapPosition=useMemo(()=>projectLocation(location,mappedPlaces),[location,mappedPlaces]);
+  const [visibleBounds,setVisibleBounds]=useState({left:0,right:100,top:0,bottom:100});
+  useEffect(()=>{const viewport=mapZoom.viewportRef.current;if(!viewport)return;const updateBounds=()=>setVisibleBounds({left:viewport.scrollLeft/viewport.scrollWidth*100,right:(viewport.scrollLeft+viewport.clientWidth)/viewport.scrollWidth*100,top:viewport.scrollTop/viewport.scrollHeight*100,bottom:(viewport.scrollTop+viewport.clientHeight)/viewport.scrollHeight*100});updateBounds();const observer=new ResizeObserver(updateBounds);observer.observe(viewport);return()=>observer.disconnect();},[mapZoom.zoom,mapZoom.viewportVersion]);
+  const visiblePlaces=useMemo(()=>mappedPlaces.filter(place=>place.x>=visibleBounds.left&&place.x<=visibleBounds.right&&place.y>=visibleBounds.top&&place.y<=visibleBounds.bottom).map(place=>({place,distance:distanceInKm(location,place)})).sort((a,b)=>(a.distance??Infinity)-(b.distance??Infinity)),[location,mappedPlaces,visibleBounds]);
+  useEffect(()=>{if(!visiblePlaces.some(item=>item.place.id===selected.id)&&visiblePlaces[0])setSelected(visiblePlaces[0].place);},[selected.id,visiblePlaces]);
+  useEffect(()=>{mapZoom.changeZoom(1.5);requestAnimationFrame(()=>requestAnimationFrame(()=>focusMarker(mapZoom.viewportRef.current,mapZoom.viewportRef.current?.querySelector<HTMLElement>(".current-location-pin")??null)));},[location.latitude,location.longitude,isUdoLocation]);
+  const findNearby=()=>{if(!navigator.geolocation){setRequestedLocation(null);setMessage("이 브라우저에서는 위치 정보를 사용할 수 없어 제주공항을 기준으로 보여드려요.");return;}setMessage("현재 위치를 확인하고 있어요.");navigator.geolocation.getCurrentPosition(position=>{const next={latitude:position.coords.latitude,longitude:position.coords.longitude};setRequestedLocation(next);setMessage(isInJeju(next)?(isInUdo(next)?"우도에 계시네요. 우도 안의 장소를 보여드려요.":"제주 안의 현재 위치를 기준으로 보여드려요."):"제주·우도 밖에 계셔서 제주공항을 기본 위치로 보여드려요.");},()=>{setRequestedLocation(null);setMessage("위치 권한을 받을 수 없어 제주공항을 기본 위치로 보여드려요.");},{enableHighAccuracy:true,timeout:10000,maximumAge:300000});};
+  useEffect(()=>{findNearby();},[]);
+  const mapLabel=isUdoLocation?"우도":"제주";
+  return <section className="nearby-section section-shell"><div className="nearby-intro"><span>NEARBY JEJU</span><h1>지금, 가까운 곳</h1><p>{message}</p><button type="button" onClick={findNearby}>⌖ 현재 위치 다시 찾기</button></div><div className="nearby-map-wrap"><div className="nearby-map-head"><div><span>VISIBLE ON MAP</span><strong>{mapLabel} 지도 안 {visiblePlaces.length}곳</strong></div><small>지도를 움직이면 목록도 바뀌어요</small></div><div className="map-stage-shell"><div className={`map-stage nearby-map-stage ${isUdoLocation?"udo-map":""} ${mapZoom.zoom>1?"zoomed":""}`} ref={mapZoom.viewportRef} onPointerDown={mapZoom.onPointerDown} onPointerMove={mapZoom.onPointerMove} onPointerUp={mapZoom.onPointerUp} onPointerCancel={mapZoom.onPointerCancel}><div className="map-scroll-space" style={{width:`${mapZoom.zoom*100}%`,height:`${mapZoom.zoom*100}%`}}><div className="map-zoom-canvas" style={{width:`${100/mapZoom.zoom}%`,height:`${100/mapZoom.zoom}%`,transform:`scale(${mapZoom.zoom})`,"--map-marker-scale":1/mapZoom.zoom} as CSSProperties}><img className="map-background" src={assetUrl(isUdoLocation?"udo-map-detail-v1.webp":"jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>{mappedPlaces.map(place=><button key={place.id} type="button" className={`map-pin pin-${place.kind} ${selected.id===place.id?"active":""}`} style={{left:`${place.x}%`,top:`${place.y}%`}} onClick={()=>{if(!mapZoom.consumeDrag())setSelected(place);}} aria-label={`${place.name} 정보 보기`} aria-pressed={selected.id===place.id}><span>{kindIcon[place.kind]}</span></button>)}<span className="current-location-pin" style={{left:`${userMapPosition.x}%`,top:`${userMapPosition.y}%`}} aria-label={useDefaultLocation?"기본 위치 제주공항":"현재 위치"}><i>⌖</i></span></div></div></div><div className="map-popover map-popover-detail" role="status"><span className="place-kind">{useDefaultLocation?"기본 위치 · 제주공항":"현재 위치"}</span><strong>{selected.name}</strong><p>{selected.description}</p><a href={selected.googleMapsUrl} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div><MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div><p className="map-caption">마커를 누르면 장소를 고를 수 있어요 · 확대하거나 이동하면 현재 보이는 지도 안의 장소만 아래에 표시돼요</p></div><p className="nearby-count">현재 지도 영역에 {visiblePlaces.length}개의 장소가 있어요.</p><div className="nearby-grid">{visiblePlaces.map(({place,distance})=><article key={place.id} className={`nearby-card ${selected.id===place.id?"selected":""}`} role="button" tabIndex={0} onClick={()=>setSelected(place)} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();setSelected(place);}}}><span className={`choice-icon kind-${place.category}`}>{kindIcon[place.category]}</span><div><small>{place.tags.filter(tag=>tag.startsWith("day")).map(tag=>tag.toUpperCase()).join(" · ")} · {kindLabel[place.category]}</small><strong>{place.name}</strong><p>{place.description}</p>{distance!==null&&<em>{distance < 1 ? `${Math.round(distance*1000)}m` : `${distance.toFixed(1)}km`}</em>}</div><a className="external" href={place.googleMapsUrl} target="_blank" rel="noreferrer" onClick={event=>event.stopPropagation()} aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div></section>;
 }
 
 function Countdown(){ const [count,setCount]=useState<number|null>(null); useEffect(()=>{const start=new Date("2026-10-30T00:00:00+09:00");setCount(Math.max(0,Math.ceil((start.getTime()-Date.now())/86400000)));},[]); return <span>{count===null?"곧 출발":count===0?"오늘 출발!":`${count}번 자면 출발`}</span>; }
