@@ -108,5 +108,6 @@ main{padding-top:82px}
 @media(max-width:720px){.nearby-section{padding-top:70px;padding-bottom:90px}.nearby-intro{text-align:left}.nearby-map-wrap{padding:13px;border-radius:18px}.nearby-map-head{display:block}.nearby-map-head small{display:block;margin-top:7px}.nearby-map-stage{height:420px}.nearby-grid{grid-template-columns:1fr}}
 .map-zoom-canvas .current-location-pin{transform:scale(var(--map-marker-scale,1))}
 .map-pin:hover{scale:1;z-index:6}.map-pin.active:hover{scale:1.2;z-index:8}.all-map-pin:hover em{display:none}.all-map-pin.active:hover em{display:block}
+.all-place-index .all-place-card:hover:not(.selected){transform:none;border-color:var(--line);box-shadow:none}.all-place-index .all-place-card:hover:not(.selected) .external{background:#f1ede4;color:inherit}
 @media(max-width:480px){.map-zoom-controls{right:8px;bottom:8px}.map-zoom-controls button{height:30px;min-width:30px}.map-zoom-controls .zoom-value{min-width:44px}}
 @media(max-width:720px){.map-stage-shell .map-popover-detail{left:10px;bottom:10px;width:min(220px,calc(100% - 86px));padding:12px}.map-stage-shell .map-popover-detail p{margin:5px 0;font-size:11px}.map-stage-shell .map-popover-detail a{font-size:10px}}
