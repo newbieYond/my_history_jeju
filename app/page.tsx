@@ -18,16 +18,16 @@ const days: Day[] = [
     schedule: [
       { time: "14:20", title: "김포공항 출발", note: "제주항공 7C155" },
       { time: "15:35", title: "제주공항 도착", note: "수하물 수령 후 렌터카 셔틀" },
-      { time: "해 지기 전", title: "닭머르 짧은 산책", note: "16:50 전 차량 인수 시 15~20분만" },
+      { time: "시간이 남으면", title: "닭머르 짧은 산책", note: "차량 인수가 빠를 때만 15~20분" },
       { time: "18:40", title: "김녕에서 저녁", note: "식사 또는 포장 후 숙소에서 쉬기", rainy: true },
     ],
     places: [
       { name: "제주공항", kind: "spot", note: "여행의 시작", x: 27, y: 33 },
-      { name: "닭머르해안길", kind: "spot", note: "억새와 해안 정자", x: 45, y: 27 },
       { name: "김녕해수욕장", kind: "spot", note: "첫 저녁의 바다", x: 63, y: 25 },
       { name: "오드랑베이커리", kind: "food", note: "마농바게트 포장", x: 50, y: 25, rainy: true },
       { name: "델문도", kind: "cafe", note: "함덕 바다 앞 카페", x: 48, y: 29, rainy: true },
-    ], tip: "차량 인수가 늦어지면 닭머르는 Day 3 오전으로 미뤄요. 어두운 김녕 해안 산책은 생략해도 괜찮아요.",
+      { name: "닭머르해안길", kind: "spot", note: "시간 여유 시 들르는 억새 해안 산책", x: 45, y: 27 },
+    ], tip: "첫날은 김녕 저녁이 우선이에요. 차량 인수가 늦으면 닭머르는 미련 없이 건너뛰어요.",
   },
   {
     date: "10.31", weekday: "토", eyebrow: "ISLAND IN AN ISLAND", title: "우도에서 느리게",
@@ -51,7 +51,7 @@ const days: Day[] = [
     date: "11.01", weekday: "일", eyebrow: "FOREST TO SOUTH", title: "숲에서 쇠소깍까지",
     summary: "비자림의 고요를 걷고 남쪽 해안도로를 따라 중문으로 숙소를 옮겨요.", accent: "#6b8062",
     schedule: [
-      { time: "09:00", title: "체크아웃", note: "닭머르 미방문 시 먼저 들르기" },
+      { time: "09:00", title: "체크아웃", note: "비자림으로 바로 이동" },
       { time: "10:25", title: "비자림 A코스", note: "평탄한 숲길 약 1시간", rainy: true },
       { time: "12:00", title: "표선에서 점심", note: "가시식당 또는 나목도식당", rainy: true },
       { time: "14:30", title: "쇠소깍", note: "테우·조각배 체험 시간 넉넉히" },
