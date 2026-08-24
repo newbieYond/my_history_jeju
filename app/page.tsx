@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type PointerEvent as ReactPointerEvent, type RefObject } from "react";
+import placesJson from "../data/places.json";
 
 type Place = { name: string; kind: "spot" | "food" | "cafe" | "stay"; note: string; x: number; y: number; rainy?: boolean };
+type StoredPlace = { id: number; name: string; tags: string[]; category: Place["kind"]; googleMapsUrl: string; latitude: number | null; longitude: number | null; address: string | null; description: string; note: string; isRainyDayFriendly: boolean; isReserve: boolean; mapPosition: { x: number; y: number } };
 type Day = {
   date: string; weekday: string; eyebrow: string; title: string; summary: string; accent: string;
   schedule: { time: string; title: string; note: string; rainy?: boolean }[]; places: Place[]; tip: string;
@@ -183,36 +185,28 @@ function MapZoomControls({zoom,onChange}:{zoom:number;onChange:(zoom:number)=>vo
   return <div className="map-zoom-controls" aria-label="지도 확대 및 축소"><button type="button" onClick={()=>onChange(zoom-.5)} disabled={zoom<=1} aria-label="지도 축소">−</button><button type="button" className="zoom-value" onClick={()=>onChange(1)} disabled={zoom===1} aria-label={`현재 ${Math.round(zoom*100)}%, 원래 크기로`}>{Math.round(zoom*100)}%</button><button type="button" onClick={()=>onChange(zoom+.5)} disabled={zoom>=3} aria-label="지도 확대">+</button></div>;
 }
 
-function JejuMap({ day, selected, onSelect, mapRef }: { day: Day; selected: Place; onSelect: (place: Place) => void; mapRef: RefObject<HTMLDivElement|null> }) {
+function JejuMap({ day, dayIndex, selected, onSelect, mapRef }: { day: Day; dayIndex: number; selected: Place; onSelect: (place: Place) => void; mapRef: RefObject<HTMLDivElement|null> }) {
   const isUdo = day.date === "10.31";
   const mapZoom=useMapZoom();
+  const places=allPlaces.filter(place=>place.tags.includes(`day${dayIndex+1}`));
   useEffect(()=>{focusMarker(mapZoom.viewportRef.current,mapZoom.viewportRef.current?.querySelector<HTMLElement>(".map-pin.active")??null);},[selected,mapZoom.zoom]);
   return <div className="map-card" aria-label={`${day.title} 약도`} ref={mapRef}>
     <div className="map-head"><div><span className="map-kicker">TODAY&apos;S MAP</span><strong>{day.date} 약도</strong></div><div className="map-legend"><span>● 장소</span><span>● 맛</span></div></div>
     <div className="map-stage-shell"><div className={`map-stage ${isUdo?"udo-map":""} ${mapZoom.zoom>1?"zoomed":""}`} ref={mapZoom.viewportRef} onPointerDown={mapZoom.onPointerDown} onPointerMove={mapZoom.onPointerMove} onPointerUp={mapZoom.onPointerUp} onPointerCancel={mapZoom.onPointerCancel}>
       <div className="map-scroll-space" style={{width:`${mapZoom.zoom*100}%`,height:`${mapZoom.zoom*100}%`}}><div className="map-zoom-canvas" style={{width:`${100/mapZoom.zoom}%`,height:`${100/mapZoom.zoom}%`,transform:`scale(${mapZoom.zoom})`,"--map-marker-scale":1/mapZoom.zoom} as CSSProperties}>
         <img className="map-background" src={assetUrl(isUdo?"udo-map-detail-v1.webp":"jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>
-        {day.places.map((place,index) => <button key={place.name} className={`map-pin pin-${place.kind} ${selected===place?"active":""}`} style={{left:`${place.x}%`,top:`${place.y}%`,animationDelay:`${index*60}ms`}} onClick={()=>{if(!mapZoom.consumeDrag())onSelect(place);}} aria-label={`${place.name} 정보 보기`} aria-pressed={selected===place}><span>{kindIcon[place.kind]}</span></button>)}
+        {places.map((place,index) => <button key={place.id} className={`map-pin pin-${place.kind} ${selected.name===place.name?"active":""}`} style={{left:`${place.x}%`,top:`${place.y}%`,animationDelay:`${index*60}ms`}} onClick={()=>{if(!mapZoom.consumeDrag())onSelect(place);}} aria-label={`${place.name} 정보 보기`} aria-pressed={selected.name===place.name}><span>{kindIcon[place.kind]}</span></button>)}
       </div></div>
     </div><MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div>{selected&&<div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a href={mapUrl(selected.name)} target="_blank" rel="noreferrer">Google Maps에서 보기 ↗</a></div>}<p className="map-caption">마커를 누르면 장소 정보가 보여요 · 확대 후 PC에서는 휠·끌기, 모바일에서는 끌기로 지도를 이동할 수 있어요</p>
   </div>;
 }
 
-type IndexedPlace = Place & { dayIndex: number };
-const allPlaces: IndexedPlace[] = days.flatMap((item,dayIndex)=>item.places.map(place=>({...place,dayIndex})));
-type ReservePlace = Place & { reserve: true };
-const reservePlaces: ReservePlace[] = [
-  { name:"성산일출봉", kind:"spot", note:"우도 귀도 후 시간이 남을 때", x:84, y:49, reserve:true },
-  { name:"세화해변", kind:"spot", note:"동쪽 해안의 가벼운 산책 후보", x:79, y:29, reserve:true },
-  { name:"빛의 벙커", kind:"spot", note:"우도 결항·비 오는 날 실내 대안", x:80, y:52, rainy:true, reserve:true },
-  { name:"표선해수욕장", kind:"spot", note:"남쪽 이동 중 한 번 쉬어가기", x:69, y:68, reserve:true },
-  { name:"남원큰엉해안경승지", kind:"spot", note:"남원 해안 산책 대안", x:61, y:76, reserve:true },
-  { name:"사계해안", kind:"spot", note:"송악산 전후 짧은 해안 정차", x:20, y:72, reserve:true },
-  { name:"수월봉", kind:"spot", note:"서쪽 일정에 여유가 있을 때", x:10, y:55, reserve:true },
-  { name:"천지연폭포", kind:"spot", note:"완충일 해 질 무렵 선택지", x:47, y:83, reserve:true },
-  { name:"카멜리아힐", kind:"spot", note:"비가 약할 때 정원 산책 후보", x:29, y:65, rainy:true, reserve:true },
-  { name:"제주도립미술관", kind:"spot", note:"공항권의 차분한 실내 대안", x:34, y:42, rainy:true, reserve:true },
-];
+type IndexedPlace = Place & StoredPlace & { dayIndex: number };
+const storedPlaces = placesJson as StoredPlace[];
+const normalizePlace=(place:StoredPlace):IndexedPlace=>({...place,kind:place.category,note:place.description,x:place.mapPosition.x,y:place.mapPosition.y,rainy:place.isRainyDayFriendly,dayIndex:Number(place.tags.find(tag=>/^day\d+$/.test(tag))?.slice(3)??1)-1});
+const allPlaces: IndexedPlace[] = storedPlaces.filter(place=>!place.isReserve).map(normalizePlace);
+type ReservePlace = IndexedPlace & { reserve: true };
+const reservePlaces: ReservePlace[] = storedPlaces.filter(place=>place.isReserve).map(place=>({...normalizePlace(place),reserve:true}));
 type OverviewPlace = IndexedPlace | ReservePlace;
 
 function AllPlacesMap(){
@@ -240,22 +234,32 @@ function AllPlacesMap(){
   </section>;
 }
 
+const distanceInKm=(from:{latitude:number;longitude:number},to:StoredPlace)=>{if(to.latitude===null||to.longitude===null)return null;const radians=(value:number)=>value*Math.PI/180;const dLat=radians(to.latitude-from.latitude);const dLng=radians(to.longitude-from.longitude);const a=Math.sin(dLat/2)**2+Math.cos(radians(from.latitude))*Math.cos(radians(to.latitude))*Math.sin(dLng/2)**2;return 6371*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));};
+
+function NearbyPlaces(){
+  const [location,setLocation]=useState<{latitude:number;longitude:number}|null>(null);
+  const [message,setMessage]=useState("현재 위치를 읽어 가까운 장소를 찾아보세요.");
+  const nearby=useMemo(()=>location?storedPlaces.map(place=>({place,distance:distanceInKm(location,place)})).filter((item):item is {place:StoredPlace;distance:number}=>item.distance!==null).sort((a,b)=>a.distance-b.distance).slice(0,12):[],[location]);
+  const findNearby=()=>{if(!navigator.geolocation){setMessage("이 브라우저에서는 위치 정보를 사용할 수 없어요.");return;}setMessage("현재 위치를 확인하고 있어요.");navigator.geolocation.getCurrentPosition(position=>{setLocation({latitude:position.coords.latitude,longitude:position.coords.longitude});setMessage("가까운 순서로 정리했어요.");},()=>setMessage("위치 권한이 필요해요. 브라우저에서 허용한 뒤 다시 시도해 주세요."),{enableHighAccuracy:true,timeout:10000,maximumAge:300000});};
+  return <section className="nearby-section section-shell"><div className="nearby-intro"><span>NEARBY JEJU</span><h1>지금, 가까운 곳</h1><p>{message}</p><button type="button" onClick={findNearby}>⌖ 현재 위치로 찾기</button></div>{location&&<p className="nearby-count">좌표가 확인된 {nearby.length}개 장소를 가까운 순서로 보여드려요.</p>}<div className="nearby-grid">{nearby.map(({place,distance})=><article key={place.id} className="nearby-card"><span className={`choice-icon kind-${place.category}`}>{kindIcon[place.category]}</span><div><small>{place.tags.filter(tag=>tag.startsWith("day")).map(tag=>tag.toUpperCase()).join(" · ")} · {place.category}</small><strong>{place.name}</strong><p>{place.description}</p><em>{distance < 1 ? `${Math.round(distance*1000)}m` : `${distance.toFixed(1)}km`}</em></div><a className="external" href={place.googleMapsUrl} target="_blank" rel="noreferrer" aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div></section>;
+}
+
 function Countdown(){ const [count,setCount]=useState<number|null>(null); useEffect(()=>{const start=new Date("2026-10-30T00:00:00+09:00");setCount(Math.max(0,Math.ceil((start.getTime()-Date.now())/86400000)));},[]); return <span>{count===null?"곧 출발":count===0?"오늘 출발!":`${count}번 자면 출발`}</span>; }
 
 export default function Home(){
-  const [activeDay,setActiveDay]=useState(0); const [view,setView]=useState<"home"|"summary"|"places"|"day">("home"); const day=useMemo(()=>days[activeDay],[activeDay]);
+  const [activeDay,setActiveDay]=useState(0); const [view,setView]=useState<"home"|"summary"|"places"|"nearby"|"day">("home"); const day=useMemo(()=>days[activeDay],[activeDay]);
   const [selectedPlace,setSelectedPlace]=useState<Place>(days[0].places[0]);
   const [selectedScheduleIndex,setSelectedScheduleIndex]=useState<number|null>(null);
   const dayMapRef=useRef<HTMLDivElement>(null);
   useEffect(()=>{setSelectedPlace(day.places[0]);setSelectedScheduleIndex(null);},[day]);
   const selectPlace=(place:Place)=>{setSelectedPlace(place);setSelectedScheduleIndex(null);};
   const selectPlaceAndReveal=(place:Place)=>{selectPlace(place);revealMap(dayMapRef.current);};
-  const navigate=(next:"home"|"summary"|"places")=>{setView(next);window.scrollTo({top:0,behavior:"smooth"});};
+  const navigate=(next:"home"|"summary"|"places"|"nearby")=>{setView(next);window.scrollTo({top:0,behavior:"smooth"});};
   const moveToDay=(index:number)=>{setActiveDay(index);setView("day");window.scrollTo({top:0,behavior:"smooth"});};
   return <main>
     <header className="site-header">
       <button className="brand" onClick={()=>navigate("home")} aria-label="홈으로"><span className="brand-mark">귤</span><span>성호 <i>·</i> 세인의 제주</span></button>
-      <nav className="main-nav" aria-label="주요 화면"><button className={view==="home"?"active":""} onClick={()=>navigate("home")}><span>⌂</span> 홈</button><button className={view==="summary"?"active":""} onClick={()=>navigate("summary")}><span>☷</span> Summary</button><button className={view==="places"?"active":""} onClick={()=>navigate("places")}><span>⌖</span> 모든 장소</button></nav>
+      <nav className="main-nav" aria-label="주요 화면"><button className={view==="home"?"active":""} onClick={()=>navigate("home")}><span>⌂</span> 홈</button><button className={view==="summary"?"active":""} onClick={()=>navigate("summary")}><span>☷</span> Summary</button><button className={view==="places"?"active":""} onClick={()=>navigate("places")}><span>⌖</span> 모든 장소</button><button className={view==="nearby"?"active":""} onClick={()=>navigate("nearby")}><span>◎</span> 내 주변</button></nav>
       <nav className="day-nav" aria-label="날짜별 일정">{days.map((item,index)=><button key={item.date} className={view==="day"&&activeDay===index?"active":""} onClick={()=>moveToDay(index)}><small>DAY {index+1}</small><span>{item.date}</span></button>)}</nav>
     </header>
     {view==="home"&&<><section className="hero"><div className="hero-copy"><div className="date-pill">2026. 10. 30 — 11. 05 <span>6박 7일</span></div><p className="hero-script">우리의 가을 제주</p><h1>바다와 숲 사이,<br/><em>둘이 걷는 일주일</em></h1><p className="hero-sub">조금 느리게 달리고, 맛있는 건 꼭 챙겨 먹고.<br/>성호와 세인이 기다려온 가을 끝의 제주 여행.</p><div className="hero-actions"><button onClick={()=>moveToDay(0)}>첫날 일정 보기 <span>→</span></button><button className="text-button" onClick={()=>navigate("summary")}>7일 한눈에</button></div><div className="countdown"><span className="spark">✦</span><Countdown/><small>김포 → 제주</small></div></div>
@@ -266,8 +270,9 @@ export default function Home(){
       <div className="day-grid">{days.map((item,index)=><button key={item.date} className="day-card" onClick={()=>moveToDay(index)} style={{"--day-accent":item.accent} as React.CSSProperties}><div className="day-card-top"><span>DAY {index+1}</span><small>{item.date} {item.weekday}</small></div><div className={`day-icon icon-${index+1}`}><span>{["✈","⛴","♧","⌁","茶","●","≈"][index]}</span></div><strong>{item.title}</strong><p>{item.summary}</p><span className="card-arrow">자세히 보기 →</span></button>)}</div>
     </section><section className="help-section section-shell"><div className="help-copy"><span className="section-number">02</span><p>ON THE ROAD</p><h2>여행 중<br/>필요한 것들</h2><p>출발 전과 당일에 다시 확인해야 할 공식 정보들을 한곳에 모았어요.</p></div><div className="help-links">{helpLinks.map(([icon,label,href])=><a key={label} href={href} target="_blank" rel="noreferrer"><span>{icon}</span><strong>{label}</strong><small>바로 확인하기 ↗</small></a>)}</div></section></>}
     {view==="places"&&<><section className="places-intro"><div><span>ALL PLACES</span><h1>제주에서<br/>만날 모든 곳</h1><p>날짜 구분 없이 제주 전체 약도에서 여행 후보지를 한눈에 확인해요.</p></div><div className="places-stats"><strong>{allPlaces.length}</strong><span>개의 장소</span><small>7 DAYS · ONE MAP</small></div></section><section className="all-places section-shell"><AllPlacesMap/></section></>}
+    {view==="nearby"&&<NearbyPlaces/>}
     {view==="day"&&<section className={`detail-section ${activeDay===1?"udo-day":""}`} id="day-detail" style={{"--active-accent":day.accent} as React.CSSProperties}><div className="section-shell"><div className="detail-title"><div><span>DAY {activeDay+1}</span><small>{day.date} · {day.weekday}요일</small></div><p>{day.eyebrow}</p><h2>{day.title}</h2><p className="detail-summary">{day.summary}</p></div>
-      <div className="detail-grid"><JejuMap day={day} selected={selectedPlace} onSelect={selectPlace} mapRef={dayMapRef}/><div className="plan-panel"><div className="panel-title"><span>추천 흐름</span><small>시간은 가볍게 참고만</small></div><div className="schedule-list">{day.schedule.map((item,index)=>{const linkedPlace=day.places.find(place=>place.name===schedulePlaceNames[activeDay][index])??day.places[0];const selectSchedule=()=>{setSelectedScheduleIndex(index);setSelectedPlace(linkedPlace);};const selectScheduleAndReveal=()=>{selectSchedule();revealMap(dayMapRef.current);};return <article key={`${item.time}-${item.title}`} className={selectedScheduleIndex===index?"selected":""} role="button" tabIndex={0} onMouseMove={selectSchedule} onFocus={selectSchedule} onClick={selectScheduleAndReveal} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();selectScheduleAndReveal();}}}><time>{item.time}</time><div><strong>{item.title}</strong><p>{item.note}</p></div>{item.rainy&&<span className="rain-dot" title="비 오는 날에도 좋아요" aria-label="비 오는 날에도 좋아요">☂</span>}</article>})}</div><div className="today-tip"><span>작은 약속</span><p>{day.tip}</p></div></div></div>
+      <div className="detail-grid"><JejuMap day={day} dayIndex={activeDay} selected={selectedPlace} onSelect={selectPlace} mapRef={dayMapRef}/><div className="plan-panel"><div className="panel-title"><span>추천 흐름</span><small>시간은 가볍게 참고만</small></div><div className="schedule-list">{day.schedule.map((item,index)=>{const linkedPlace=day.places.find(place=>place.name===schedulePlaceNames[activeDay][index])??day.places[0];const selectSchedule=()=>{setSelectedScheduleIndex(index);setSelectedPlace(linkedPlace);};const selectScheduleAndReveal=()=>{selectSchedule();revealMap(dayMapRef.current);};return <article key={`${item.time}-${item.title}`} className={selectedScheduleIndex===index?"selected":""} role="button" tabIndex={0} onMouseMove={selectSchedule} onFocus={selectSchedule} onClick={selectScheduleAndReveal} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();selectScheduleAndReveal();}}}><time>{item.time}</time><div><strong>{item.title}</strong><p>{item.note}</p></div>{item.rainy&&<span className="rain-dot" title="비 오는 날에도 좋아요" aria-label="비 오는 날에도 좋아요">☂</span>}</article>})}</div><div className="today-tip"><span>작은 약속</span><p>{day.tip}</p></div></div></div>
       <div className="choices-section"><div className="choices-head"><h3>오늘, 어디로 갈까?</h3><p>카드를 누르면 지도에서 확인하고, 화살표로 길찾기를 열어요.</p></div><div className="choice-grid">{day.places.map(place=><article key={place.name} className={`choice-card ${selectedPlace===place?"selected":""}`} role="button" tabIndex={0} onClick={()=>selectPlaceAndReveal(place)} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();selectPlaceAndReveal(place);}}}><span className={`choice-icon kind-${place.kind}`}>{kindIcon[place.kind]}</span><div><small>{kindLabel[place.kind]} {place.rainy&&<span className="rain-label" title="비 오는 날에도 좋아요">☂</span>}</small><strong>{place.name}</strong><p>{place.note}</p></div><a className="external" href={mapUrl(place.name)} target="_blank" rel="noreferrer" onClick={event=>event.stopPropagation()} aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div></div>
       <div className="day-pager"><button disabled={activeDay===0} onClick={()=>moveToDay(activeDay-1)}>← 이전 날</button><span>{activeDay+1} / 7</span><button disabled={activeDay===days.length-1} onClick={()=>moveToDay(activeDay+1)}>다음 날 →</button></div>
     </div></section>}
