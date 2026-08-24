@@ -1039,6 +1039,1727 @@
       "x": 34,
       "y": 42
     }
+  },
+  {
+    "id": 50,
+    "name": "종달리엔",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A2%85%EB%8B%AC%EB%A6%AC%EC%97%94/data=!4m2!3m1!1s0x350d144ded663af1:0x4feafe85cf7d766e",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 51,
+    "name": "백마가든",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%B0%B1%EB%A7%88%EA%B0%80%EB%93%A0/data=!4m2!3m1!1s0x350d1d71ea344173:0x1835074bfac3e57f",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 52,
+    "name": "성산일출봉 맛집 커큐민흑돼지",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C%EB%B4%89+%EB%A7%9B%EC%A7%91+%EC%BB%A4%ED%81%90%EB%AF%BC%ED%9D%91%EB%8F%BC%EC%A7%80/data=!4m2!3m1!1s0x350d137d45c66459:0x8384795dd2caabd1",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 53,
+    "name": "좀여네집",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A2%80%EC%97%AC%EB%84%A4%EC%A7%91/data=!4m2!3m1!1s0x350d18fb7d2f0375:0x8fa8fad4906f14fb",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 54,
+    "name": "조천수산",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A1%B0%EC%B2%9C%EC%88%98%EC%82%B0/data=!4m2!3m1!1s0x350d1da421271f75:0xb5814c493a4d0259",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 55,
+    "name": "예그리나리조트",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%88%EA%B7%B8%EB%A6%AC%EB%82%98%EB%A6%AC%EC%A1%B0%ED%8A%B8/data=!4m2!3m1!1s0x350d18fd4ff99abf:0x3a6d9953bd56db2b",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 56,
+    "name": "토평골",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%86%A0%ED%8F%89%EA%B3%A8/data=!4m2!3m1!1s0x350c54be9f32e88d:0x7bbafedd055eb758",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 57,
+    "name": "중문보말칼국수",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A4%91%EB%AC%B8%EB%B3%B4%EB%A7%90%EC%B9%BC%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350c5a97fd2f4d01:0x641b63bb3d5f64f",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 58,
+    "name": "애월어촌계회센타",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%95%A0%EC%9B%94%EC%96%B4%EC%B4%8C%EA%B3%84%ED%9A%8C%EC%84%BC%ED%83%80/data=!4m2!3m1!1s0x350cf44c19419399:0x26db73bffd58a686",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 59,
+    "name": "닭머르해안",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%AD%EB%A8%B8%EB%A5%B4%ED%95%B4%EC%95%88/data=!4m2!3m1!1s0x350d1d8ae0c9e563:0xa4032f592e876e3f",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 60,
+    "name": "함덕 문개항아리 조천본점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%A8%EB%8D%95+%EB%AC%B8%EA%B0%9C%ED%95%AD%EC%95%84%EB%A6%AC+%EC%A1%B0%EC%B2%9C%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350d1e8481ed09fb:0xaa32c94fcca4257b",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 61,
+    "name": "자드부팡",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%90%EB%93%9C%EB%B6%80%ED%8C%A1/data=!4m2!3m1!1s0x350d1b4faa2e7c33:0xeb6ad29c3783fdd5",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 62,
+    "name": "임제",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%84%EC%A0%9C/data=!4m2!3m1!1s0x350ce50011313731:0x9f3a075236ea735e",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 31,
+      "y": 38
+    }
+  },
+  {
+    "id": 63,
+    "name": "미도리 제주",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%AF%B8%EB%8F%84%EB%A6%AC+%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350cf19866dae3b9:0x4ee12d5ca1aad46e",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 64,
+    "name": "회가 서쪽에서 뜨겠네",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%9A%8C%EA%B0%80+%EC%84%9C%EC%AA%BD%EC%97%90%EC%84%9C+%EB%9C%A8%EA%B2%A0%EB%84%A4/data=!4m2!3m1!1s0x350cf529ad1a0c8b:0x25b7b0597b92afb8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 65,
+    "name": "금돈가 제주 애월해안도로 본점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B8%88%EB%8F%88%EA%B0%80+%EC%A0%9C%EC%A3%BC+%EC%95%A0%EC%9B%94%ED%95%B4%EC%95%88%EB%8F%84%EB%A1%9C+%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350cf12db76785c5:0x942556ec12c2cc61",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 66,
+    "name": "제주미담",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%AF%B8%EB%8B%B4/data=!4m2!3m1!1s0x350cfcafae09f481:0xb2f2d6586aee2759",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 67,
+    "name": "서문레지던스호텔",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "stay",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%84%9C%EB%AC%B8%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4%ED%98%B8%ED%85%94/data=!4m2!3m1!1s0x350cfb536000fc71:0x77e9f708edeb0d88",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 68,
+    "name": "소금바치 순이네",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%86%8C%EA%B8%88%EB%B0%94%EC%B9%98+%EC%88%9C%EC%9D%B4%EB%84%A4/data=!4m2!3m1!1s0x350d150846ae2559:0xd6c53d0e7b976bfd",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 69,
+    "name": "돈내코손두부",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%88%EB%82%B4%EC%BD%94%EC%86%90%EB%91%90%EB%B6%80/data=!4m2!3m1!1s0x350c54df65fc162f:0x5d03f2029876e288",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 70,
+    "name": "제주도민이네라오면",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%AF%BC%EC%9D%B4%EB%84%A4%EB%9D%BC%EC%98%A4%EB%A9%B4/data=!4m2!3m1!1s0x350d1e9f1a474585:0xef2c86df6cf9efdb",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 71,
+    "name": "제주돗",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%97/data=!4m2!3m1!1s0x350c67a6243bd167:0xd92e1e5165ffa1d2",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 58
+    }
+  },
+  {
+    "id": 72,
+    "name": "새별오름",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%83%88%EB%B3%84%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350c592ebfc92321:0xb173dbb86962eaf7",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 73,
+    "name": "월령 선인장 군락지",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9B%94%EB%A0%B9+%EC%84%A0%EC%9D%B8%EC%9E%A5+%EA%B5%B0%EB%9D%BD%EC%A7%80/data=!4m2!3m1!1s0x350c66d468acb3db:0xa615dcdff904923e",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 58
+    }
+  },
+  {
+    "id": 74,
+    "name": "미스틱3도",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%AF%B8%EC%8A%A4%ED%8B%B13%EB%8F%84/data=!4m2!3m1!1s0x350cfbc556baec2f:0xfa1720297d4462b",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 75,
+    "name": "수목원길 야시장",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%88%98%EB%AA%A9%EC%9B%90%EA%B8%B8+%EC%95%BC%EC%8B%9C%EC%9E%A5/data=!4m2!3m1!1s0x350cfb741e131395:0x7c84f5cbf937b13a",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 76,
+    "name": "잇칸시타",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%87%EC%B9%B8%EC%8B%9C%ED%83%80/data=!4m2!3m1!1s0x350cf6b6365da601:0x18ea9dc7671fe661",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 77,
+    "name": "달소금 식탁",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%AC%EC%86%8C%EA%B8%88+%EC%8B%9D%ED%83%81/data=!4m2!3m1!1s0x350cf19469bea4a9:0xd9dfdab1a3dc0c17",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 78,
+    "name": "더비치크랩",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8D%94%EB%B9%84%EC%B9%98%ED%81%AC%EB%9E%A9/data=!4m2!3m1!1s0x350c4334ec1390d3:0xa161eab7178ee9a9",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 24,
+      "y": 72
+    }
+  },
+  {
+    "id": 79,
+    "name": "제주 귀덕 골방",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC+%EA%B7%80%EB%8D%95+%EA%B3%A8%EB%B0%A9/data=!4m2!3m1!1s0x350cf5d6e53a82e7:0xb17a643e5f2a27bc",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 80,
+    "name": "장수물식당",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%A5%EC%88%98%EB%AC%BC%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350cfb13a8267361:0xc7e62b5f5c16872c",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 81,
+    "name": "태광식당",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%83%9C%EA%B4%91%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350ce4ab6b263a73:0x4971547aec5bc188",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 31,
+      "y": 38
+    }
+  },
+  {
+    "id": 82,
+    "name": "순옥이네명가 본점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%88%9C%EC%98%A5%EC%9D%B4%EB%84%A4%EB%AA%85%EA%B0%80+%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350cfae936e36801:0xce9ec9960a5c6435",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 83,
+    "name": "도두봉",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%84%EB%91%90%EB%B4%89/data=!4m2!3m1!1s0x350cfae809487205:0x456177f00c909a19",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 84,
+    "name": "짚라인제주",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A7%9A%EB%9D%BC%EC%9D%B8%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350d1b9d4b060cb9:0x75a3aaf45039e537",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 85,
+    "name": "사려니숲길",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%AC%EB%A0%A4%EB%8B%88%EC%88%B2%EA%B8%B8/data=!4m2!3m1!1s0x350d046fffffffff:0xf9916072353b7636",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 71,
+      "y": 38
+    }
+  },
+  {
+    "id": 86,
+    "name": "아르떼뮤지엄 제주",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%95%84%EB%A5%B4%EB%96%BC%EB%AE%A4%EC%A7%80%EC%97%84+%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350c5f6816650b53:0xa96f526f32c1bd52",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 87,
+    "name": "로빙화",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%A1%9C%EB%B9%99%ED%99%94/data=!4m2!3m1!1s0x350da95f8a99537d:0xebe208bf826e9c9c",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 57,
+      "y": 77
+    }
+  },
+  {
+    "id": 88,
+    "name": "목화식당휴게소",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%AA%A9%ED%99%94%EC%8B%9D%EB%8B%B9%ED%9C%B4%EA%B2%8C%EC%86%8C/data=!4m2!3m1!1s0x350d145b60841dd5:0x1e34fc9f0d2345d3",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 89,
+    "name": "용눈이오름",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%A9%EB%88%88%EC%9D%B4%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350d1118df3bdd97:0xc8bed450cf316cda",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 90,
+    "name": "두툼한고기 돈돼지",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%91%90%ED%88%BC%ED%95%9C%EA%B3%A0%EA%B8%B0+%EB%8F%88%EB%8F%BC%EC%A7%80/data=!4m2!3m1!1s0x350d1e9ebeef4223:0xaa435330770462ab",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 91,
+    "name": "돈사돈 제주본관",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%88%EC%82%AC%EB%8F%88+%EC%A0%9C%EC%A3%BC%EB%B3%B8%EA%B4%80/data=!4m2!3m1!1s0x350cfa447d5d74c9:0xc0bc4713a5843318",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 92,
+    "name": "TONKATSU서황",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/TONKATSU%EC%84%9C%ED%99%A9/data=!4m2!3m1!1s0x350cf65afefbdd15:0xd71ff48f964a05e9",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 93,
+    "name": "한라전복 (모슬포)",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%9C%EB%9D%BC%EC%A0%84%EB%B3%B5+(%EB%AA%A8%EC%8A%AC%ED%8F%AC)/data=!4m2!3m1!1s0x350c69975e2db4e5:0x4513c7bd6a05cb40",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 58
+    }
+  },
+  {
+    "id": 94,
+    "name": "도로록",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%84%EB%A1%9C%EB%A1%9D/data=!4m2!3m1!1s0x350d1fe97ff37bf7:0xce478ca5d3e40e53",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 95,
+    "name": "제주동복해녀식당",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%99%EB%B3%B5%ED%95%B4%EB%85%80%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350d193aac976873:0x51ef5d73af7cc8a9",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 96,
+    "name": "사계의시간",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%AC%EA%B3%84%EC%9D%98%EC%8B%9C%EA%B0%84/data=!4m2!3m1!1s0x350c43007eff2bd7:0xe41ee0eea4f4ff20",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 24,
+      "y": 72
+    }
+  },
+  {
+    "id": 97,
+    "name": "호텔 더본 제주",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "stay",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%98%B8%ED%85%94+%EB%8D%94%EB%B3%B8+%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350c5a1a4200b63b:0x697d970fd2a40716",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 가고 싶은 장소",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 98,
+    "name": "넉둥베기",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%84%89%EB%91%A5%EB%B2%A0%EA%B8%B0/data=!4m2!3m1!1s0x350cfb4c8b51140f:0x5bdf92d1f10a25bb",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 99,
+    "name": "유리네식당(Yuri's Restaurant)",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9C%A0%EB%A6%AC%EB%84%A4%EC%8B%9D%EB%8B%B9(Yuri's+Restaurant)/data=!4m2!3m1!1s0x350cfb08d836467f:0xb72f8e37f4dd6a67",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 100,
+    "name": "EOMAR 에오마르",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/EOMAR+%EC%97%90%EC%98%A4%EB%A7%88%EB%A5%B4/data=!4m2!3m1!1s0x350ce30915da3d5b:0x2283ea66bfd7d205",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 31,
+      "y": 38
+    }
+  },
+  {
+    "id": 101,
+    "name": "산도롱맨도롱 공항점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%B0%EB%8F%84%EB%A1%B1%EB%A7%A8%EB%8F%84%EB%A1%B1+%EA%B3%B5%ED%95%AD%EC%A0%90/data=!4m2!3m1!1s0x350ce56bc1e61b81:0x60ce97891ef2bf4",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 31,
+      "y": 38
+    }
+  },
+  {
+    "id": 102,
+    "name": "다가미 김밥 아라점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%A4%EA%B0%80%EB%AF%B8+%EA%B9%80%EB%B0%A5+%EC%95%84%EB%9D%BC%EC%A0%90/data=!4m2!3m1!1s0x350cfda7abe53587:0xcbfe0229abd698d9",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 103,
+    "name": "다가미김밥 애월점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%A4%EA%B0%80%EB%AF%B8%EA%B9%80%EB%B0%A5+%EC%95%A0%EC%9B%94%EC%A0%90/data=!4m2!3m1!1s0x350cfa057fc6bfd5:0xfbe234d334110ee5",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 104,
+    "name": "미스칠",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%AF%B8%EC%8A%A4%EC%B9%A0/data=!4m2!3m1!1s0x350cfb0333e06efb:0x60e5773a3e9b92cf",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 105,
+    "name": "해녀촌",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%B4%EB%85%80%EC%B4%8C/data=!4m2!3m1!1s0x350d1924c2dffc0f:0x9b6d69b391e240c8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 106,
+    "name": "형제섬보말칼국수",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%98%95%EC%A0%9C%EC%84%AC%EB%B3%B4%EB%A7%90%EC%B9%BC%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350c423bba5f6739:0x59e837b9cca35040",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 24,
+      "y": 72
+    }
+  },
+  {
+    "id": 107,
+    "name": "용꽈배기",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%A9%EA%BD%88%EB%B0%B0%EA%B8%B0/data=!4m2!3m1!1s0x350cfca8bfe251a5:0x61fd485a42b596fd",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 108,
+    "name": "숙성도",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%88%99%EC%84%B1%EB%8F%84/data=!4m2!3m1!1s0x350cfb0d3fdba2a1:0x88c62b1f6a833ee8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 109,
+    "name": "사방팔방",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%AC%EB%B0%A9%ED%8C%94%EB%B0%A9/data=!4m2!3m1!1s0x350cf09bc296aa4f:0x42113440c5a0e84d",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 110,
+    "name": "용이식당",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%A9%EC%9D%B4%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350c539b85b09f89:0xfab7527d2329a16a",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 111,
+    "name": "맛나식당",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%A7%9B%EB%82%98%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350d137ea49e6e49:0xbf472ab35adbec44",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 112,
+    "name": "산방산초가집",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%B0%EB%B0%A9%EC%82%B0%EC%B4%88%EA%B0%80%EC%A7%91/data=!4m2!3m1!1s0x350c43434c470487:0x7ec2b0dc7e80deb0",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 24,
+      "y": 72
+    }
+  },
+  {
+    "id": 113,
+    "name": "오는정김밥",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%A4%EB%8A%94%EC%A0%95%EA%B9%80%EB%B0%A5/data=!4m2!3m1!1s0x350c53762ea728d9:0x9f96530691230f98",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 114,
+    "name": "울트라마린",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%B8%ED%8A%B8%EB%9D%BC%EB%A7%88%EB%A6%B0/data=!4m2!3m1!1s0x350c67547b5bfb29:0xd7738ea8b676c901",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 58
+    }
+  },
+  {
+    "id": 115,
+    "name": "올래국수",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%AC%EB%9E%98%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350cfb05ec858b51:0xf93e6bf6cf0e3c3",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 116,
+    "name": "신설오름",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%8B%A0%EC%84%A4%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350ce34a54812c89:0x92d321ebadbf573f",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 31,
+      "y": 38
+    }
+  },
+  {
+    "id": 117,
+    "name": "은혜전복",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9D%80%ED%98%9C%EC%A0%84%EB%B3%B5/data=!4m2!3m1!1s0x350cf5f2de373d5d:0x16773a11541d9032",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 식당",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 118,
+    "name": "우림호텔",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "stay",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%B0%EB%A6%BC%ED%98%B8%ED%85%94/data=!4m2!3m1!1s0x350cf0d7db7e1647:0x5964f7aac1aa3e48",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 119,
+    "name": "금오름",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B8%88%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350c5e7de56a2c13:0x490f203247148e3c",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 120,
+    "name": "파리바게뜨 제주공항렌터카하우스점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%8C%8C%EB%A6%AC%EB%B0%94%EA%B2%8C%EB%9C%A8+%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD%EB%A0%8C%ED%84%B0%EC%B9%B4%ED%95%98%EC%9A%B0%EC%8A%A4%EC%A0%90/data=!4m2!3m1!1s0x350cfb8117198e2d:0x17ff93191649b77a",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 121,
+    "name": "제주소녀",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EC%86%8C%EB%85%80/data=!4m2!3m1!1s0x350d17b8418a7bd9:0xda483c67da03801b",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 122,
+    "name": "도렐 제주본점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%84%EB%A0%90+%EC%A0%9C%EC%A3%BC%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350d137dbaed3f0b:0xb5fe0827a1d68efd",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 123,
+    "name": "애월더선셋",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%95%A0%EC%9B%94%EB%8D%94%EC%84%A0%EC%85%8B/data=!4m2!3m1!1s0x350cf43388cfa283:0x689fc2db13330b3b",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 124,
+    "name": "파크선샤인제주",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%8C%8C%ED%81%AC%EC%84%A0%EC%83%A4%EC%9D%B8%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350c53bd1f38ad97:0xeb763bf8ee9b8b0c",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 125,
+    "name": "Gloucester Hotel Jeju",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/Gloucester+Hotel+Jeju/data=!4m2!3m1!1s0x350cfbea8d514c35:0xb8c1d30e23050244",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38,
+      "y": 35
+    }
+  },
+  {
+    "id": 126,
+    "name": "주상절리대",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A3%BC%EC%83%81%EC%A0%88%EB%A6%AC%EB%8C%80/data=!4m2!3m1!1s0x350c5aae28a7d773:0x500958317da3a1c6",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43,
+      "y": 67
+    }
+  },
+  {
+    "id": 127,
+    "name": "협재해수욕장",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%98%91%EC%9E%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5/data=!4m2!3m1!1s0x350c6100c373b0f1:0x6ce2ce2c47a28400",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 58
+    }
+  },
+  {
+    "id": 128,
+    "name": "금능으뜸원해변",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B8%88%EB%8A%A5%EC%9C%BC%EB%9C%B8%EC%9B%90%ED%95%B4%EB%B3%80/data=!4m2!3m1!1s0x350c60c3dceaae47:0xa70d6f111d7181da",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 58
+    }
+  },
+  {
+    "id": 129,
+    "name": "섭지코지",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%84%AD%EC%A7%80%EC%BD%94%EC%A7%80/data=!4m2!3m1!1s0x350d131682df90fb:0x3e20058eb88a16f1",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 76,
+      "y": 46
+    }
+  },
+  {
+    "id": 130,
+    "name": "동문재래시장",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%99%EB%AC%B8%EC%9E%AC%EB%9E%98%EC%8B%9C%EC%9E%A5/data=!4m2!3m1!1s0x350ce353ff30d105:0x3c9a585a805f7cf5",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 31,
+      "y": 38
+    }
+  },
+  {
+    "id": 131,
+    "name": "생각하는정원 (Spirited Garden)",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94%EC%A0%95%EC%9B%90+(Spirited+Garden)/data=!4m2!3m1!1s0x350c6783ad2257a5:0x2ad2b82bb77c7f1",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "Google 지도 저장 · 국내 여행지",
+    "note": "",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 58
+    }
   }
 ]
-
