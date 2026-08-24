@@ -111,3 +111,6 @@ main{padding-top:82px}
 .all-place-index .all-place-card:hover:not(.selected){transform:none;border-color:var(--line);box-shadow:none}.all-place-index .all-place-card:hover:not(.selected) .external{background:#f1ede4;color:inherit}
 @media(max-width:480px){.map-zoom-controls{right:8px;bottom:8px}.map-zoom-controls button{height:30px;min-width:30px}.map-zoom-controls .zoom-value{min-width:44px}}
 @media(max-width:720px){.map-stage-shell .map-popover-detail{left:10px;bottom:10px;width:min(220px,calc(100% - 86px));padding:12px}.map-stage-shell .map-popover-detail p{margin:5px 0;font-size:11px}.map-stage-shell .map-popover-detail a{font-size:10px}}
+.map-popover p,.choice-card p,.all-place-card p,.nearby-card p{white-space:pre-line;line-height:1.55}
+.choice-card{align-items:start;min-height:102px}
+.all-place-card,.nearby-card{align-items:start;min-height:110px}
