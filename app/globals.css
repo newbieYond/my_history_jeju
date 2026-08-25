@@ -114,3 +114,5 @@ main{padding-top:82px}
 .map-popover p,.choice-card p,.all-place-card p,.nearby-card p{white-space:pre-line;line-height:1.55}
 .choice-card{align-items:start;min-height:102px}
 .all-place-card,.nearby-card{align-items:start;min-height:110px}
+.map-pin .marker-name{position:absolute;left:23px;top:18px;display:none;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:4px 7px;border-radius:7px;background:rgba(40,54,47,.92);color:#fff;font-size:9px;font-weight:800;font-style:normal;line-height:1.2;transform:rotate(45deg);box-shadow:0 4px 12px #26342d40;pointer-events:none}
+@media (hover:hover){.map-pin:hover .marker-name{display:block}.all-map-pin:hover .marker-name{display:block}}
