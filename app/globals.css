@@ -98,6 +98,7 @@ main{padding-top:82px}
 /* Category text always sits on a high-contrast neutral badge. */
 .place-kind{display:inline-flex;align-items:center;width:max-content;min-height:24px;padding:4px 9px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:var(--ink)!important;color:#fffdf8!important;font-size:10px;line-height:1.2;letter-spacing:.04em;box-shadow:0 2px 7px rgba(40,54,47,.16)}
 .map-popover strong{margin-top:7px}
+.map-photo-link{display:inline-flex;align-items:center;margin-top:10px;border-radius:999px;padding:7px 10px;background:var(--orange-dark);color:white!important;font-size:10px!important;font-weight:900;text-decoration:none;transition:.18s}.map-photo-link:hover,.map-photo-link:focus-visible{background:#a7552d;outline:3px solid #e8b58e;outline-offset:2px}
 
 @media(max-width:720px){main{padding-top:116px}.site-header{padding-top:9px}}
 
