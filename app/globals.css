@@ -103,6 +103,10 @@ footer{min-height:190px}footer p{margin:7px 0 10px}footer .footer-tangerine{font
 .place-feedback-person span{font-size:10px;font-weight:900;color:var(--orange-dark)}
 .place-feedback-person span.unrated{color:var(--muted)}
 .map-popover .place-feedback-person p{margin:3px 0 0;font-size:10px;line-height:1.5;white-space:pre-line}
+.all-place-index .all-place-card,.choice-grid .choice-card{align-content:start;grid-template-rows:auto auto}
+.all-place-index .all-place-card>.place-feedback,.choice-grid .choice-card>.place-feedback{grid-column:1/-1;grid-row:2;min-width:0;margin:3px 0 0;padding-top:10px}
+.all-place-index .place-feedback-person,.choice-grid .place-feedback-person{margin-top:7px}
+.all-place-index .place-feedback-person p,.choice-grid .place-feedback-person p{margin:2px 0 0;font-size:10px;line-height:1.45;white-space:pre-line}
 .map-popover .place-feedback+a{display:inline-block;margin-top:12px}
 
 /* A soft pulse and a tiny glint make the selected marker easy to spot. */

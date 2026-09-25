@@ -19,9 +19,9 @@
       "x": 27,
       "y": 33
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "무조건이지",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 4.0,
     "seinRating": null
   },
   {
@@ -43,9 +43,9 @@
       "x": 45,
       "y": 27
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "애매~하지만, 경로에 포함되면 들릴만도 하다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
