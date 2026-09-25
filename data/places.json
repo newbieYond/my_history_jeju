@@ -3273,5 +3273,23 @@
     "seinOpinion": "",
     "seonghoRating": null,
     "seinRating": null
+  },
+  {
+    "id": 137,
+    "name": "더스테이블",
+    "tags": ["day7", "reserve", "cafe"],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/9k9MYYzzh4cuTn7q7",
+    "latitude": 33.47623942,
+    "longitude": 126.5475376586914,
+    "address": "제주특별자치도 제주시 인다5길 10 1층",
+    "description": "제주시 아라동의 파이·케이크 디저트 카페.\n마지막 날 시간이 넉넉할 때 따로 들르는 후보.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": { "x": 50, "y": 36.5 },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   }
 ]
