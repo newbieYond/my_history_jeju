@@ -22,6 +22,7 @@ const days: Day[] = [
       { time: "해 질 무렵", title: "김녕해수욕장", note: "첫날의 핵심 풍경 · 오래 머물지 않아도 충분해요" },
       { time: "저녁", title: "함덕에서 저녁과 빵", note: "문개항아리 · 오드랑베이커리 포장", rainy: true },
       { time: "밤", title: "델문도 산책", note: "함덕 바다 앞에서 커피 한 잔과 밤바다" },
+      { time: "밤", title: "예그리나리조트 체크인", note: "10/30~11/1 · 김녕·구좌 2박" },
     ],
     places: [
       { name: "제주공항", kind: "spot", note: "여행의 시작", x: 27, y: 33 },
@@ -30,6 +31,7 @@ const days: Day[] = [
       { name: "오드랑베이커리", kind: "food", note: "다음 날 아침용 마농바게트 포장", x: 50, y: 25, rainy: true },
       { name: "델문도", kind: "cafe", note: "함덕 바다 앞 밤 카페", x: 48, y: 29, rainy: true },
       { name: "닭머르해안길", kind: "spot", note: "시간 여유 시 들르는 억새 해안 산책", x: 45, y: 27 },
+      { name: "예그리나리조트", kind: "stay", note: "10/30~11/1 · 김녕·구좌 2박", x: 67.49, y: 24.74, rainy: true },
     ], tip: "첫날은 김녕 바다와 여유 있는 숙소 도착이 우선이에요. 차량 인수가 늦으면 닭머르는 미련 없이 건너뛰어요.",
   },
   {
@@ -44,32 +46,35 @@ const days: Day[] = [
     ],
     places: [
       { name: "맛나식당", kind: "food", note: "우도에 들어가기 전 예약 아침 식사", x: 86, y: 41, rainy: true },
-      { name: "우도 도착항", kind: "spot", note: "전기자전거를 빌리고 섬 한 바퀴 시작", x: 23, y: 63 },
+      { name: "우도 천진항", kind: "spot", note: "전기자전거를 빌리고 섬 한 바퀴 시작", x: 23, y: 63 },
       { name: "하고수동해수욕장", kind: "spot", note: "밝은 모래와 얕은 바다", x: 69, y: 35 },
       { name: "문개 우도", kind: "food", note: "하고수동 바다를 보며 먹는 해물라면", x: 64, y: 38, rainy: true },
       { name: "블랑로쉐", kind: "cafe", note: "땅콩 아이스크림 또는 크림라떼", x: 73, y: 41, rainy: true },
       { name: "검멀레해변", kind: "spot", note: "검은 모래와 우도봉 절벽", x: 72, y: 67 },
-      { name: "서빈백사", kind: "spot", note: "귀항 전 쉬기 좋은 흰 해변", x: 29, y: 37 },
+      { name: "서빈백사해변(홍조단괴 산호해변)", kind: "spot", note: "귀항 전 쉬기 좋은 흰 해변", x: 29, y: 37 },
     ], tip: "맛나식당은 성산에서, 문개 우도는 섬 안에서 먹어요. 결항이면 비자림 → 세화 → 카페한라산 → 섭지코지로 바로 전환해요.",
   },
   {
     date: "11.01", weekday: "일", eyebrow: "FOREST TO SOUTH", title: "숲에서 쇠소깍까지",
     summary: "비자림의 고요에서 시작해 남원 해안과 쇠소깍을 지나 중문으로 내려가는 날.", accent: "#6b8062",
     schedule: [
-      { time: "09:00", title: "체크아웃", note: "비자림으로 바로 이동" },
+      { time: "09:00", title: "예그리나리조트 체크아웃", note: "비자림으로 바로 이동" },
       { time: "10:25", title: "비자림 A코스", note: "평탄한 숲길 약 1시간", rainy: true },
       { time: "12:00", title: "가시식당 점심", note: "두루치기 · 몸국 · 순대국수 · 대기는 1시간까지", rainy: true },
       { time: "오후", title: "남원큰엉해안경승지", note: "절벽과 바다를 잇는 짧은 산책" },
       { time: "14:30", title: "쇠소깍", note: "체험 예약 시 60~90분 · 미예약이면 풍경 중심" },
       { time: "18:00", title: "매일올레시장", note: "딱새우회 · 땅콩만두 · 막걸리", rainy: true },
+      { time: "저녁", title: "더웰테라스 체크인", note: "11/1~11/5 · 중문 4박" },
     ],
     places: [
+      { name: "예그리나리조트", kind: "stay", note: "10/30~11/1 · 김녕·구좌 2박 · 체크아웃", x: 67.49, y: 24.74, rainy: true },
       { name: "비자림", kind: "spot", note: "평탄한 A코스 중심", x: 72, y: 36, rainy: true },
       { name: "가시식당", kind: "food", note: "두루치기 · 몸국 · 순대국수 1순위", x: 68, y: 65, rainy: true },
       { name: "당케올레국수", kind: "food", note: "보말칼국수 · 고기국수 대안", x: 64, y: 70, rainy: true },
       { name: "남원큰엉해안경승지", kind: "spot", note: "표선에서 쇠소깍으로 내려가는 해안 산책", x: 61, y: 76 },
       { name: "쇠소깍", kind: "spot", note: "배 체험 60~90분", x: 59, y: 80 },
       { name: "매일올레시장", kind: "food", note: "저녁과 포장", x: 48, y: 81, rainy: true },
+      { name: "더웰테라스", kind: "stay", note: "11/1~11/5 · 중문 4박", x: 34.5, y: 74, rainy: true },
     ], tip: "섭지코지를 전날 못 갔다면 이 날 오전에 넣고, 남원큰엉 또는 쇠소깍 체험 시간을 줄여요.",
   },
   {
@@ -138,7 +143,7 @@ const days: Day[] = [
     date: "11.05", weekday: "목", eyebrow: "ONE LAST VIEW", title: "폭포를 보고, 집으로",
     summary: "천제연의 물소리를 마지막으로 듣고, 공항권 식사와 선물을 챙겨 집으로 돌아가는 날.", accent: "#6d8990",
     schedule: [
-      { time: "오전", title: "체크아웃", note: "짐을 싣고 천제연으로" },
+      { time: "오전", title: "더웰테라스 체크아웃", note: "짐을 싣고 천제연으로" },
       { time: "오전~점심", title: "천제연폭포", note: "제1·제2폭포까지만 짧고 선명하게" },
       { time: "점심", title: "공항권 식사", note: "우진해장국 1순위 · 대기와 반납 시각을 함께 판단", rainy: true },
       { time: "오후", title: "동문시장 선물", note: "공항 도착이 충분히 빠를 때만 짧게" },
@@ -147,6 +152,7 @@ const days: Day[] = [
       { time: "21:10", title: "제주공항 출발", note: "이스타항공 ZE278" },
     ],
     places: [
+      { name: "더웰테라스", kind: "stay", note: "11/1~11/5 · 중문 4박 · 체크아웃", x: 34.5, y: 74, rainy: true },
       { name: "천제연폭포", kind: "spot", note: "제1·제2폭포까지만", x: 34, y: 78 },
       { name: "우진해장국", kind: "food", note: "고사리육개장 1순위 · 1시간 대기까지 가능", x: 26, y: 33, rainy: true },
       { name: "제주미담", kind: "food", note: "우진 대기가 반납 시각을 침범할 때의 대안", x: 48, y: 33, rainy: true },
@@ -168,13 +174,13 @@ const kindIcon = { spot: "✦", food: "●", cafe: "♥", stay: "⌂" };
 const mapUrl = (name: string) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + " 제주")}`;
 const assetUrl = (name: string) => `${import.meta.env.BASE_URL}${name}`;
 const schedulePlaceNames = [
-  ["제주공항", "제주공항", "닭머르해안길", "김녕해수욕장", "문개항아리 함덕점", "델문도"],
-  ["맛나식당", "우도 도착항", "문개 우도", "검멀레해변", "성산일출봉"],
-  ["비자림", "비자림", "가시식당", "남원큰엉해안경승지", "쇠소깍", "매일올레시장"],
+  ["제주공항", "제주공항", "닭머르해안길", "김녕해수욕장", "문개항아리 함덕점", "델문도", "예그리나리조트"],
+  ["맛나식당", "우도 천진항", "문개 우도", "검멀레해변", "성산일출봉"],
+  ["예그리나리조트", "비자림", "가시식당", "남원큰엉해안경승지", "쇠소깍", "매일올레시장", "더웰테라스"],
   ["중문수두리보말칼국수", "1100고지", "천왕사", "고집돌우럭 중문점", "본태박물관"],
   ["오설록 티뮤지엄", "오설록 티뮤지엄", "용머리해안", "송악산", "수월봉", "신창풍차해안"],
   ["감귤 체험농장", "네거리식당", "이중섭거리", "천지연폭포", "토평골"],
-  ["천제연폭포", "천제연폭포", "우진해장국", "동문시장", "제주공항", "제주공항", "제주공항"],
+  ["더웰테라스", "천제연폭포", "우진해장국", "동문시장", "제주공항", "제주공항", "제주공항"],
 ];
 
 const revealMap=(target:HTMLElement|null)=>requestAnimationFrame(()=>target?.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"center"}));
@@ -337,7 +343,7 @@ export default function Home(){
     {view==="home"&&<><section className="hero"><div className="hero-copy"><div className="date-pill">2026. 10. 30 — 11. 05 <span>6박 7일</span></div><p className="hero-script">우리의 가을 제주</p><h1>바다와 숲 사이,<br/><em>둘이 걷는 일주일</em></h1><p className="hero-sub">조금 느리게 달리고, 맛있는 건 꼭 챙겨 먹고.<br/>성호와 세인이 기다려온 가을 끝의 제주 여행.</p><div className="hero-actions"><button onClick={()=>moveToDay(0)}>첫날 일정 보기 <span>→</span></button><button className="text-button" onClick={()=>navigate("summary")}>7일 한눈에</button></div><div className="countdown"><span className="spark">✦</span><Countdown/><small>김포 → 제주</small></div></div>
       <div className="hero-art" aria-label="억새와 돌담, 감귤, 한라산이 있는 가을 제주 일러스트"><img src={assetUrl("jeju-hero-v1.webp")} alt="따뜻한 가을빛 아래 한라산과 제주 바다, 억새, 돌담, 감귤이 펼쳐진 일러스트" width={1536} height={1024} fetchPriority="high" decoding="async"/><p>천천히, 제주답게</p></div>
     </section>
-    <section className="quick-strip" aria-label="여행 핵심 정보"><div><span>✈</span><p><small>FLIGHT</small>김포 14:20 → 제주 15:35</p></div><div><span>⌂</span><p><small>STAY</small>김녕·구좌 2박 → 중문 4박</p></div><div><span>☘</span><p><small>PACE</small>하루 핵심 경험 1~2개</p></div><div><span>♡</span><p><small>MOOD</small>바다 · 숲 · 산책 · 향토음식</p></div></section></>}
+    <section className="quick-strip" aria-label="여행 핵심 정보"><div><span>✈</span><p><small>FLIGHT</small>김포 14:20 → 제주 15:35</p></div><div><span>⌂</span><p><small>STAY</small>예그리나 10/30~11/1 → 더웰테라스 11/1~11/5</p></div><div><span>☘</span><p><small>PACE</small>하루 핵심 경험 1~2개</p></div><div><span>♡</span><p><small>MOOD</small>바다 · 숲 · 산책 · 향토음식</p></div></section></>}
     {view==="summary"&&<><section className="summary-intro"><span>TRIP AT A GLANCE</span><h1>우리의 일주일,<br/>한눈에 보기</h1><p>일정의 대표 장면을 먼저 보고, 마음이 가는 날을 골라보세요.</p></section><section className="overview section-shell" id="overview"><div className="section-heading"><div><span className="section-number">01</span><p>OUR SEVEN DAYS</p></div><h2>일곱 장면으로<br/>미리 보는 제주</h2><p>매일 하나의 좋은 장면만 기억해도 충분한 여행.<br/>카드를 눌러 그날의 자세한 선택지를 확인해요.</p></div>
       <div className="day-grid">{days.map((item,index)=><button key={item.date} className="day-card" onClick={()=>moveToDay(index)} style={{"--day-accent":item.accent} as React.CSSProperties}><div className="day-card-top"><span>DAY {index+1}</span><small>{item.date} {item.weekday}</small></div><div className={`day-icon icon-${index+1}`}><span>{["✈","⛴","♧","⌁","茶","●","≈"][index]}</span></div><strong>{item.title}</strong><p>{item.summary}</p><span className="card-arrow">자세히 보기 →</span></button>)}</div>
     </section><section className="help-section section-shell"><div className="help-copy"><span className="section-number">02</span><p>ON THE ROAD</p><h2>여행 중<br/>필요한 것들</h2><p>출발 전과 당일에 다시 확인해야 할 공식 정보들을 한곳에 모았어요.</p></div><div className="help-links">{helpLinks.map(([icon,label,href])=><a key={label} href={href} target="_blank" rel="noreferrer"><span>{icon}</span><strong>{label}</strong><small>바로 확인하기 ↗</small></a>)}</div></section></>}
