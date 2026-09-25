@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties, type PointerE
 import placesJson from "../data/places.json";
 
 type Place = { name: string; kind: "spot" | "food" | "cafe" | "stay"; note: string; x: number; y: number; rainy?: boolean };
-type StoredPlace = { id: number; name: string; tags: string[]; category: Place["kind"]; googleMapsUrl: string; latitude: number | null; longitude: number | null; address: string | null; description: string; isRainyDayFriendly: boolean; isReserve: boolean; mapPosition: { x: number; y: number } };
+type StoredPlace = { id: number; name: string; tags: string[]; category: Place["kind"]; googleMapsUrl: string; latitude: number | null; longitude: number | null; address: string | null; description: string; isRainyDayFriendly: boolean; isReserve: boolean; mapPosition: { x: number; y: number }; seonghoOpinion: string; seinOpinion: string; seonghoRating: number | null; seinRating: number | null };
 type Coordinates = { latitude: number; longitude: number };
 type Day = {
   date: string; weekday: string; eyebrow: string; title: string; summary: string; accent: string;
@@ -206,6 +206,16 @@ function MapZoomControls({zoom,onChange}:{zoom:number;onChange:(zoom:number)=>vo
   return <div className="map-zoom-controls" aria-label="지도 확대 및 축소"><button type="button" onClick={()=>onChange(zoom-.5)} disabled={zoom<=1} aria-label="지도 축소">−</button><button type="button" className="zoom-value" onClick={()=>onChange(1)} disabled={zoom===1} aria-label={`현재 ${Math.round(zoom*100)}%, 원래 크기로`}>{Math.round(zoom*100)}%</button><button type="button" onClick={()=>onChange(zoom+.5)} disabled={zoom>=3} aria-label="지도 확대">+</button></div>;
 }
 
+function PlaceFeedback({name}:{name:string}){
+  const place=storedPlaces.find(item=>item.name===name);
+  if(!place)return null;
+  const opinions=[
+    {person:"성호",rating:place.seonghoRating,opinion:place.seonghoOpinion},
+    {person:"세인",rating:place.seinRating,opinion:place.seinOpinion},
+  ];
+  return <div className="place-feedback" role="group" aria-label={`${name}의 평점과 평가`}><div className="place-feedback-heading"><span>우리의 평점 · 평가</span><small>5점 만점</small></div>{opinions.map(({person,rating,opinion})=><div className="place-feedback-person" key={person}><div><b>{person}</b><span className={rating===null||rating===0?"unrated":""}>{rating===null||rating===0?"평점 전":`★ ${rating.toFixed(1)} / 5`}</span></div><p>{opinion.trim()||"아직 평가를 남기지 않았어요."}</p></div>)}</div>;
+}
+
 function JejuMap({ day, dayIndex, selected, onSelect, mapRef }: { day: Day; dayIndex: number; selected: Place; onSelect: (place: Place) => void; mapRef: RefObject<HTMLDivElement|null> }) {
   const isUdo = day.date === "10.31";
   const mapZoom=useMapZoom();
@@ -219,7 +229,7 @@ function JejuMap({ day, dayIndex, selected, onSelect, mapRef }: { day: Day; dayI
         <img className="map-background" src={assetUrl(isUdo?"udo-map-detail-v1.webp":"jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>
         {places.map((place,index) => <button key={place.id} className={`map-pin pin-${place.kind} ${isReserve(place)?"reserve":""} ${selected.name===place.name?"active":""}`} style={{left:`${place.x}%`,top:`${place.y}%`,animationDelay:`${index*60}ms`}} onClick={()=>{if(!mapZoom.consumeDrag())onSelect(place);}} onDoubleClick={event=>{event.preventDefault();window.open(place.googleMapsUrl,"_blank","noopener,noreferrer");}} aria-label={`${place.name} 정보 보기`} aria-pressed={selected.name===place.name}><span>{isReserve(place)?"+":kindIcon[place.kind]}</span><em className="marker-name">{place.name}</em></button>)}
       </div></div>
-    </div>{selected&&<div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a className="map-google-link" href={googleMapsUrlForPlace(selected.name)} target="_blank" rel="noreferrer">Google Maps 링크 ↗</a></div>}<MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div><p className="map-caption">마커를 누르면 장소 정보가 보여요 · 링크로 Google Maps 장소 정보를 열 수 있어요.</p>
+    </div>{selected&&<div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><PlaceFeedback name={selected.name}/><a className="map-google-link" href={googleMapsUrlForPlace(selected.name)} target="_blank" rel="noreferrer">Google Maps 링크 ↗</a></div>}<MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div><p className="map-caption">마커를 누르면 장소 정보가 보여요 · 링크로 Google Maps 장소 정보를 열 수 있어요.</p>
   </div>;
 }
 
@@ -255,7 +265,7 @@ function AllPlacesMap(){
     <div className="all-map-head"><div><span>JEJU AT A GLANCE</span><h2>{visiblePlaces.length}개의 장소를 한 장에</h2></div><div className="all-map-actions"><div className="all-map-legend"><span><i className="legend-spot"/>가볼 곳</span><span><i className="legend-food"/>먹을 곳</span><span><i className="legend-cafe"/>카페</span><span><i className="legend-reserve"/>예비</span></div></div></div>
     <div className="map-stage-shell all-map-stage-shell"><div className={`map-stage all-map-stage ${mapZoom.zoom>1?"zoomed":""}`} ref={mapZoom.viewportRef} onPointerDown={mapZoom.onPointerDown} onPointerMove={mapZoom.onPointerMove} onPointerUp={mapZoom.onPointerUp} onPointerCancel={mapZoom.onPointerCancel}><div className="map-scroll-space" style={{width:`${mapZoom.zoom*100}%`,height:`${mapZoom.zoom*100}%`}}><div className="map-zoom-canvas" style={{width:`${100/mapZoom.zoom}%`,height:`${100/mapZoom.zoom}%`,transform:`scale(${mapZoom.zoom})`,"--map-marker-scale":1/mapZoom.zoom} as CSSProperties}><img className="map-background" src={assetUrl("jeju-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>{mainland.map(place=>pin(place))}
         <div className="udo-inset"><div className="udo-inset-title"><strong>우도</strong><span>확대 약도</span></div><img src={assetUrl("udo-map-detail-v1.webp")} alt="" aria-hidden="true" width={1536} height={1024} loading="lazy" decoding="async"/>{udo.map(place=>pin(place,true))}</div>
-      </div></div></div><div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{isReserve(selected)?"예비 장소":`DAY ${selected.dayIndex+1}`} · {kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><a className="map-google-link" href={selected.googleMapsUrl} target="_blank" rel="noreferrer">Google Maps 링크 ↗</a></div><MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div>
+      </div></div></div><div className="map-popover map-popover-detail" role="status"><span className={`place-kind kind-${selected.kind}`}>{isReserve(selected)?"예비 장소":`DAY ${selected.dayIndex+1}`} · {kindLabel[selected.kind]}</span><strong>{selected.name}</strong><p>{selected.note}</p><PlaceFeedback name={selected.name}/><a className="map-google-link" href={selected.googleMapsUrl} target="_blank" rel="noreferrer">Google Maps 링크 ↗</a></div><MapZoomControls zoom={mapZoom.zoom} onChange={mapZoom.changeZoom}/></div>
     <p className="map-caption">처음에는 전체 장소가 보여요 · 확대하거나 지도를 이동하면 현재 지도 영역의 장소만 아래 목록에 표시돼요</p>
     <button className="index-toggle" type="button" aria-expanded={showIndex} aria-controls="all-place-index" onClick={()=>setShowIndex(current=>!current)}><span>현재 지도 영역 장소 {visiblePlaces.length}개</span><b>{showIndex?"접기 ↑":"펼쳐보기 ↓"}</b></button>
     <div id="all-place-index" className={`all-place-index ${showIndex?"open":""}`}>{visiblePlaces.map(place=><article key={`${isReserve(place)?"reserve":place.dayIndex}-${place.name}`} className={`all-place-card ${isReserve(place)?"reserve":""} ${selected===place?"selected":""}`} role="button" tabIndex={0} onFocus={()=>setSelected(place)} onClick={()=>selectAndReveal(place)} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();selectAndReveal(place);}}}><span className={`choice-icon kind-${place.kind}`}>{isReserve(place)?"+":kindIcon[place.kind]}</span><div><small>{isReserve(place)?"예비":`DAY ${place.dayIndex+1}`} · {kindLabel[place.kind]} {place.rainy&&<span className="rain-label" title="비 오는 날에도 좋아요">☂</span>}</small><strong>{place.name}</strong><p>{place.note}</p></div><a className="external" href={place.googleMapsUrl} target="_blank" rel="noreferrer" onClick={event=>event.stopPropagation()} aria-label={`${place.name} Google Maps에서 보기`}>↗</a></article>)}</div>

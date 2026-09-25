@@ -18,7 +18,11 @@
     "mapPosition": {
       "x": 27,
       "y": 33
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 2,
@@ -38,7 +42,11 @@
     "mapPosition": {
       "x": 45,
       "y": 27
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 3,
@@ -58,7 +66,11 @@
     "mapPosition": {
       "x": 63,
       "y": 25
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 4,
@@ -78,7 +90,11 @@
     "mapPosition": {
       "x": 50,
       "y": 25
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 5,
@@ -98,7 +114,11 @@
     "mapPosition": {
       "x": 48,
       "y": 29
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 6,
@@ -118,7 +138,11 @@
     "mapPosition": {
       "x": 23,
       "y": 63
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 7,
@@ -138,7 +162,11 @@
     "mapPosition": {
       "x": 69,
       "y": 35
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 8,
@@ -158,7 +186,11 @@
     "mapPosition": {
       "x": 73,
       "y": 41
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 9,
@@ -178,7 +210,11 @@
     "mapPosition": {
       "x": 72,
       "y": 67
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 10,
@@ -198,7 +234,11 @@
     "mapPosition": {
       "x": 29,
       "y": 37
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 11,
@@ -218,7 +258,11 @@
     "mapPosition": {
       "x": 52,
       "y": 55
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 12,
@@ -238,7 +282,11 @@
     "mapPosition": {
       "x": 72,
       "y": 36
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 13,
@@ -258,7 +306,11 @@
     "mapPosition": {
       "x": 68,
       "y": 65
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 14,
@@ -278,7 +330,11 @@
     "mapPosition": {
       "x": 65,
       "y": 67
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 15,
@@ -298,7 +354,11 @@
     "mapPosition": {
       "x": 59,
       "y": 80
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 16,
@@ -318,7 +378,11 @@
     "mapPosition": {
       "x": 48,
       "y": 81
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 17,
@@ -338,7 +402,11 @@
     "mapPosition": {
       "x": 48,
       "y": 53
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 18,
@@ -358,7 +426,11 @@
     "mapPosition": {
       "x": 40,
       "y": 64
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 19,
@@ -378,7 +450,11 @@
     "mapPosition": {
       "x": 42,
       "y": 47
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 20,
@@ -398,7 +474,11 @@
     "mapPosition": {
       "x": 39,
       "y": 51
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 21,
@@ -418,7 +498,11 @@
     "mapPosition": {
       "x": 31,
       "y": 62
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 22,
@@ -438,7 +522,11 @@
     "mapPosition": {
       "x": 35,
       "y": 76
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 23,
@@ -458,7 +546,11 @@
     "mapPosition": {
       "x": 25,
       "y": 52
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 24,
@@ -478,7 +570,11 @@
     "mapPosition": {
       "x": 18,
       "y": 77
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 25,
@@ -498,7 +594,11 @@
     "mapPosition": {
       "x": 18,
       "y": 69
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 26,
@@ -518,7 +618,11 @@
     "mapPosition": {
       "x": 12,
       "y": 72
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 27,
@@ -538,7 +642,11 @@
     "mapPosition": {
       "x": 9,
       "y": 51
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 28,
@@ -558,7 +666,11 @@
     "mapPosition": {
       "x": 16,
       "y": 37
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 29,
@@ -578,7 +690,11 @@
     "mapPosition": {
       "x": 18,
       "y": 39
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 30,
@@ -598,7 +714,11 @@
     "mapPosition": {
       "x": 46,
       "y": 71
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 31,
@@ -618,7 +738,11 @@
     "mapPosition": {
       "x": 49,
       "y": 82
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 32,
@@ -638,7 +762,11 @@
     "mapPosition": {
       "x": 51,
       "y": 81
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 33,
@@ -658,7 +786,11 @@
     "mapPosition": {
       "x": 47,
       "y": 80
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 34,
@@ -678,7 +810,11 @@
     "mapPosition": {
       "x": 52,
       "y": 79
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 35,
@@ -698,7 +834,11 @@
     "mapPosition": {
       "x": 45,
       "y": 86
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 36,
@@ -718,7 +858,11 @@
     "mapPosition": {
       "x": 34,
       "y": 78
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 37,
@@ -738,7 +882,11 @@
     "mapPosition": {
       "x": 28,
       "y": 31
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 38,
@@ -758,7 +906,11 @@
     "mapPosition": {
       "x": 26,
       "y": 33
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 39,
@@ -778,7 +930,11 @@
     "mapPosition": {
       "x": 29,
       "y": 35
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 40,
@@ -799,7 +955,11 @@
     "mapPosition": {
       "x": 84,
       "y": 49
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 41,
@@ -821,7 +981,11 @@
     "mapPosition": {
       "x": 79,
       "y": 29
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 42,
@@ -842,7 +1006,11 @@
     "mapPosition": {
       "x": 80,
       "y": 52
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 43,
@@ -863,7 +1031,11 @@
     "mapPosition": {
       "x": 69,
       "y": 68
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 44,
@@ -884,7 +1056,11 @@
     "mapPosition": {
       "x": 61,
       "y": 76
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 45,
@@ -905,7 +1081,11 @@
     "mapPosition": {
       "x": 20,
       "y": 72
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 46,
@@ -926,7 +1106,11 @@
     "mapPosition": {
       "x": 10,
       "y": 55
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 47,
@@ -947,7 +1131,11 @@
     "mapPosition": {
       "x": 47,
       "y": 83
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 48,
@@ -968,7 +1156,11 @@
     "mapPosition": {
       "x": 29,
       "y": 65
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 49,
@@ -989,7 +1181,11 @@
     "mapPosition": {
       "x": 34,
       "y": 42
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 50,
@@ -1009,7 +1205,11 @@
     "mapPosition": {
       "x": 84.22,
       "y": 34.06
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 51,
@@ -1029,7 +1229,11 @@
     "mapPosition": {
       "x": 57.28,
       "y": 32.27
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 52,
@@ -1050,7 +1254,11 @@
     "mapPosition": {
       "x": 86.32,
       "y": 40.44
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 53,
@@ -1070,7 +1278,11 @@
     "mapPosition": {
       "x": 67.63,
       "y": 24.17
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 54,
@@ -1091,7 +1303,11 @@
     "mapPosition": {
       "x": 58.61,
       "y": 30.94
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 55,
@@ -1111,7 +1327,11 @@
     "mapPosition": {
       "x": 67.49,
       "y": 24.74
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 56,
@@ -1132,7 +1352,11 @@
     "mapPosition": {
       "x": 54.08,
       "y": 67.23
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 57,
@@ -1153,7 +1377,11 @@
     "mapPosition": {
       "x": 37.76,
       "y": 69.67
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 58,
@@ -1173,7 +1401,11 @@
     "mapPosition": {
       "x": 27.65,
       "y": 38.05
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 59,
@@ -1193,7 +1425,11 @@
     "mapPosition": {
       "x": 56.05,
       "y": 27.68
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 60,
@@ -1214,7 +1450,11 @@
     "mapPosition": {
       "x": 60.86,
       "y": 26.39
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 61,
@@ -1234,7 +1474,11 @@
     "mapPosition": {
       "x": 65.57,
       "y": 39.87
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 62,
@@ -1254,7 +1498,11 @@
     "mapPosition": {
       "x": 43.03,
       "y": 23.79
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 63,
@@ -1274,7 +1522,11 @@
     "mapPosition": {
       "x": 32.41,
       "y": 28.55
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 64,
@@ -1294,7 +1546,11 @@
     "mapPosition": {
       "x": 22.7,
       "y": 36.48
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 65,
@@ -1314,7 +1570,11 @@
     "mapPosition": {
       "x": 33.79,
       "y": 35.61
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 66,
@@ -1335,7 +1595,11 @@
     "mapPosition": {
       "x": 48.21,
       "y": 33.16
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 67,
@@ -1355,7 +1619,11 @@
     "mapPosition": {
       "x": 46.82,
       "y": 31.51
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 68,
@@ -1375,7 +1643,11 @@
     "mapPosition": {
       "x": 85.5,
       "y": 32.53
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 69,
@@ -1396,7 +1668,11 @@
     "mapPosition": {
       "x": 54.06,
       "y": 63.76
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 70,
@@ -1417,7 +1693,11 @@
     "mapPosition": {
       "x": 61.94,
       "y": 27.2
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 71,
@@ -1437,7 +1717,11 @@
     "mapPosition": {
       "x": 18.77,
       "y": 57.65
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 72,
@@ -1457,7 +1741,11 @@
     "mapPosition": {
       "x": 31.06,
       "y": 52.81
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 73,
@@ -1477,7 +1765,11 @@
     "mapPosition": {
       "x": 17.24,
       "y": 51.1
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 74,
@@ -1497,7 +1789,11 @@
     "mapPosition": {
       "x": 44.21,
       "y": 39.96
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 75,
@@ -1517,7 +1813,11 @@
     "mapPosition": {
       "x": 45.76,
       "y": 35.93
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 76,
@@ -1537,7 +1837,11 @@
     "mapPosition": {
       "x": 32.41,
       "y": 36.42
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 77,
@@ -1557,7 +1861,11 @@
     "mapPosition": {
       "x": 32.12,
       "y": 27.14
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 78,
@@ -1577,7 +1885,11 @@
     "mapPosition": {
       "x": 27.91,
       "y": 67.78
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 79,
@@ -1597,7 +1909,11 @@
     "mapPosition": {
       "x": 30.07,
       "y": 40.95
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 80,
@@ -1617,7 +1933,11 @@
     "mapPosition": {
       "x": 44.97,
       "y": 34.24
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 81,
@@ -1638,7 +1958,11 @@
     "mapPosition": {
       "x": 46.95,
       "y": 31.19
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 82,
@@ -1658,7 +1982,11 @@
     "mapPosition": {
       "x": 41.69,
       "y": 32.21
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 83,
@@ -1679,7 +2007,11 @@
     "mapPosition": {
       "x": 42.03,
       "y": 31.86
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 84,
@@ -1699,7 +2031,11 @@
     "mapPosition": {
       "x": 65.33,
       "y": 34.99
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 85,
@@ -1719,7 +2055,11 @@
     "mapPosition": {
       "x": 65.32,
       "y": 48
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 86,
@@ -1740,7 +2080,11 @@
     "mapPosition": {
       "x": 28.19,
       "y": 46.32
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 87,
@@ -1761,7 +2105,11 @@
     "mapPosition": {
       "x": 64.26,
       "y": 71.98
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 88,
@@ -1781,7 +2129,11 @@
     "mapPosition": {
       "x": 84.42,
       "y": 35.73
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 89,
@@ -1801,7 +2153,11 @@
     "mapPosition": {
       "x": 77.55,
       "y": 38.95
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 90,
@@ -1822,7 +2178,11 @@
     "mapPosition": {
       "x": 61.73,
       "y": 27
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 91,
@@ -1842,7 +2202,11 @@
     "mapPosition": {
       "x": 41.59,
       "y": 36.17
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 92,
@@ -1862,7 +2226,11 @@
     "mapPosition": {
       "x": 33.34,
       "y": 42.72
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 93,
@@ -1883,7 +2251,11 @@
     "mapPosition": {
       "x": 18.75,
       "y": 72.07
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 94,
@@ -1903,7 +2275,11 @@
     "mapPosition": {
       "x": 57.39,
       "y": 16.4
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 95,
@@ -1923,7 +2299,11 @@
     "mapPosition": {
       "x": 65.35,
       "y": 25.17
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 96,
@@ -1943,7 +2323,11 @@
     "mapPosition": {
       "x": 26.41,
       "y": 72.51
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 97,
@@ -1964,7 +2348,11 @@
     "mapPosition": {
       "x": 37.46,
       "y": 62.18
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 98,
@@ -1984,7 +2372,11 @@
     "mapPosition": {
       "x": 45.9,
       "y": 31.17
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 99,
@@ -2004,7 +2396,11 @@
     "mapPosition": {
       "x": 44.43,
       "y": 35.21
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 100,
@@ -2024,7 +2420,11 @@
     "mapPosition": {
       "x": 50.16,
       "y": 27.84
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 101,
@@ -2044,7 +2444,11 @@
     "mapPosition": {
       "x": 40.58,
       "y": 24.74
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 102,
@@ -2064,7 +2468,11 @@
     "mapPosition": {
       "x": 52.88,
       "y": 40.48
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 103,
@@ -2084,7 +2492,11 @@
     "mapPosition": {
       "x": 39.69,
       "y": 37.7
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 104,
@@ -2104,7 +2516,11 @@
     "mapPosition": {
       "x": 43.48,
       "y": 33.95
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 105,
@@ -2124,7 +2540,11 @@
     "mapPosition": {
       "x": 65.66,
       "y": 25.15
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 106,
@@ -2145,7 +2565,11 @@
     "mapPosition": {
       "x": 24.76,
       "y": 75.54
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 107,
@@ -2165,7 +2589,11 @@
     "mapPosition": {
       "x": 47.75,
       "y": 33.07
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 108,
@@ -2185,7 +2613,11 @@
     "mapPosition": {
       "x": 45.11,
       "y": 34.94
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 109,
@@ -2205,7 +2637,11 @@
     "mapPosition": {
       "x": 38.22,
       "y": 34.69
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 110,
@@ -2226,7 +2662,11 @@
     "mapPosition": {
       "x": 51.01,
       "y": 69.71
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 111,
@@ -2247,7 +2687,11 @@
     "mapPosition": {
       "x": 85.81,
       "y": 40.63
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 112,
@@ -2267,7 +2711,11 @@
     "mapPosition": {
       "x": 29.32,
       "y": 70.54
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 113,
@@ -2288,7 +2736,11 @@
     "mapPosition": {
       "x": 51.62,
       "y": 70
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 114,
@@ -2308,7 +2760,11 @@
     "mapPosition": {
       "x": 21.45,
       "y": 53.19
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 115,
@@ -2328,7 +2784,11 @@
     "mapPosition": {
       "x": 44.08,
       "y": 34.77
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 116,
@@ -2348,7 +2808,11 @@
     "mapPosition": {
       "x": 49.22,
       "y": 32.16
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 117,
@@ -2368,7 +2832,11 @@
     "mapPosition": {
       "x": 28.41,
       "y": 43.74
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 118,
@@ -2388,7 +2856,11 @@
     "mapPosition": {
       "x": 34.7,
       "y": 35.37
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 119,
@@ -2409,7 +2881,11 @@
     "mapPosition": {
       "x": 26.09,
       "y": 54.34
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 120,
@@ -2430,7 +2906,11 @@
     "mapPosition": {
       "x": 47.01,
       "y": 37.66
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 121,
@@ -2450,7 +2930,11 @@
     "mapPosition": {
       "x": 75.7,
       "y": 26.42
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 122,
@@ -2470,7 +2954,11 @@
     "mapPosition": {
       "x": 86.05,
       "y": 40.43
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 123,
@@ -2490,7 +2978,11 @@
     "mapPosition": {
       "x": 28.85,
       "y": 38.86
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 124,
@@ -2511,7 +3003,11 @@
     "mapPosition": {
       "x": 50.39,
       "y": 70.72
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 125,
@@ -2531,7 +3027,11 @@
     "mapPosition": {
       "x": 45.37,
       "y": 39.44
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 126,
@@ -2551,7 +3051,11 @@
     "mapPosition": {
       "x": 37.85,
       "y": 71.62
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 127,
@@ -2571,7 +3075,11 @@
     "mapPosition": {
       "x": 17.25,
       "y": 45.16
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 128,
@@ -2591,7 +3099,11 @@
     "mapPosition": {
       "x": 19.21,
       "y": 49.28
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 129,
@@ -2611,7 +3123,11 @@
     "mapPosition": {
       "x": 87.13,
       "y": 44.32
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 130,
@@ -2632,7 +3148,11 @@
     "mapPosition": {
       "x": 47.89,
       "y": 31.2
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 131,
@@ -2652,7 +3172,11 @@
     "mapPosition": {
       "x": 21.18,
       "y": 58.75
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 132,
@@ -2672,7 +3196,11 @@
     "mapPosition": {
       "x": 27,
       "y": 73
-    }
+    },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 133,
@@ -2686,7 +3214,11 @@
     "description": "문개 우도는 제주에서 식사를 즐길 수 있는 음식점입니다.\n하고수동 바다를 보며 먹는 해물라면 점심.",
     "isRainyDayFriendly": true,
     "isReserve": false,
-    "mapPosition": { "x": 64, "y": 38 }
+    "mapPosition": { "x": 64, "y": 38 },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 134,
@@ -2700,7 +3232,11 @@
     "description": "당케올레국수는 제주에서 식사를 즐길 수 있는 음식점입니다.\n가시식당 대기·휴무 시 고르는 보말칼국수와 고기국수 대안.",
     "isRainyDayFriendly": true,
     "isReserve": false,
-    "mapPosition": { "x": 64, "y": 70 }
+    "mapPosition": { "x": 64, "y": 70 },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 135,
@@ -2714,7 +3250,11 @@
     "description": "고집돌우럭 중문점은 제주에서 식사를 즐길 수 있는 음식점입니다.\n예약하고 즐기는 우럭조림 한상.",
     "isRainyDayFriendly": true,
     "isReserve": false,
-    "mapPosition": { "x": 34, "y": 74 }
+    "mapPosition": { "x": 34, "y": 74 },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   },
   {
     "id": 136,
@@ -2728,6 +3268,10 @@
     "description": "테이크타임 커피로스터스는 여행 중 잠시 쉬어가기 좋은 카페입니다.\n신창풍차해안의 노을과 함께 쉬어가는 커피 후보.",
     "isRainyDayFriendly": true,
     "isReserve": false,
-    "mapPosition": { "x": 11, "y": 50 }
+    "mapPosition": { "x": 11, "y": 50 },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
   }
 ]
