@@ -8,7 +8,7 @@
       "day7"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD/data=!4m2!3m1!1s0x350cfb3b0ac5bfc5:0xedff3343f60bcc67",
     "latitude": 33.5070711,
     "longitude": 126.4916441,
     "address": "제주국제공항, 2, 공항로, 용담이동, 용담2동, 제주시, 제주특별자치도, 63115, 대한민국",
@@ -32,7 +32,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%AD%EB%A8%B8%EB%A5%B4%ED%95%B4%EC%95%88%EA%B8%B8%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%AD%EB%A8%B8%EB%A5%B4%ED%95%B4%EC%95%88/data=!4m2!3m1!1s0x350d1d8ae0c9e563:0xa4032f592e876e3f",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -56,7 +56,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B9%80%EB%85%95%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B9%80%EB%85%95%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5/data=!4m2!3m1!1s0x350d192019ae8bbb:0xc8db43a5d9a2c94",
     "latitude": 33.555819,
     "longitude": 126.760293,
     "address": "김녕해수욕장, 김녕로, 김녕리, 구좌읍, 제주시, 제주특별자치도, 63357, 대한민국",
@@ -80,7 +80,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%93%9C%EB%9E%91%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%A4%EB%93%9C%EB%9E%91%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC/data=!4m2!3m1!1s0x350d1e9e55555555:0x1daf3f0bd4fdcc2a",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -104,7 +104,7 @@
       "cafe"
     ],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%B8%EB%AC%B8%EB%8F%84%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/qrwa8WoCFPfnrjy76",
     "latitude": 33.5438445,
     "longitude": 126.6689523,
     "address": "델문도, 조함해안로, 함덕리, 조천읍, 제주시, 제주특별자치도, 63333, 대한민국",
@@ -122,13 +122,13 @@
   },
   {
     "id": 6,
-    "name": "우도 도착항",
+    "name": "우도 천진항",
     "tags": [
       "day2",
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B0%EB%8F%84%20%EB%8F%84%EC%B0%A9%ED%95%AD%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/Wa4FuQHNi7pC7WfX6",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -152,7 +152,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EA%B3%A0%EC%88%98%EB%8F%99%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/hejZvu5GfJt8shNR6",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -176,7 +176,7 @@
       "cafe"
     ],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%B8%94%EB%9E%91%EB%A1%9C%EC%89%90%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/6NXYLuXpQJPYcbwcA",
     "latitude": 33.5156456,
     "longitude": 126.957968,
     "address": "블랑로쉐, 783, 우도해안길, 연평리, 우도면, 제주시, 제주특별자치도, 63365, 대한민국",
@@ -200,7 +200,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B2%80%EB%A9%80%EB%A0%88%ED%95%B4%EB%B3%80%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/Usr8HuPyfBidur2E8",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -218,13 +218,13 @@
   },
   {
     "id": 10,
-    "name": "서빈백사",
+    "name": "서빈백사해변(홍조단괴 산호해변)",
     "tags": [
       "day2",
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%84%9C%EB%B9%88%EB%B0%B1%EC%82%AC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/BBTyc2B6hrLDRAWd7",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -242,17 +242,17 @@
   },
   {
     "id": 11,
-    "name": "우도 해물라면",
+    "name": "우도 머하멘",
     "tags": [
       "day2",
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B0%EB%8F%84%20%ED%95%B4%EB%AC%BC%EB%9D%BC%EB%A9%B4%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/5gTt1fdCdiEGSgGB8",
     "latitude": null,
     "longitude": null,
     "address": null,
-    "description": "우도 해물라면은 제주에서 식사를 즐길 수 있는 음식점입니다.\n섬 안에서 가볍게 고르는 점심.",
+    "description": "우도 머하멘은 제주에서 식사를 즐길 수 있는 음식점입니다.\n섬 안에서 가볍게 고르는 점심.",
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": {
@@ -272,7 +272,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%EC%9E%90%EB%A6%BC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/NEDmZnD8GsbSLuME9",
     "latitude": 33.4830671,
     "longitude": 126.8061897,
     "address": "비자림, 세송로, 평대리, 구좌읍, 제주시, 제주특별자치도, 63351, 대한민국",
@@ -296,7 +296,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EC%8B%9C%EC%8B%9D%EB%8B%B9%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/qD2qziAygZcTRLH3A",
     "latitude": 33.353034,
     "longitude": 126.771521,
     "address": "가시식당, 064-787-1035, 중산간동로, 가시리, 표선면, 서귀포시, 제주특별자치도, 63623, 대한민국",
@@ -320,7 +320,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%82%98%EB%AA%A9%EB%8F%84%EC%8B%9D%EB%8B%B9%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/aH53FhQfC2K8YmWKA",
     "latitude": 33.3536146,
     "longitude": 126.771831,
     "address": "나목도식당, 중산간동로, 가시리, 표선면, 서귀포시, 제주특별자치도, 63623, 대한민국",
@@ -344,7 +344,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%87%A0%EC%86%8C%EA%B9%8D%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/zq3zSJ1wZ6XdKGfv6",
     "latitude": 33.2525937,
     "longitude": 126.6234661,
     "address": "쇠소깍, 하례로, 하례리, 남원읍, 서귀포시, 제주특별자치도, 63601, 대한민국",
@@ -368,7 +368,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A4%EC%9D%BC%EC%98%AC%EB%A0%88%EC%8B%9C%EC%9E%A5%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/bFn6HzvaKqx7zZYMA",
     "latitude": 33.249753,
     "longitude": 126.565959,
     "address": "매일올레시장 7번입구, 동문로, 중앙동, 서귀포시, 제주특별자치도, 63595, 대한민국",
@@ -392,7 +392,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=1100%EA%B3%A0%EC%A7%80%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/FQbbF7ZQKvnf3dZT8",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -416,7 +416,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%84%9C%EA%B7%80%ED%8F%AC%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/z4386mSgN3VnVX9E7",
     "latitude": 33.3124667,
     "longitude": 126.459797,
     "address": "서귀포자연휴양림, 중문동, 서귀포시, 제주특별자치도, 대한민국",
@@ -440,7 +440,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B2%9C%EC%99%95%EC%82%AC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/qkjdKNYPMzTADsYx7",
     "latitude": 33.4080356,
     "longitude": 126.4947543,
     "address": "천왕사, 비법정탐방로, 노형동, 제주시, 제주특별자치도, 63077, 대한민국",
@@ -464,7 +464,7 @@
       "cafe"
     ],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%8C%8C%ED%8C%8C%EC%8A%A4%EB%B8%8C%EB%A1%9C%ED%8A%B8%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/Mg9NyTo9xq9PYe576",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -488,7 +488,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%B3%B8%ED%83%9C%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/gmuysnehUa2PBk1X6",
     "latitude": 33.303866,
     "longitude": 126.3925006,
     "address": "본태박물관, 산록남로, 상천리, 안덕면, 서귀포시, 제주특별자치도, 63549, 대한민국",
@@ -512,7 +512,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A4%91%EB%AC%B8%EC%88%98%EB%91%90%EB%A6%AC%EB%B3%B4%EB%A7%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/sRFeJUkXLz5bgi2C7",
     "latitude": 33.2515759,
     "longitude": 126.4249269,
     "address": "중문수두리보말칼국수, 190, 천제연로, 푸른중문주공아파트, 중문동, 서귀포시, 제주특별자치도, 63546, 대한민국",
@@ -536,7 +536,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EC%84%A4%EB%A1%9D%20%ED%8B%B0%EB%AE%A4%EC%A7%80%EC%97%84%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/177QNNLXauBscqf7A",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -560,7 +560,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%86%A1%EC%95%85%EC%82%B0%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/EYn3hXdQ3drpzQ5AA",
     "latitude": 33.1990813,
     "longitude": 126.2897901,
     "address": "송악산, 서귀포시, 제주특별자치도, 63512, 대한민국",
@@ -584,7 +584,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%B0%EB%B0%A9%EC%8B%9D%EB%8B%B9%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/aaZXkj4X91rHvssy8",
     "latitude": 33.2235043,
     "longitude": 126.2542266,
     "address": "산방식당, 하모이삼로, 하모리, 대정읍, 서귀포시, 제주특별자치도, 63507, 대한민국",
@@ -608,7 +608,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B8%EC%98%81%EC%9D%B4%EB%84%A4%EC%8B%9D%EB%8B%B9%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/qAZUhcfhV2EsrKpk7",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -632,7 +632,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%B0%BD%ED%92%8D%EC%B0%A8%ED%95%B4%EC%95%88%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/hzSGWSmCuonsNorP9",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -656,7 +656,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%98%91%EC%9E%AC%C2%B7%EA%B8%88%EB%8A%A5%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/eLUe6mwS38aSudRn7",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -680,7 +680,7 @@
       "cafe"
     ],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9E%94%EB%AC%BC%EA%B2%B0%20%ED%98%91%EC%9E%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/jNbc32yYSWU6ngd87",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -704,7 +704,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B0%90%EA%B7%A4%20%EC%B2%B4%ED%97%98%EB%86%8D%EC%9E%A5%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/gMV3V94mDkmdEx8x7",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -728,7 +728,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EC%A4%91%EC%84%AD%EA%B1%B0%EB%A6%AC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/rSaeXjZB9XZG7Yb6A",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -752,7 +752,7 @@
       "cafe"
     ],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9C%A0%EB%8F%99%EC%BB%A4%ED%94%BC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/Tn9Yrr1YnMMKQZn7A",
     "latitude": 33.2445419,
     "longitude": 126.5636773,
     "address": "유동커피, 406-2, 태평로, 송산동, 서귀포시, 제주특별자치도, 63596, 대한민국",
@@ -776,7 +776,7 @@
       "cafe"
     ],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%AC%EC%9D%B4%EC%84%9C%EA%B0%80%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/REEaqMuaqNq5WvDy5",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -800,7 +800,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%84%A4%EA%B1%B0%EB%A6%AC%EC%8B%9D%EB%8B%B9%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/DnRwTWrLw7tBCDYt8",
     "latitude": 33.2485234,
     "longitude": 126.5592526,
     "address": "네거리식당, 20, 서문로29번길, 천지동, 서귀포시, 제주특별자치도, 63592, 대한민국",
@@ -824,7 +824,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%83%88%EC%97%B0%EA%B5%90%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/uFebZSvsbTqNuZXMA",
     "latitude": 33.2377896,
     "longitude": 126.5594848,
     "address": "새연교, Saeseom Bridge, 천지동, 서귀포시, 제주특별자치도, 63596, 대한민국",
@@ -848,7 +848,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B2%9C%EC%A0%9C%EC%97%B0%ED%8F%AD%ED%8F%AC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/mb9GXVvMnNLAuocX6",
     "latitude": 33.2501491,
     "longitude": 126.4165384,
     "address": "천제연폭포, 중문관광로, 예래동, 서귀포시, 제주특별자치도, 63535, 대한민국",
@@ -872,7 +872,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9E%90%EB%A7%A4%EA%B5%AD%EC%88%98%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/WEnKqNBeFBCaEGoV7",
     "latitude": 33.5080486,
     "longitude": 126.5324842,
     "address": "자매국수, 삼성로, 이도일동, 제주시, 제주특별자치도, 63269, 대한민국",
@@ -896,7 +896,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B0%EC%A7%84%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/EErXs5t1iAryURJB8",
     "latitude": 33.5115062,
     "longitude": 126.5200439,
     "address": "우진해장국, 11, 서사로, 용담일동, 제주시, 제주특별자치도, 63154, 대한민국",
@@ -920,7 +920,7 @@
       "food"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B2%A0%EB%B2%A0%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/k4i5MG1TyctEBduj8",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -945,7 +945,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C%EB%B4%89%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/MKrtag4bwokyYPLp7",
     "latitude": 33.4588891,
     "longitude": 126.9408178,
     "address": "성산일출봉, 284-12, 일출로, 성산리, 성산읍, 서귀포시, 제주특별자치도, 63643, 대한민국",
@@ -971,7 +971,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%84%B8%ED%99%94%ED%95%B4%EB%B3%80%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/dujJtXUXteCmQYoY9",
     "latitude": 33.525021,
     "longitude": 126.8604234,
     "address": "세화해변, 세화리, 구좌읍, 제주시, 제주특별자치도, 대한민국",
@@ -996,7 +996,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%B9%9B%EC%9D%98%20%EB%B2%99%EC%BB%A4%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/15WQqnCaLFcrcFMT8",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -1021,7 +1021,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%91%9C%EC%84%A0%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/RXzAuMQNjFqh2qxC7",
     "latitude": 33.3276629,
     "longitude": 126.8370802,
     "address": "표선해수욕장, 올레길3, 당포마을, 표선리, 표선면, 서귀포시, 제주특별자치도, 63629, 대한민국",
@@ -1046,7 +1046,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%82%A8%EC%9B%90%ED%81%B0%EC%97%89%ED%95%B4%EC%95%88%EA%B2%BD%EC%8A%B9%EC%A7%80%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/yN61FwgNCh2b8Jgj6",
     "latitude": 33.2733766,
     "longitude": 126.7037523,
     "address": "남원큰엉해안경승지, 올레길5 (Ollegil 5), 비안동, 남원리, 남원읍, 서귀포시, 제주특별자치도, 63620, 대한민국",
@@ -1071,7 +1071,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%AC%EA%B3%84%ED%95%B4%EC%95%88%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/ZeTmNX8yCktNhrnTA",
     "latitude": 33.2245811,
     "longitude": 126.2992195,
     "address": "사계해안, 사계리, 안덕면, 서귀포시, 제주특별자치도, 대한민국",
@@ -1096,7 +1096,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%88%98%EC%9B%94%EB%B4%89%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/kJ5FiEUBFxJs3G2v7",
     "latitude": 33.2945665,
     "longitude": 126.1632411,
     "address": "수월봉(노꼬물오름), 제주시, 제주특별자치도, 63008, 대한민국",
@@ -1121,7 +1121,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B2%9C%EC%A7%80%EC%97%B0%ED%8F%AD%ED%8F%AC%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/p9f7GNdKqLsVXqPf6",
     "latitude": 33.2469271,
     "longitude": 126.5545282,
     "address": "천지연폭포, 천지동, 서귀포시, 제주특별자치도, 63594, 대한민국",
@@ -1146,7 +1146,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%EB%A9%9C%EB%A6%AC%EC%95%84%ED%9E%90%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/HntaVzYRGH5DoeYG8",
     "latitude": 33.2896315,
     "longitude": 126.3698892,
     "address": "카멜리아힐-동백수목원, 상창리, 안덕면, 서귀포시, 제주특별자치도, 대한민국",
@@ -1171,7 +1171,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/443FTToMy6fEqMDt5",
     "latitude": 33.4526781,
     "longitude": 126.4894048,
     "address": "제주도립미술관, 2894-78, 1100로, 연동, 신제주, 노형동, 제주시, 제주특별자치도, 63079, 대한민국",
@@ -1195,7 +1195,7 @@
       "jeju"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A2%85%EB%8B%AC%EB%A6%AC%EC%97%94/data=!4m2!3m1!1s0x350d144ded663af1:0x4feafe85cf7d766e",
+    "googleMapsUrl": "https://maps.app.goo.gl/bGMuKk9aAUr8U2p1A",
     "latitude": 33.4931534,
     "longitude": 126.8996404,
     "address": null,
@@ -1219,7 +1219,7 @@
       "jeju"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EB%B0%B1%EB%A7%88%EA%B0%80%EB%93%A0/data=!4m2!3m1!1s0x350d1d71ea344173:0x1835074bfac3e57f",
+    "googleMapsUrl": "https://maps.app.goo.gl/CVUtjw7xZecTwgVm6",
     "latitude": 33.5052823,
     "longitude": 126.6243914,
     "address": null,
@@ -1244,7 +1244,7 @@
       "day2"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C%EB%B4%89+%EB%A7%9B%EC%A7%91+%EC%BB%A4%ED%81%90%EB%AF%BC%ED%9D%91%EB%8F%BC%EC%A7%80/data=!4m2!3m1!1s0x350d137d45c66459:0x8384795dd2caabd1",
+    "googleMapsUrl": "https://maps.app.goo.gl/mAwzj9raYGoSPAwX6",
     "latitude": 33.4498997,
     "longitude": 126.9210691,
     "address": null,
@@ -1268,7 +1268,7 @@
       "jeju"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A2%80%EC%97%AC%EB%84%A4%EC%A7%91/data=!4m2!3m1!1s0x350d18fb7d2f0375:0x8fa8fad4906f14fb",
+    "googleMapsUrl": "https://maps.app.goo.gl/XSKvv2G3tcRvehSi6",
     "latitude": 33.5602598,
     "longitude": 126.730123,
     "address": null,
@@ -1293,7 +1293,7 @@
       "day1"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A1%B0%EC%B2%9C%EC%88%98%EC%82%B0/data=!4m2!3m1!1s0x350d1da421271f75:0xb5814c493a4d0259",
+    "googleMapsUrl": "https://maps.app.goo.gl/2Njv79odbgZhy1nBA",
     "latitude": 33.5143585,
     "longitude": 126.6380099,
     "address": null,
@@ -1317,7 +1317,7 @@
       "jeju"
     ],
     "category": "stay",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%88%EA%B7%B8%EB%A6%AC%EB%82%98%EB%A6%AC%EC%A1%B0%ED%8A%B8/data=!4m2!3m1!1s0x350d18fd4ff99abf:0x3a6d9953bd56db2b",
+    "googleMapsUrl": "https://maps.app.goo.gl/VAy8EkaB8xGYmjsE6",
     "latitude": 33.5564083,
     "longitude": 126.7287248,
     "address": null,
@@ -1342,7 +1342,7 @@
       "day6"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%ED%86%A0%ED%8F%89%EA%B3%A8/data=!4m2!3m1!1s0x350c54be9f32e88d:0x7bbafedd055eb758",
+    "googleMapsUrl": "https://maps.app.goo.gl/1qcnvRyBqYf134iUA",
     "latitude": 33.2680972,
     "longitude": 126.5917259,
     "address": null,
@@ -1367,7 +1367,7 @@
       "day4"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A4%91%EB%AC%B8%EB%B3%B4%EB%A7%90%EC%B9%BC%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350c5a97fd2f4d01:0x641b63bb3d5f64f",
+    "googleMapsUrl": "https://maps.app.goo.gl/iaDn5meNJDzxV5bX8",
     "latitude": 33.2515448,
     "longitude": 126.4249759,
     "address": null,
@@ -1391,7 +1391,7 @@
       "jeju"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%95%A0%EC%9B%94%EC%96%B4%EC%B4%8C%EA%B3%84%ED%9A%8C%EC%84%BC%ED%83%80/data=!4m2!3m1!1s0x350cf44c19419399:0x26db73bffd58a686",
+    "googleMapsUrl": "https://maps.app.goo.gl/qcbwMsFZE6nK5xbN6",
     "latitude": 33.4660699,
     "longitude": 126.3216354,
     "address": null,
@@ -1415,7 +1415,7 @@
       "jeju"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%AD%EB%A8%B8%EB%A5%B4%ED%95%B4%EC%95%88/data=!4m2!3m1!1s0x350d1d8ae0c9e563:0xa4032f592e876e3f",
+    "googleMapsUrl": "https://maps.app.goo.gl/m5iMuSnH53pDY9VD9",
     "latitude": 33.5364324,
     "longitude": 126.6117787,
     "address": null,
@@ -1440,7 +1440,7 @@
       "day1"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%A8%EB%8D%95+%EB%AC%B8%EA%B0%9C%ED%95%AD%EC%95%84%EB%A6%AC+%EC%A1%B0%EC%B2%9C%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350d1e8481ed09fb:0xaa32c94fcca4257b",
+    "googleMapsUrl": "https://maps.app.goo.gl/geUNcedu7TCwnCeX9",
     "latitude": 33.5451876,
     "longitude": 126.6609508,
     "address": null,
@@ -1464,7 +1464,7 @@
       "jeju"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%90%EB%93%9C%EB%B6%80%ED%8C%A1/data=!4m2!3m1!1s0x350d1b4faa2e7c33:0xeb6ad29c3783fdd5",
+    "googleMapsUrl": "https://maps.app.goo.gl/sZxSthFY1NdfGbzC8",
     "latitude": 33.4537614,
     "longitude": 126.7090555,
     "address": null,
@@ -3186,7 +3186,7 @@
       "spot"
     ],
     "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%A9%EB%A8%B8%EB%A6%AC%ED%95%B4%EC%95%88%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/EpTpmMdtE9jX6ZYv9",
     "latitude": 33.2317,
     "longitude": 126.3144,
     "address": "제주특별자치도 서귀포시 안덕면 사계남로216번길 77",
@@ -3207,7 +3207,7 @@
     "name": "문개 우도",
     "tags": ["day2", "food"],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AC%B8%EA%B0%9C%20%EC%9A%B0%EB%8F%84%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/yUSWHudjf5KikUvEA",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -3225,7 +3225,7 @@
     "name": "당케올레국수",
     "tags": ["day3", "food"],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%B9%EC%BC%80%EC%98%AC%EB%A0%88%EA%B5%AD%EC%88%98%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/uyK6tUGEA6VBMqQ49",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -3243,7 +3243,7 @@
     "name": "고집돌우럭 중문점",
     "tags": ["day4", "food"],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EC%A7%91%EB%8F%8C%EC%9A%B0%EB%9F%AD%20%EC%A4%91%EB%AC%B8%EC%A0%90%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/meYmZAvD2cZwy5uG8",
     "latitude": null,
     "longitude": null,
     "address": null,
@@ -3261,7 +3261,7 @@
     "name": "테이크타임 커피로스터스",
     "tags": ["day5", "cafe"],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%85%8C%EC%9D%B4%ED%81%AC%ED%83%80%EC%9E%84%20%EC%BB%A4%ED%94%BC%EB%A1%9C%EC%8A%A4%ED%84%B0%EC%8A%A4%20%EC%A0%9C%EC%A3%BC",
+    "googleMapsUrl": "https://maps.app.goo.gl/x2DJDJXvJ9BLQXAe7",
     "latitude": null,
     "longitude": null,
     "address": null,
