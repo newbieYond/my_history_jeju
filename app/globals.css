@@ -47,8 +47,9 @@ footer{min-height:190px}footer p{margin:7px 0 10px}footer .footer-tangerine{font
 .choice-card{cursor:pointer}
 .choice-card.selected{border-color:var(--active-accent);background:color-mix(in srgb,var(--active-accent) 9%,var(--paper));box-shadow:0 9px 24px color-mix(in srgb,var(--active-accent) 18%,transparent);transform:translateY(-2px)}
 .choice-card:focus-visible{outline:3px solid color-mix(in srgb,var(--active-accent) 45%,white);outline-offset:3px}
-.choice-card .external{width:30px;height:30px;margin:-5px;display:grid;place-items:center;border-radius:50%;background:#f1ede4;font-size:15px;font-weight:900;transition:.18s}
-.choice-card .external:hover,.choice-card .external:focus-visible{background:var(--active-accent);color:white;transform:translate(2px,-2px);outline:none}
+.choice-card .external{width:40px;height:40px;display:grid;place-items:center;align-self:center;border-radius:50%;background:#f1ede4;color:var(--muted);font-size:17px;font-weight:800;transition:.18s}
+.choice-card .external:hover,.choice-card .external:focus-visible{background:var(--active-accent);color:white;transform:translate(2px,-2px)}
+.choice-card .external:focus-visible{outline:3px solid color-mix(in srgb,var(--active-accent) 35%,white);outline-offset:2px}
 .schedule-list article{cursor:pointer;border-radius:11px;transition:background .18s,transform .18s,box-shadow .18s}
 .schedule-list article:hover,.schedule-list article.selected{background:color-mix(in srgb,var(--active-accent) 10%,white);transform:translateX(3px);box-shadow:inset 3px 0 var(--active-accent)}
 .schedule-list article:focus-visible{outline:3px solid color-mix(in srgb,var(--active-accent) 38%,white);outline-offset:2px}
@@ -129,7 +130,4 @@ main{padding-top:82px}
 .map-pin .marker-name{position:absolute;left:23px;top:18px;display:none;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:4px 7px;border-radius:7px;background:rgba(40,54,47,.92);color:#fff;font-size:9px;font-weight:800;font-style:normal;line-height:1.2;transform:rotate(45deg);box-shadow:0 4px 12px #26342d40;pointer-events:none}
 @media (hover:hover){.map-pin:hover .marker-name{display:block}.all-map-pin:hover .marker-name{display:block}}
 .map-pin:hover{z-index:30}
-.choice-card{grid-template-columns:42px minmax(0,1fr) auto}
-.choice-card .google-maps-link{align-self:center;display:inline-flex;align-items:center;justify-content:center;min-height:30px;padding:6px 9px;border-radius:999px;background:#f1ede4;color:var(--orange-dark);font-size:9px;font-weight:900;line-height:1.2;text-decoration:none;white-space:nowrap;transition:.18s}
-.choice-card .google-maps-link:hover,.choice-card .google-maps-link:focus-visible{background:var(--active-accent);color:white;transform:translate(1px,-1px);outline:3px solid color-mix(in srgb,var(--active-accent) 35%,white);outline-offset:2px}
-@media(max-width:720px){.choice-card .google-maps-link{font-size:8px;padding:6px 8px}}
+.choice-card{grid-template-columns:42px minmax(0,1fr) 40px}
