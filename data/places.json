@@ -1550,9 +1550,9 @@
       "x": 85.5,
       "y": 32.53
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "문어볶음, 갈치조림(+두부) 가 맛있다고. 간은 좀 세대",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -1568,16 +1568,16 @@
     "latitude": 33.2916014,
     "longitude": 126.5914914,
     "address": null,
-    "description": "돈내코손두부는 제주에서 식사를 즐길 수 있는 음식점입니다.\n돈내코 인근 손두부 식사.",
+    "description": "돈내코손두부는 제주에서 식사를 즐길 수 있는 음식점입니다.\n\n점심만 가능, 금방끝",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
       "x": 54.06,
       "y": 63.76
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "두부랑 수육이랑 맛있긴 하겠다. 위생은 좀 아쉽단 평이 있음",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -1589,7 +1589,7 @@
       "day1"
     ],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%AF%BC%EC%9D%B4%EB%84%A4%EB%9D%BC%EC%98%A4%EB%A9%B4/data=!4m2!3m1!1s0x350d1e9f1a474585:0xef2c86df6cf9efdb",
+    "googleMapsUrl": "https://maps.app.goo.gl/ArXvvFGt1UP98d2J7",
     "latitude": 33.5397335,
     "longitude": 126.6720178,
     "address": null,
@@ -1600,9 +1600,9 @@
       "x": 61.94,
       "y": 27.2
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "해물라면 맛있긴 하겠다. 근데 너무 겹치긴 해",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -1624,9 +1624,9 @@
       "x": 18.77,
       "y": 57.65
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "넓은 공터가 있는 고기집. 맛도 좋다고 유명한 곳",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -1648,9 +1648,9 @@
       "x": 31.06,
       "y": 52.81
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "한 20분 좀 가파르게 올라가면? 좋은 오름. 바람이 쎌 수 있다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -1672,9 +1672,9 @@
       "x": 17.24,
       "y": 51.1
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "대충 한바퀴 돌기 괜찮을만함",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -1696,9 +1696,9 @@
       "x": 44.21,
       "y": 39.96
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "뭔가 데이트 느낌 날 거 같은 대형 카페 느낌",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -1720,9 +1720,9 @@
       "x": 45.76,
       "y": 35.93
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "괜찮은 게 있을까? 시간 맞으면 잠깐 들리는 형식이 좋겠다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -1744,9 +1744,9 @@
       "x": 32.41,
       "y": 36.42
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "일식 맛있겠다. 근데 제주가서 일식?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -1761,16 +1761,16 @@
     "latitude": 33.5400908,
     "longitude": 126.3673105,
     "address": null,
-    "description": "달소금 식탁은 제주에서 식사를 즐길 수 있는 음식점입니다.\n애월 해안권 식사 후보.",
+    "description": "떡갈비 음식점입니다.\n애월 해안뷰 식사 후보.",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
       "x": 32.12,
       "y": 27.14
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "해안에서 약간 몸 뎁히는 느낌이네. ",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -1785,16 +1785,16 @@
     "latitude": 33.2643434,
     "longitude": 126.3243413,
     "address": null,
-    "description": "더비치크랩은 제주에서 식사를 즐길 수 있는 음식점입니다.\n사계 해안에서 즐기는 해산물 식사.",
+    "description": "보일링크랩 또는 해산물모듬\n사계 해안에서 즐기는 해산물 식사.",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
       "x": 27.91,
       "y": 67.78
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "뭔가 괜찮은 듯 비쌀듯",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -1816,9 +1816,9 @@
       "x": 30.07,
       "y": 40.95
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "가도 좋겠지만, 술집인데 숙소랑 멀다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -1833,16 +1833,16 @@
     "latitude": 33.4919307,
     "longitude": 126.4986184,
     "address": null,
-    "description": "장수물식당은 제주에서 식사를 즐길 수 있는 음식점입니다.\n제주시 도심 한식 식사 후보.",
+    "description": "고기국수, 돔베고기\n제주시 도심 한식 식사 후보.",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
       "x": 44.97,
       "y": 34.24
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "유명한 곳은 다른곳인데, 붐비면 갈만하지 않을까?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -1858,16 +1858,16 @@
     "latitude": 33.5126134,
     "longitude": 126.5188645,
     "address": null,
-    "description": "태광식당은 제주에서 식사를 즐길 수 있는 음식점입니다.\n제주시 도심 한식 식사 후보.",
+    "description": "한치, 돼지 주물럭\n제주시 도심 한식 식사 후보.",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
       "x": 46.95,
       "y": 31.19
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "한치 조아~ 돼지 조아~",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -1889,9 +1889,9 @@
       "x": 41.69,
       "y": 32.21
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "전복요리 전문점. 막 엄청 땡기는 느낌까진 아니다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.5,
     "seinRating": null
   },
   {
@@ -1914,9 +1914,9 @@
       "x": 42.03,
       "y": 31.86
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "무난무난, 가볍게 제주경치. 공항근처",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -1938,9 +1938,9 @@
       "x": 65.33,
       "y": 34.99
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "와아아아아~~~ 하고 내려가볼까",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -1962,9 +1962,9 @@
       "x": 65.32,
       "y": 48
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "산책 챱챱챱",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -1987,9 +1987,9 @@
       "x": 28.19,
       "y": 46.32
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "애매...?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -2012,9 +2012,9 @@
       "x": 64.26,
       "y": 71.98
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "피자나 햄버거 먹으면서 쉬는거 좋을듯",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -2036,9 +2036,9 @@
       "x": 84.42,
       "y": 35.73
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "난 오징어 좋아, 해변에서 오징어 뜯기 좋다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2060,9 +2060,9 @@
       "x": 77.55,
       "y": 38.95
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "쉽게 오를 수 있다는 장점이 있다고",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -2085,9 +2085,9 @@
       "x": 61.73,
       "y": 27
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "뭔가 특별한 강점은 없지만 무난하게 맛있을듯",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.5,
     "seinRating": null
   },
   {
@@ -2109,9 +2109,9 @@
       "x": 41.59,
       "y": 36.17
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "연탄구이. 리뷰가 수천개의 유명한 집. 적당히 괜찮은?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -2133,9 +2133,9 @@
       "x": 33.34,
       "y": 42.72
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "그냥 예비일 뿐",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.5,
     "seinRating": null
   },
   {
@@ -2158,9 +2158,9 @@
       "x": 18.75,
       "y": 72.07
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "전복전복~ 먹고 힘내버리기?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2182,9 +2182,9 @@
       "x": 57.39,
       "y": 16.4
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "포장 샌드위치. 돈카츠/에비",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2206,9 +2206,9 @@
       "x": 65.35,
       "y": 25.17
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "회국수, 세인이 먹여보고싶당",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2230,9 +2230,9 @@
       "x": 26.41,
       "y": 72.51
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "잔가시가 많다고...? 별로다",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -2254,9 +2254,9 @@
       "x": 45.9,
       "y": 31.17
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "접짝뼈국, 해장국 다 맛있는 맛집",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2278,9 +2278,9 @@
       "x": 44.43,
       "y": 35.21
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "갈치조림, 성게미역국 등 대표메뉴 잘하는 식당",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2302,9 +2302,9 @@
       "x": 50.16,
       "y": 27.84
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "해변뷰 카페. 널찍하니 여유롭다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2326,9 +2326,9 @@
       "x": 40.58,
       "y": 24.74
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "신기한 메뉴, 무난",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.5,
     "seinRating": null
   },
   {
@@ -2350,9 +2350,9 @@
       "x": 52.88,
       "y": 40.48
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "김밥 알 짱커영~ 쿠왕히고 먹지",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2374,9 +2374,9 @@
       "x": 39.69,
       "y": 37.7
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "김밥 알 짱커영~ 쿠왕히고 먹지",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2398,9 +2398,9 @@
       "x": 43.48,
       "y": 33.95
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "정식 맛집, 아침에 든든하게 먹기 좋았다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2422,9 +2422,9 @@
       "x": 65.66,
       "y": 25.15
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "사람 많은데 그정돈가? 싶긴함. 공장느낌",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -2447,9 +2447,9 @@
       "x": 24.76,
       "y": 75.54
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "보말칼국수, 죽 둘다 마싯겠당",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2471,9 +2471,9 @@
       "x": 47.75,
       "y": 33.07
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "내가 겪어봤던 그 맛? 느낌을 같이 느끼고 싶당",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2495,9 +2495,9 @@
       "x": 45.11,
       "y": 34.94
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "캬, 지리죠? 근데 웨이팅도 지리죠?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2519,9 +2519,9 @@
       "x": 38.22,
       "y": 34.69
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "고등어회 먹으러 갔었는데, 무난? 했다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -2544,9 +2544,9 @@
       "x": 51.01,
       "y": 69.71
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "아침에 두루치기 땡겨?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -2569,9 +2569,9 @@
       "x": 85.81,
       "y": 40.63
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "아 가성비 지립니다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2593,9 +2593,9 @@
       "x": 29.32,
       "y": 70.54
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "여러가지 나오는 정식. 아쉽지 않은데, 우리끼린 양이 너무 많을지도?",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2611,40 +2611,16 @@
     "latitude": 33.2492934,
     "longitude": 126.5665897,
     "address": null,
-    "description": "오는정김밥은 제주에서 식사를 즐길 수 있는 음식점입니다.\n서귀포 도심 김밥 포장.",
+    "description": "시장갈때 미리 주문해뒀다가 나중에 챙겨가는 형태로.\n서귀포 도심 김밥 포장.",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
       "x": 51.62,
       "y": 70
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "가능하면 꼭 방문하면 좋겠죠, 유명 그 자체",
     "seinOpinion": "",
-    "seonghoRating": null,
-    "seinRating": null
-  },
-  {
-    "id": 114,
-    "name": "울트라마린",
-    "tags": [
-      "saved",
-      "jeju"
-    ],
-    "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%B8%ED%8A%B8%EB%9D%BC%EB%A7%88%EB%A6%B0/data=!4m2!3m1!1s0x350c67547b5bfb29:0xd7738ea8b676c901",
-    "latitude": 33.3633802,
-    "longitude": 126.258278,
-    "address": null,
-    "description": "울트라마린은 제주에서 식사를 즐길 수 있는 음식점입니다.\n한림 해안권 식사 후보.",
-    "isRainyDayFriendly": true,
-    "isReserve": true,
-    "mapPosition": {
-      "x": 21.45,
-      "y": 53.19
-    },
-    "seonghoOpinion": "",
-    "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2666,9 +2642,9 @@
       "x": 44.08,
       "y": 34.77
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "맛있음. 3개 고기국수중 하나던가? 진하고 깔끔",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2690,9 +2666,9 @@
       "x": 49.22,
       "y": 32.16
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "몸국, 돔베고기 맛있음",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2714,9 +2690,9 @@
       "x": 28.41,
       "y": 43.74
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "전복전문점. 전복 좋아하면 고",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -2739,9 +2715,9 @@
       "x": 26.09,
       "y": 54.34
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "오름중에 가장 무난한 난도의 오름",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2764,38 +2740,14 @@
       "x": 47.01,
       "y": 37.66
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "제주 마음샌드는 약간 기본",
     "seinOpinion": "",
-    "seonghoRating": null,
-    "seinRating": null
-  },
-  {
-    "id": 121,
-    "name": "제주소녀",
-    "tags": [
-      "saved",
-      "jeju"
-    ],
-    "category": "spot",
-    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EC%86%8C%EB%85%80/data=!4m2!3m1!1s0x350d17b8418a7bd9:0xda483c67da03801b",
-    "latitude": 33.5449799,
-    "longitude": 126.8125794,
-    "address": null,
-    "description": "제주소녀는 제주 여행 중 들러볼 수 있는 장소입니다.\n제주 동부 해안권 들르기 좋은 장소.",
-    "isRainyDayFriendly": false,
-    "isReserve": true,
-    "mapPosition": {
-      "x": 75.7,
-      "y": 26.42
-    },
-    "seonghoOpinion": "",
-    "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
     "id": 122,
-    "name": "도렐 제주본점",
+    "name": "ttt COFFEE",
     "tags": [
       "saved",
       "jeju"
@@ -2805,16 +2757,16 @@
     "latitude": 33.449942,
     "longitude": 126.918378,
     "address": null,
-    "description": "도렐 제주본점은 여행 중 잠시 쉬어가기 좋은 카페입니다.\n성산일출봉 인근 카페.",
+    "description": "ttt COFFEE는 여행 중 잠시 쉬어가기 좋은 카페입니다.\n성산일출봉 인근 카페.",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
       "x": 86.05,
       "y": 40.43
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "도렐이였지만, 바뀜.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -2836,9 +2788,9 @@
       "x": 28.85,
       "y": 38.86
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "일몰시간에 맞춰서 가는것도 좋겠다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2860,9 +2812,9 @@
       "x": 37.85,
       "y": 71.62
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "신기한 자연의 세계",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -2884,9 +2836,9 @@
       "x": 17.25,
       "y": 45.16
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "바다색이 참 이쁘고 해변도로 보다가 들르기도 편함",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 4.0,
     "seinRating": null
   },
   {
@@ -2908,9 +2860,9 @@
       "x": 19.21,
       "y": 49.28
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "협재보다 이쁘다. 바로 옆이니 같이 즐기도록하자",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 4.0,
     "seinRating": null
   },
   {
@@ -2932,9 +2884,9 @@
       "x": 87.13,
       "y": 44.32
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "약간 바닷바람 맞으며 선선하게 산책가능.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.9,
     "seinRating": null
   },
   {
@@ -2957,9 +2909,9 @@
       "x": 47.89,
       "y": 31.2
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "시장은 일단 가야지",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -2981,9 +2933,9 @@
       "x": 21.18,
       "y": 58.75
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "갈까 말까 생각을 하게 하는 곳",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -3005,9 +2957,9 @@
       "x": 27,
       "y": 73
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "갈만은 한데, 중국인이 많을 수 있음",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -3023,9 +2975,9 @@
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": { "x": 64, "y": 38 },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "우도에서 먹고싶은 거 고를 때, 열심히 고려해봅시다.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -3041,9 +2993,9 @@
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": { "x": 64, "y": 70 },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "보말, 고기 국수 쌉가능",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.6,
     "seinRating": null
   },
   {
@@ -3059,9 +3011,9 @@
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": { "x": 34, "y": 74 },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "뭔가 비주얼이 좋은, 맛있을 수밖에 없는 우럭조림",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -3077,9 +3029,9 @@
     "isRainyDayFriendly": true,
     "isReserve": false,
     "mapPosition": { "x": 11, "y": 50 },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "되게 여유로운 느낌이다. 아주 좋구만",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.7,
     "seinRating": null
   },
   {
@@ -3095,11 +3047,11 @@
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": { "x": 50, "y": 36.5 },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "아 가볼만한 곳인거 같다. 끌린다",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 4.0,
     "seinRating": null
-   },
+  },
   {
     "id": 138,
     "name": "더웰테라스",
@@ -3121,9 +3073,9 @@
       "x": 34.5,
       "y": 74
     },
-    "seonghoOpinion": "",
+    "seonghoOpinion": "숙소입니당",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 4.0,
     "seinRating": null
   }
 ]
