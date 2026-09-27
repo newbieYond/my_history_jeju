@@ -796,7 +796,8 @@
     "id": 34,
     "name": "네거리식당",
     "tags": [
-      "day6",
+      "saved",
+      "jeju",
       "food"
     ],
     "category": "food",
@@ -804,9 +805,9 @@
     "latitude": 33.2485234,
     "longitude": 126.5592526,
     "address": "네거리식당, 20, 서문로29번길, 천지동, 서귀포시, 제주특별자치도, 63592, 대한민국",
-    "description": "서귀포에서 갈치국과 갈치구이 중 점심 메뉴를 고른다.",
+    "description": "번네식당의 갈치조림과 겹쳐 일정에서는 제외한 서귀포 갈치 요리 후보.",
     "isRainyDayFriendly": true,
-    "isReserve": false,
+    "isReserve": true,
     "mapPosition": {
       "x": 52,
       "y": 79
@@ -3145,6 +3146,24 @@
     "isReserve": true,
     "mapPosition": { "x": 69, "y": 25 },
     "seonghoOpinion": "빵을 사서 바로 옆 카멜커피에서 먹는 조합.",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
+  },
+  {
+    "id": 143,
+    "name": "대우정 서귀포점",
+    "tags": ["saved", "jeju", "day6", "food"],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8C%80%EC%9A%B0%EC%A0%95%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%B4%EC%96%B4%EB%8F%84%EB%A1%9C%20866-37",
+    "latitude": 33.2331332,
+    "longitude": 126.5070238,
+    "address": "제주특별자치도 서귀포시 이어도로 866-37",
+    "description": "법환에서 전복돌솥밥을 먹고 이중섭거리로 이동하는 11/4 점심 1순위.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": { "x": 42, "y": 82 },
+    "seonghoOpinion": "",
     "seinOpinion": "",
     "seonghoRating": null,
     "seinRating": null
