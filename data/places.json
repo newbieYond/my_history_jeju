@@ -612,9 +612,9 @@
     "latitude": null,
     "longitude": null,
     "address": null,
-    "description": "고등어회를 중심으로 식사하고 탕을 곁들이는 모슬포 식당.",
+    "description": "번네식당 대기·휴무 시 고등어회와 탕을 고르는 모슬포 대안.",
     "isRainyDayFriendly": true,
-    "isReserve": false,
+    "isReserve": true,
     "mapPosition": {
       "x": 12,
       "y": 72
@@ -1348,9 +1348,9 @@
     "latitude": 33.2680972,
     "longitude": 126.5917259,
     "address": null,
-    "description": "서귀포에서 삼겹살을 쌈 채소와 함께 먹는다.",
+    "description": "서귀포에서 흑돼지 숯불구이를 쌈 채소와 함께 먹는 저녁 1순위.",
     "isRainyDayFriendly": true,
-    "isReserve": true,
+    "isReserve": false,
     "mapPosition": {
       "x": 54.08,
       "y": 67.23
@@ -1422,9 +1422,9 @@
     "latitude": 33.5451876,
     "longitude": 126.6609508,
     "address": null,
-    "description": "첫날 함덕에서 문어와 해물라면으로 저녁을 먹는다.",
+    "description": "첫날 동복해녀식당 대기·휴무 시 함덕에서 고르는 저녁 대안.",
     "isRainyDayFriendly": true,
-    "isReserve": false,
+    "isReserve": true,
     "mapPosition": {
       "x": 60.86,
       "y": 26.39
@@ -2143,15 +2143,14 @@
     "name": "한라전복 (모슬포)",
     "tags": [
       "saved",
-      "jeju",
-      "day5"
+      "jeju"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%9C%EB%9D%BC%EC%A0%84%EB%B3%B5+(%EB%AA%A8%EC%8A%AC%ED%8F%AC)/data=!4m2!3m1!1s0x350c69975e2db4e5:0x4513c7bd6a05cb40",
     "latitude": 33.2352331,
     "longitude": 126.2307221,
     "address": null,
-    "description": "모슬포에서 전복 요리를 고르는 미영이네 대기·휴무 시 대안.",
+    "description": "모슬포에서 전복 요리를 고르는 추가 식사 후보.",
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": {
@@ -2192,16 +2191,17 @@
     "name": "제주동복해녀식당",
     "tags": [
       "saved",
-      "jeju"
+      "jeju",
+      "day1"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%99%EB%B3%B5%ED%95%B4%EB%85%80%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350d193aac976873:0x51ef5d73af7cc8a9",
     "latitude": 33.5534976,
     "longitude": 126.7068875,
     "address": null,
-    "description": "동복 해안에서 회국수를 먹는다.",
+    "description": "첫날 동복 해안에서 회덮밥을 먹는 저녁 1순위.",
     "isRainyDayFriendly": true,
-    "isReserve": true,
+    "isReserve": false,
     "mapPosition": {
       "x": 65.35,
       "y": 25.17
@@ -2554,17 +2554,16 @@
     "name": "맛나식당",
     "tags": [
       "saved",
-      "jeju",
-      "day2"
+      "jeju"
     ],
     "category": "food",
     "googleMapsUrl": "https://www.google.com/maps/place/%EB%A7%9B%EB%82%98%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350d137ea49e6e49:0xbf472ab35adbec44",
     "latitude": 33.4485901,
     "longitude": 126.9159122,
     "address": null,
-    "description": "성산에서 갈치조림으로 아침을 먹고 우도행 배를 타러 간다.",
+    "description": "예약이 확정되지 않아 우도 일정에서 제외한 성산 갈치조림 후보.",
     "isRainyDayFriendly": true,
-    "isReserve": false,
+    "isReserve": true,
     "mapPosition": {
       "x": 85.81,
       "y": 40.63
@@ -3087,13 +3086,13 @@
     "latitude": null,
     "longitude": null,
     "address": "제주특별자치도 서귀포시 안덕면 산방로 16",
-    "description": "용머리해안·사계해안 근처의 순살갈치조림 후보. 선택하면 다른 날 갈치 식사와 중복을 조정한다.",
+    "description": "용머리해안·사계해안 근처에서 순살갈치조림을 먹는 11/3 점심 1순위.",
     "isRainyDayFriendly": true,
-    "isReserve": true,
+    "isReserve": false,
     "mapPosition": { "x": 28, "y": 72 },
     "seonghoOpinion": "순살갈치조림으로 유명하다고 해서 궁금한 곳.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 4.0,
     "seinRating": null
   },
   {
