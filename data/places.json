@@ -3119,7 +3119,7 @@
     "name": "카멜커피 제주점",
     "tags": ["saved", "jeju", "cafe"],
     "category": "cafe",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%EB%A9%9C%EC%BB%A4%ED%94%BC%20%EC%A0%9C%EC%A3%BC%EC%A0%90%20%ED%95%B4%EB%A7%9E%EC%9D%B4%ED%95%B4%EC%95%88%EB%A1%9C%20617-3",
+    "googleMapsUrl": "https://maps.app.goo.gl/cCyHiaeg6mvZuuN89",
     "latitude": 33.5568768,
     "longitude": 126.8098896,
     "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 617-3 C동",
@@ -3129,7 +3129,7 @@
     "mapPosition": { "x": 68, "y": 25 },
     "seonghoOpinion": "픽업카페에서 빵을 골라 커피와 바로 먹어보기.",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
@@ -3137,7 +3137,7 @@
     "name": "픽업카페 행원점",
     "tags": ["saved", "jeju", "food"],
     "category": "food",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%94%BD%EC%97%85%EC%B9%B4%ED%8E%98%20%ED%96%89%EC%9B%90%EC%A0%90%20%ED%95%B4%EB%A7%9E%EC%9D%B4%ED%95%B4%EC%95%88%EB%A1%9C%20617-4",
+    "googleMapsUrl": "https://maps.app.goo.gl/cCyHiaeg6mvZuuN89",
     "latitude": null,
     "longitude": null,
     "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 617-4 B동",
@@ -3145,9 +3145,9 @@
     "isRainyDayFriendly": true,
     "isReserve": true,
     "mapPosition": { "x": 69, "y": 25 },
-    "seonghoOpinion": "빵을 사서 바로 옆 카멜커피에서 먹는 조합.",
+    "seonghoOpinion": "빵을 사서 바로 옆 카멜커피에서 먹는 조합. 새우바게트, 명란소금빵",
     "seinOpinion": "",
-    "seonghoRating": null,
+    "seonghoRating": 3.8,
     "seinRating": null
   },
   {
